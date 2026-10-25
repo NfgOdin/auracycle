@@ -6,11 +6,12 @@
   "testerQuota": {
     "passcode": "Aura-VIP-2027",
     "active": true,
-    "maxActivations": 2,
-    "quotaExhaustedMessage": "Tester quota filled (2 of 2 claimed). Thank you for supporting Aura!",
+    "maxActivations": 20,
+    "quotaExhaustedMessage": "Tester quota filled (20 of 20 claimed). Thank you for supporting Aura!",
     "emailFormula": "Aura-Tester-<tester_email>",
     "authorizedEmails": [
-      "odinj2010@gmail.com"
+      "odinj2010@gmail.com",
+      "odinj2010"
     ],
     "revokedTesters": [],
     "individualCodes": [
