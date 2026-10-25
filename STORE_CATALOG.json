@@ -1,43 +1,28 @@
 {
-  "catalogVersion": 1,
-  "lastUpdated": "2026-10-24T23:45:00Z",
+  "catalogVersion": 3,
+  "lastUpdated": "2026-10-25T01:11:00Z",
   "storeTitle": "Aura Boutique Global Catalog",
   "currency": "USD",
   "testerQuota": {
-    "passcode": "AURAVIP2026",
+    "passcode": "Aura-VIP-2027",
     "active": true,
-    "maxActivations": 20,
-    "quotaExhaustedMessage": "Tester quota filled (20 of 20 claimed). Thank you for supporting Aura!",
-    "emailFormula": "aura*<tester_email>",
-    "authorizedEmails": [],
+    "maxActivations": 2,
+    "quotaExhaustedMessage": "Tester quota filled (2 of 2 claimed). Thank you for supporting Aura!",
+    "emailFormula": "Aura-Tester-<tester_email>",
+    "authorizedEmails": [
+      "odinj2010@gmail.com",
+      "odinj2010"
+    ],
     "revokedTesters": [],
     "individualCodes": [
-      { "code": "AURA-VIP-01", "assignedTo": "Alpha Tester 01", "active": true },
-      { "code": "AURA-VIP-02", "assignedTo": "Alpha Tester 02", "active": true },
-      { "code": "AURA-VIP-03", "assignedTo": "Alpha Tester 03", "active": true },
-      { "code": "AURA-VIP-04", "assignedTo": "Alpha Tester 04", "active": true },
-      { "code": "AURA-VIP-05", "assignedTo": "Alpha Tester 05", "active": true },
-      { "code": "AURA-VIP-06", "assignedTo": "Alpha Tester 06", "active": true },
-      { "code": "AURA-VIP-07", "assignedTo": "Alpha Tester 07", "active": true },
-      { "code": "AURA-VIP-08", "assignedTo": "Alpha Tester 08", "active": true },
-      { "code": "AURA-VIP-09", "assignedTo": "Alpha Tester 09", "active": true },
-      { "code": "AURA-VIP-10", "assignedTo": "Alpha Tester 10", "active": true },
-      { "code": "AURA-VIP-11", "assignedTo": "Alpha Tester 11", "active": true },
-      { "code": "AURA-VIP-12", "assignedTo": "Alpha Tester 12", "active": true },
-      { "code": "AURA-VIP-13", "assignedTo": "Alpha Tester 13", "active": true },
-      { "code": "AURA-VIP-14", "assignedTo": "Alpha Tester 14", "active": true },
-      { "code": "AURA-VIP-15", "assignedTo": "Alpha Tester 15", "active": true },
-      { "code": "AURA-VIP-16", "assignedTo": "Alpha Tester 16", "active": true },
-      { "code": "AURA-VIP-17", "assignedTo": "Alpha Tester 17", "active": true },
-      { "code": "AURA-VIP-18", "assignedTo": "Alpha Tester 18", "active": true },
-      { "code": "AURA-VIP-19", "assignedTo": "Alpha Tester 19", "active": true },
-      { "code": "AURA-VIP-20", "assignedTo": "Alpha Tester 20", "active": true }
+      { "code": "Aura-Tester-odinj2010", "assignedTo": "Developer / Lead Tester (odinj2010@gmail.com)", "active": true }
     ]
   },
+  "promoCodes": [],
   "proLifetime": {
     "sku": "aura_pro_lifetime",
     "name": "Aura Pro — Lifetime Patron",
-    "price": "$4.99",
+    "price": "$14.99",
     "description": "Permanent zero-ad experience, unrestricted access to all present and future themes and micro-animations, and support for independent zero-cloud maternal health software.",
     "isFlagship": true
   },
@@ -223,13 +208,13 @@
     },
     {
       "id": "anim_ripple",
-      "sku": null,
+      "sku": "aura_anim_ripple",
       "category": "ovulation",
       "categoryTitle": "Ovulation & Fertility",
       "name": "Follicular Tidal Ripple",
       "description": "Concentric tidal ripples radiating outward from high-estrogen cycle days.",
       "price": "Free",
-      "isDefault": true,
+      "isDefault": false,
       "accentColor": "#3D7068"
     },
     {
