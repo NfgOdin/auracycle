@@ -10,11 +10,11 @@
     "quotaExhaustedMessage": "Tester quota filled (2 of 2 claimed). Thank you for supporting Aura!",
     "emailFormula": "Aura-Tester-<tester_email>",
     "authorizedEmails": [
-      "odinj2012@gmail.com"
+      "odinj2010@gmail.com"
     ],
     "revokedTesters": [],
     "individualCodes": [
-      { "code": "Aura-Tester-odinj2015", "assignedTo": "Tester (odinj2015@gmail.com)", "active": false }
+      { "code": "Aura-Tester-odinj2015", "assignedTo": "Tester (odinj2010@gmail.com)", "active": false }
     ]
   },
   "promoCodes": [],
