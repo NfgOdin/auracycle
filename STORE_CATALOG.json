@@ -5,7 +5,7 @@
   "currency": "USD",
   "testerQuota": {
     "passcode": "Aura-VIP-2027",
-    "active": false,
+    "active": true,
     "maxActivations": 2,
     "quotaExhaustedMessage": "Tester quota filled (2 of 2 claimed). Thank you for supporting Aura!",
     "emailFormula": "Aura-Tester-<tester_email>",
