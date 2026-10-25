@@ -1,0 +1,280 @@
+{
+  "catalogVersion": 1,
+  "lastUpdated": "2026-10-24T23:45:00Z",
+  "storeTitle": "Aura Boutique Global Catalog",
+  "currency": "USD",
+  "testerQuota": {
+    "passcode": "AURAVIP2026",
+    "active": true,
+    "maxActivations": 20,
+    "quotaExhaustedMessage": "Tester quota filled (20 of 20 claimed). Thank you for supporting Aura!",
+    "emailFormula": "aura*<tester_email>",
+    "authorizedEmails": [],
+    "revokedTesters": [],
+    "individualCodes": [
+      { "code": "AURA-VIP-01", "assignedTo": "Alpha Tester 01", "active": true },
+      { "code": "AURA-VIP-02", "assignedTo": "Alpha Tester 02", "active": true },
+      { "code": "AURA-VIP-03", "assignedTo": "Alpha Tester 03", "active": true },
+      { "code": "AURA-VIP-04", "assignedTo": "Alpha Tester 04", "active": true },
+      { "code": "AURA-VIP-05", "assignedTo": "Alpha Tester 05", "active": true },
+      { "code": "AURA-VIP-06", "assignedTo": "Alpha Tester 06", "active": true },
+      { "code": "AURA-VIP-07", "assignedTo": "Alpha Tester 07", "active": true },
+      { "code": "AURA-VIP-08", "assignedTo": "Alpha Tester 08", "active": true },
+      { "code": "AURA-VIP-09", "assignedTo": "Alpha Tester 09", "active": true },
+      { "code": "AURA-VIP-10", "assignedTo": "Alpha Tester 10", "active": true },
+      { "code": "AURA-VIP-11", "assignedTo": "Alpha Tester 11", "active": true },
+      { "code": "AURA-VIP-12", "assignedTo": "Alpha Tester 12", "active": true },
+      { "code": "AURA-VIP-13", "assignedTo": "Alpha Tester 13", "active": true },
+      { "code": "AURA-VIP-14", "assignedTo": "Alpha Tester 14", "active": true },
+      { "code": "AURA-VIP-15", "assignedTo": "Alpha Tester 15", "active": true },
+      { "code": "AURA-VIP-16", "assignedTo": "Alpha Tester 16", "active": true },
+      { "code": "AURA-VIP-17", "assignedTo": "Alpha Tester 17", "active": true },
+      { "code": "AURA-VIP-18", "assignedTo": "Alpha Tester 18", "active": true },
+      { "code": "AURA-VIP-19", "assignedTo": "Alpha Tester 19", "active": true },
+      { "code": "AURA-VIP-20", "assignedTo": "Alpha Tester 20", "active": true }
+    ]
+  },
+  "proLifetime": {
+    "sku": "aura_pro_lifetime",
+    "name": "Aura Pro — Lifetime Patron",
+    "price": "$4.99",
+    "description": "Permanent zero-ad experience, unrestricted access to all present and future themes and micro-animations, and support for independent zero-cloud maternal health software.",
+    "isFlagship": true
+  },
+  "bundles": [
+    {
+      "sku": "aura_themes_bundle",
+      "name": "Complete Themes Pass",
+      "price": "$4.99",
+      "itemCount": 8,
+      "description": "Unlock all 8 premium artisanal color palettes forever."
+    },
+    {
+      "sku": "aura_anims_bundle",
+      "name": "Complete Animations Pass",
+      "price": "$3.99",
+      "itemCount": 5,
+      "description": "Unlock all 5 physiological micro-animations and calendar visual effects forever."
+    }
+  ],
+  "themes": [
+    {
+      "id": "CLINICAL_PLUM",
+      "sku": null,
+      "name": "Clinical Plum & Burgundy",
+      "description": "Aura's core signature clinical aesthetic. Deep wine plum paired with restorative crimson burgundy.",
+      "price": "Free",
+      "isDefault": true,
+      "primaryColor": "#4A0E2E",
+      "secondaryColor": "#800020",
+      "surfaceLight": "#FAF8F5",
+      "surfaceDark": "#181216",
+      "tags": ["Clinical", "Default", "Plum"]
+    },
+    {
+      "id": "ROSE_ORCHID",
+      "sku": "aura_theme_rose",
+      "name": "Rose Velvet & Orchid Bloom",
+      "description": "Vibrant magenta pink and royal orchid purple against soft blush silk. Bold, unapologetically feminine energy.",
+      "price": "$1.99",
+      "isDefault": false,
+      "primaryColor": "#D81B60",
+      "secondaryColor": "#9C27B0",
+      "surfaceLight": "#FFF0F5",
+      "surfaceDark": "#1A0A14",
+      "tags": ["Feminine", "Pink", "Purple", "Vibrant"]
+    },
+    {
+      "id": "LAVENDER_DREAM",
+      "sku": "aura_theme_lavender",
+      "name": "Lavender Whisper & Amethyst",
+      "description": "Royal violet and delicate amethyst over soothing lavender mist. Calming, reflective, and serene.",
+      "price": "$1.99",
+      "isDefault": false,
+      "primaryColor": "#673AB7",
+      "secondaryColor": "#BA68C8",
+      "surfaceLight": "#F3E5F5",
+      "surfaceDark": "#140B1A",
+      "tags": ["Lavender", "Violet", "Calm"]
+    },
+    {
+      "id": "EMERALD_BOTANICAL",
+      "sku": "aura_theme_emerald",
+      "name": "Emerald Forest & Mint",
+      "description": "Deep jewel-toned forest jade and crisp organic mint over pale herbal sage. Restorative, grounded, and botanical.",
+      "price": "$1.99",
+      "isDefault": false,
+      "primaryColor": "#00695C",
+      "secondaryColor": "#26A69A",
+      "surfaceLight": "#E0F2F1",
+      "surfaceDark": "#091715",
+      "tags": ["Botanical", "Jade", "Sage"]
+    },
+    {
+      "id": "SUNSET_CORAL",
+      "sku": "aura_theme_coral",
+      "name": "Sunset Coral & Golden Peach",
+      "description": "Electric coral flame and warm golden peach blossom over glowing sunlit blush. Warm, radiant, and optimistic.",
+      "price": "$1.99",
+      "isDefault": false,
+      "primaryColor": "#FF5722",
+      "secondaryColor": "#FF7043",
+      "surfaceLight": "#FBE9E7",
+      "surfaceDark": "#1F0F0B",
+      "tags": ["Coral", "Peach", "Warm"]
+    },
+    {
+      "id": "NORDIC_SLATE",
+      "sku": "aura_theme_nordic",
+      "name": "Nordic Slate & Arctic Ice",
+      "description": "Crisp Scandinavian fjord slate and cool glacial ice. Minimalist, focused, and distraction-free.",
+      "price": "$1.99",
+      "isDefault": false,
+      "primaryColor": "#2C3E50",
+      "secondaryColor": "#3498DB",
+      "surfaceLight": "#F5F7FA",
+      "surfaceDark": "#0F141A",
+      "tags": ["Nordic", "Minimal", "Slate"]
+    },
+    {
+      "id": "GOLDEN_AMBER",
+      "sku": "aura_theme_golden",
+      "name": "Golden Honey & Raw Silk",
+      "description": "Warm artisanal honey and golden harvest wheat over organic cream. Comforting, nourishing, and rich.",
+      "price": "$1.99",
+      "isDefault": false,
+      "primaryColor": "#B7791F",
+      "secondaryColor": "#D69E2E",
+      "surfaceLight": "#FFFAF0",
+      "surfaceDark": "#171207",
+      "tags": ["Amber", "Honey", "Warm"]
+    },
+    {
+      "id": "CELESTIAL_MIDNIGHT",
+      "sku": "aura_theme_celestial",
+      "name": "Celestial Indigo & Moonlit Rose",
+      "description": "Deep astronomical indigo and iridescent moonlit rose. Designed for late-night reflection and evening contemplation.",
+      "price": "$1.99",
+      "isDefault": false,
+      "primaryColor": "#1A237E",
+      "secondaryColor": "#7986CB",
+      "surfaceLight": "#EDE7F6",
+      "surfaceDark": "#0B0E1E",
+      "tags": ["Indigo", "Moonlit", "Night"]
+    },
+    {
+      "id": "MIDNIGHT_RED_ROOM",
+      "sku": "aura_theme_midnight",
+      "name": "Midnight OLED Red Room",
+      "description": "0-nit absolute pitch black with 630nm monochrome ruby accents. Prevents melatonin suppression during 3:00 AM infant feedings.",
+      "price": "$1.99",
+      "isDefault": false,
+      "primaryColor": "#FF1744",
+      "secondaryColor": "#800020",
+      "surfaceLight": "#120002",
+      "surfaceDark": "#000000",
+      "tags": ["OLED", "RedRoom", "Night"]
+    }
+  ],
+  "animations": [
+    {
+      "id": "anim_spotting_dance",
+      "sku": "aura_anim_dance",
+      "category": "spotting",
+      "categoryTitle": "Spotting Droplets",
+      "name": "Dancing Spotting Droplets",
+      "description": "Harmonic alternating choreography: top drop sways right, middle sways left, bottom sways right, then smoothly reverses.",
+      "price": "$1.49",
+      "isDefault": false,
+      "accentColor": "#D32F2F"
+    },
+    {
+      "id": "anim_droplet_splash",
+      "sku": "aura_anim_droplet",
+      "category": "flow",
+      "categoryTitle": "Menstrual Flow Droplets",
+      "name": "Blood Drop Splash & Reform",
+      "description": "Natural fluid physics: blood droplets fall from position, impact and splash with radial beads, then smoothly reform and rise.",
+      "price": "$1.49",
+      "isDefault": false,
+      "accentColor": "#D32F2F"
+    },
+    {
+      "id": "anim_droplet_rain",
+      "sku": "aura_anim_rain",
+      "category": "calendar",
+      "categoryTitle": "Calendar Background",
+      "name": "Calendar Droplet Rain",
+      "description": "Delicate, translucent ruby raindrops gently cascading vertically through period and spotting calendar date cells.",
+      "price": "$1.49",
+      "isDefault": false,
+      "accentColor": "#800020"
+    },
+    {
+      "id": "anim_blooming_ovum",
+      "sku": "aura_anim_ovum",
+      "category": "ovulation",
+      "categoryTitle": "Ovulation & Fertility",
+      "name": "Blooming Ovum & Fertile Glow",
+      "description": "Breathing radial scaling and soft golden halo pulse celebrating peak fertility and oocyte release.",
+      "price": "$1.49",
+      "isDefault": false,
+      "accentColor": "#C27D38"
+    },
+    {
+      "id": "anim_ripple",
+      "sku": null,
+      "category": "ovulation",
+      "categoryTitle": "Ovulation & Fertility",
+      "name": "Follicular Tidal Ripple",
+      "description": "Concentric tidal ripples radiating outward from high-estrogen cycle days.",
+      "price": "Free",
+      "isDefault": true,
+      "accentColor": "#3D7068"
+    },
+    {
+      "id": "anim_pranayama",
+      "sku": "aura_anim_pranayama",
+      "category": "mindful",
+      "categoryTitle": "Mindful Breathwork",
+      "name": "Pranayama Breathwork Halo",
+      "description": "4-7-8 rhythmic breathing circle guiding stress reduction, cortisol lowering, and pelvic floor relaxation.",
+      "price": "$1.49",
+      "isDefault": false,
+      "accentColor": "#5E4B8B"
+    },
+    {
+      "id": "anim_heart_beat",
+      "sku": "aura_anim_heart_beat",
+      "category": "intimacy",
+      "categoryTitle": "Intimacy & Connection",
+      "name": "Beating Cardio Heart",
+      "description": "Biological lub-dub cardiac rhythm pulsating with vitality on intimacy logs.",
+      "price": "$1.49",
+      "isDefault": false,
+      "accentColor": "#E53935"
+    },
+    {
+      "id": "anim_heart_breathe",
+      "sku": "aura_anim_heart_breathe",
+      "category": "intimacy",
+      "categoryTitle": "Intimacy & Connection",
+      "name": "Fluctuating Breathing Heart",
+      "description": "Harmonic gentle expansion and contraction fluctuating like an emotional tide.",
+      "price": "$1.49",
+      "isDefault": false,
+      "accentColor": "#E53935"
+    },
+    {
+      "id": "anim_heart_spin",
+      "sku": "aura_anim_heart_spin",
+      "category": "intimacy",
+      "categoryTitle": "Intimacy & Connection",
+      "name": "360° Rotating Heart",
+      "description": "Playful continuous 360-degree rotational spin floating in place.",
+      "price": "$1.49",
+      "isDefault": false,
+      "accentColor": "#E53935"
+    }
+  ]
+}
