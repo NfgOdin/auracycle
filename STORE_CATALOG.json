@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 8,
-  "lastUpdated": "2026-10-26T09:15:00Z",
+  "catalogVersion": 9,
+  "lastUpdated": "2026-10-26T10:30:00Z",
   "storeTitle": "Aura Boutique Global Catalog",
   "currency": "USD",
   "testerQuota": {
@@ -17,7 +17,7 @@
     "sku": "aura_pro_lifetime",
     "priceUsd": "$24.99",
     "name": "Aura Pro — Lifetime Patron",
-    "description": "Permanent zero-ad experience, Bespoke Theme Creator Studio, unrestricted access to all present and future themes and micro-animations, and unmetered clinical PDF exports.",
+    "description": "Permanent zero-ad experience, Bespoke Theme Creator Studio, unrestricted access to all present and future themes and all 54 micro-animations, and unmetered clinical PDF exports.",
     "isFlagship": true
   },
   "categories": [
@@ -37,125 +37,135 @@
     {
       "id": "cat_spotting",
       "title": "Spotting Droplets",
-      "subtitle": "Micro-choreography for trace intermenstrual spotting telemetry",
+      "subtitle": "Sneaky, relatable & humorous micro-choreography for trace intermenstrual spotting",
       "itemType": "animation",
       "itemIds": [
         "anim_spotting_dance",
         "anim_spotting_trickle",
-        "anim_spotting_dewdrop",
-        "anim_spotting_mist_pulse",
-        "anim_spotting_crimson_drift"
+        "anim_spotting_ninja_drop",
+        "anim_spotting_shark_fin",
+        "anim_spotting_morse_sos",
+        "anim_spotting_leaky_faucet"
       ]
     },
     {
       "id": "cat_flow_droplets",
       "title": "Menstrual Flow Droplets",
-      "subtitle": "Natural fluid dynamics and splash impact physics for active flow",
+      "subtitle": "Natural fluid physics, gothic humor & iconic Day-2 scenes for active flow",
       "itemType": "animation",
       "itemIds": [
         "anim_droplet_splash",
-        "anim_flow_tidal_surge",
-        "anim_flow_velvet_cascade",
-        "anim_flow_harmonic_vortex"
+        "anim_flow_shining_elevator",
+        "anim_flow_vampire_fangs",
+        "anim_flow_lava_lamp",
+        "anim_flow_crime_scene"
       ]
     },
     {
       "id": "cat_calendar_flow",
       "title": "Calendar Flow Background",
-      "subtitle": "Ambient rainfall streaks cascading through active menstrual bleeding days",
+      "subtitle": "What your uterus actually feels like across active menstrual bleeding days",
       "itemType": "animation",
       "itemIds": [
         "anim_droplet_rain",
-        "anim_calendar_flow_drizzle",
-        "anim_calendar_flow_seep",
-        "anim_calendar_flow_pulse_flood"
+        "anim_calendar_flow_uterus_boxing",
+        "anim_calendar_flow_volcano",
+        "anim_calendar_flow_heating_pad",
+        "anim_calendar_flow_shark_week"
       ]
     },
     {
       "id": "cat_calendar_fertile",
       "title": "Calendar Fertile Background",
-      "subtitle": "Radiant golden oocyte corona & concentric tidal ripples celebrating fertile days",
+      "subtitle": "The Egg has entered the VIP lounge — radiant golden halos & hilarious ovulation scenes",
       "itemType": "animation",
       "itemIds": [
         "anim_blooming_ovum",
         "anim_ripple",
-        "anim_calendar_fertile_solar_flare",
-        "anim_calendar_fertile_golden_ripple",
-        "anim_calendar_fertile_prism_glimmer"
+        "anim_calendar_fertile_tadpole_race",
+        "anim_calendar_fertile_egg_parachute",
+        "anim_calendar_fertile_sunny_egg",
+        "anim_calendar_fertile_disco_ball"
       ]
     },
     {
       "id": "cat_calendar_idle",
       "title": "Calendar Idle Background",
-      "subtitle": "Zephyr whispering breeze drifting across unlogged days awaiting daily telemetry",
+      "subtitle": "Tumbleweeds, sleeping cats, DVD corner bounces & zen vibes across unlogged days",
       "itemType": "animation",
       "itemIds": [
         "anim_zephyr_breeze",
-        "anim_calendar_idle_solar_dust",
-        "anim_calendar_idle_aurora_wisp",
-        "anim_calendar_idle_zen_sand"
+        "anim_calendar_idle_tumbleweed",
+        "anim_calendar_idle_sleeping_cat",
+        "anim_calendar_idle_dvd_bounce",
+        "anim_calendar_idle_koi_pond"
       ]
     },
     {
       "id": "cat_intimacy_unprotected",
-      "title": "Unprotected Intimacy (Cardio Suite)",
-      "subtitle": "Conception intent & natural biological cardio heart suite",
+      "title": "Unprotected Intimacy",
+      "subtitle": "Cardio hearts, Cupid's direct hits, lucky dice rolls & fireworks",
       "itemType": "animation",
       "itemIds": [
         "anim_heart_beat",
         "anim_heart_breathe",
         "anim_heart_spin",
-        "anim_intimacy_unprotected_cardio_pulse",
-        "anim_intimacy_unprotected_fusion_bloom",
-        "anim_intimacy_unprotected_warmth_orb"
+        "anim_intimacy_unprotected_cupid_arrow",
+        "anim_intimacy_unprotected_lucky_dice",
+        "anim_intimacy_unprotected_birds_bees",
+        "anim_intimacy_unprotected_fireworks"
       ]
     },
     {
       "id": "cat_intimacy_protected",
-      "title": "Protected Intimacy (Aegis Bio-Barrier)",
-      "subtitle": "Crystalline aegis bio-barrier & contraceptive shielding",
+      "title": "Protected Intimacy",
+      "subtitle": "Not today, swimmers! Goalie saves, UFO forcefields, royal padlocks & VIP bouncers",
       "itemType": "animation",
       "itemIds": [
         "anim_protected_barrier",
-        "anim_intimacy_protected_aegis_lattice",
-        "anim_intimacy_protected_quantum_sheath",
-        "anim_intimacy_protected_crystal_membrane"
+        "anim_intimacy_protected_goalie_block",
+        "anim_intimacy_protected_ufo_dome",
+        "anim_intimacy_protected_knight_padlock",
+        "anim_intimacy_protected_club_bouncer"
       ]
     },
     {
       "id": "cat_intimacy_solo",
-      "title": "Solo Wellness (Euphoric Cascade)",
-      "subtitle": "Somatic euphoric cascade & fluid release dynamics",
+      "title": "Solo Wellness & Self-Love",
+      "subtitle": "Flicking the bean, magic wands, DJ turntables, champagne pops & ringing the devil's doorbell",
       "itemType": "animation",
       "itemIds": [
         "anim_solo_cascade",
-        "anim_intimacy_solo_euphoric_geyser",
-        "anim_intimacy_solo_auric_shimmer",
-        "anim_intimacy_solo_starlight_echo"
+        "anim_intimacy_solo_flicking_bean",
+        "anim_intimacy_solo_magic_wand",
+        "anim_intimacy_solo_dj_turntable",
+        "anim_intimacy_solo_champagne_pop",
+        "anim_intimacy_solo_devils_doorbell"
       ]
     },
     {
       "id": "cat_intimacy_libido",
-      "title": "High Libido (Ember Spark)",
-      "subtitle": "Endocrine arousal surges & radiant desire spark",
+      "title": "High Libido & Vitality",
+      "subtitle": "Exploding thermometers, five-alarm chili peppers, feral full moon howls & flaming peaches",
       "itemType": "animation",
       "itemIds": [
         "anim_ember_spark",
-        "anim_intimacy_libido_ember_flare",
-        "anim_intimacy_libido_plasma_arc",
-        "anim_intimacy_libido_radiant_heatwave"
+        "anim_intimacy_libido_thermometer_pop",
+        "anim_intimacy_libido_chili_pepper",
+        "anim_intimacy_libido_full_moon_howl",
+        "anim_intimacy_libido_flaming_peach"
       ]
     },
     {
       "id": "cat_mindful",
       "title": "Mindful Breathwork",
-      "subtitle": "4-7-8 parasympathetic respiratory coach for labor surges & PMDD soothing",
+      "subtitle": "4-7-8 parasympathetic visualizers: Pranayama lotus, bioluminescent jellyfish, dandelion wishes & sakura bonsai",
       "itemType": "animation",
       "itemIds": [
         "anim_pranayama",
-        "anim_mindful_ocean_swell",
-        "anim_mindful_expanding_lotus",
-        "anim_mindful_resonance_sphere"
+        "anim_mindful_jellyfish",
+        "anim_mindful_dandelion",
+        "anim_mindful_bonsai_blossom"
       ]
     }
   ],
@@ -179,53 +189,63 @@
       "name": "Complete Animations Pass",
       "priceUsd": "$9.99",
       "priceAurums": 450,
-      "itemCount": 44,
-      "description": "Unlock all 44 physiological micro-animations and calendar visual effects forever.",
+      "itemCount": 54,
+      "description": "Unlock all 54 physiological & humorous cartoon micro-animations and calendar visual effects forever.",
       "includedItemIds": [
         "anim_spotting_dance",
         "anim_spotting_trickle",
-        "anim_spotting_dewdrop",
-        "anim_spotting_mist_pulse",
-        "anim_spotting_crimson_drift",
+        "anim_spotting_ninja_drop",
+        "anim_spotting_shark_fin",
+        "anim_spotting_morse_sos",
+        "anim_spotting_leaky_faucet",
         "anim_droplet_splash",
-        "anim_flow_tidal_surge",
-        "anim_flow_velvet_cascade",
-        "anim_flow_harmonic_vortex",
+        "anim_flow_shining_elevator",
+        "anim_flow_vampire_fangs",
+        "anim_flow_lava_lamp",
+        "anim_flow_crime_scene",
         "anim_droplet_rain",
-        "anim_calendar_flow_drizzle",
-        "anim_calendar_flow_seep",
-        "anim_calendar_flow_pulse_flood",
+        "anim_calendar_flow_uterus_boxing",
+        "anim_calendar_flow_volcano",
+        "anim_calendar_flow_heating_pad",
+        "anim_calendar_flow_shark_week",
         "anim_blooming_ovum",
         "anim_ripple",
-        "anim_calendar_fertile_solar_flare",
-        "anim_calendar_fertile_golden_ripple",
-        "anim_calendar_fertile_prism_glimmer",
+        "anim_calendar_fertile_tadpole_race",
+        "anim_calendar_fertile_egg_parachute",
+        "anim_calendar_fertile_sunny_egg",
+        "anim_calendar_fertile_disco_ball",
         "anim_zephyr_breeze",
-        "anim_calendar_idle_solar_dust",
-        "anim_calendar_idle_aurora_wisp",
-        "anim_calendar_idle_zen_sand",
+        "anim_calendar_idle_tumbleweed",
+        "anim_calendar_idle_sleeping_cat",
+        "anim_calendar_idle_dvd_bounce",
+        "anim_calendar_idle_koi_pond",
         "anim_pranayama",
-        "anim_mindful_ocean_swell",
-        "anim_mindful_expanding_lotus",
-        "anim_mindful_resonance_sphere",
+        "anim_mindful_jellyfish",
+        "anim_mindful_dandelion",
+        "anim_mindful_bonsai_blossom",
         "anim_heart_beat",
         "anim_heart_breathe",
         "anim_heart_spin",
-        "anim_intimacy_unprotected_cardio_pulse",
-        "anim_intimacy_unprotected_fusion_bloom",
-        "anim_intimacy_unprotected_warmth_orb",
+        "anim_intimacy_unprotected_cupid_arrow",
+        "anim_intimacy_unprotected_lucky_dice",
+        "anim_intimacy_unprotected_birds_bees",
+        "anim_intimacy_unprotected_fireworks",
         "anim_protected_barrier",
-        "anim_intimacy_protected_aegis_lattice",
-        "anim_intimacy_protected_quantum_sheath",
-        "anim_intimacy_protected_crystal_membrane",
+        "anim_intimacy_protected_goalie_block",
+        "anim_intimacy_protected_ufo_dome",
+        "anim_intimacy_protected_knight_padlock",
+        "anim_intimacy_protected_club_bouncer",
         "anim_solo_cascade",
-        "anim_intimacy_solo_euphoric_geyser",
-        "anim_intimacy_solo_auric_shimmer",
-        "anim_intimacy_solo_starlight_echo",
+        "anim_intimacy_solo_flicking_bean",
+        "anim_intimacy_solo_magic_wand",
+        "anim_intimacy_solo_dj_turntable",
+        "anim_intimacy_solo_champagne_pop",
+        "anim_intimacy_solo_devils_doorbell",
         "anim_ember_spark",
-        "anim_intimacy_libido_ember_flare",
-        "anim_intimacy_libido_plasma_arc",
-        "anim_intimacy_libido_radiant_heatwave"
+        "anim_intimacy_libido_thermometer_pop",
+        "anim_intimacy_libido_chili_pepper",
+        "anim_intimacy_libido_full_moon_howl",
+        "anim_intimacy_libido_flaming_peach"
       ]
     },
     {
@@ -372,65 +392,52 @@
       "accentColor": "#D32F2F"
     },
     {
-      "id": "anim_spotting_dewdrop",
-      "sku": "aura_anim_spotting_dewdrop",
+      "id": "anim_spotting_ninja_drop",
+      "sku": "aura_anim_spotting_ninja_drop",
       "category": "spotting",
       "categoryTitle": "Spotting Droplets",
-      "name": "Morning Dewdrop",
-      "description": "A single translucent ruby sphere condenses on a botanical leaf edge, trembles under surface tension, and gently releases.",
+      "name": "Ninja Sneak-Attack Drop",
+      "description": "A sneaky crimson droplet wearing a black ninja headband tiptoes across and vanishes in a smoke puff.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#C0392B",
-      "procedural": {
-        "motionType": "HOP",
-        "vectorPath": "M12,2 C12,2 6,10 6,15 C6,18.3 8.7,21 12,21 C15.3,21 18,18.3 18,15 C18,10 12,2 12,2 Z",
-        "color": "#C0392B",
-        "secondaryColor": "#E74C3C",
-        "speed": 0.85,
-        "particleCount": 6,
-        "scale": 1.15
-      }
+      "accentColor": "#D32F2F"
     },
     {
-      "id": "anim_spotting_mist_pulse",
-      "sku": "aura_anim_spotting_mist_pulse",
+      "id": "anim_spotting_shark_fin",
+      "sku": "aura_anim_spotting_shark_fin",
       "category": "spotting",
       "categoryTitle": "Spotting Droplets",
-      "name": "Aerosol Mist Pulse",
-      "description": "Micro-particulate crimson vapor that softly blooms and dissipates—ideal for ultra-light luteal spotting.",
+      "name": "White Panty Jaws (Shark Fin)",
+      "description": "A menacing little crimson dorsal fin circles back and forth like Jaws before doing a cheeky chomp splash.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#E57373",
-      "procedural": {
-        "motionType": "PARTICLE_BURST",
-        "color": "#E57373",
-        "secondaryColor": "#EF9A9A",
-        "speed": 0.90,
-        "particleCount": 14,
-        "scale": 1.0
-      }
+      "accentColor": "#C62828"
     },
     {
-      "id": "anim_spotting_crimson_drift",
-      "sku": "aura_anim_spotting_crimson_drift",
+      "id": "anim_spotting_morse_sos",
+      "sku": "aura_anim_spotting_morse_sos",
       "category": "spotting",
       "categoryTitle": "Spotting Droplets",
-      "name": "Crimson Drift",
-      "description": "Zero-gravity suspended micro-beads drifting laterally in a serene fluid current.",
+      "name": "Morse Code Uterus SOS",
+      "description": "Droplets blinking • • • — — — • • • (SOS) in rhythmic distress flashes from your uterus.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#B71C1C",
-      "procedural": {
-        "motionType": "FLOAT_DRIFT",
-        "color": "#B71C1C",
-        "secondaryColor": "#E53935",
-        "speed": 0.80,
-        "particleCount": 10,
-        "scale": 1.0
-      }
+      "accentColor": "#E53935"
+    },
+    {
+      "id": "anim_spotting_leaky_faucet",
+      "sku": "aura_anim_spotting_leaky_faucet",
+      "category": "spotting",
+      "categoryTitle": "Spotting Droplets",
+      "name": "Leaky Faucet Plink",
+      "description": "A vintage brass faucet spout builds up one stubborn ruby drop, plinks into a tiny puddle, and wiggles.",
+      "isDefault": false,
+      "priceUsd": "$0.99",
+      "priceAurums": 100,
+      "accentColor": "#B71C1C"
     },
     {
       "id": "anim_droplet_splash",
@@ -445,64 +452,52 @@
       "accentColor": "#D32F2F"
     },
     {
-      "id": "anim_flow_tidal_surge",
-      "sku": "aura_anim_flow_tidal_surge",
+      "id": "anim_flow_shining_elevator",
+      "sku": "aura_anim_flow_shining_elevator",
       "category": "flow",
       "categoryTitle": "Menstrual Flow Droplets",
-      "name": "Tidal Surge",
-      "description": "Deep burgundy cresting wave physics reflecting peak heavy-flow endometrial shedding.",
+      "name": "The Shining Elevator",
+      "description": "Two tiny brass elevator doors slide open and a dramatic Day-2 cartoon wave of crimson gushes out both sides.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#900C3F",
-      "procedural": {
-        "motionType": "TIDAL_WAVE",
-        "color": "#900C3F",
-        "secondaryColor": "#C70039",
-        "speed": 1.10,
-        "particleCount": 12,
-        "scale": 1.0
-      }
+      "accentColor": "#880E4F"
     },
     {
-      "id": "anim_flow_velvet_cascade",
-      "sku": "aura_anim_flow_velvet_cascade",
+      "id": "anim_flow_vampire_fangs",
+      "sku": "aura_anim_flow_vampire_fangs",
       "category": "flow",
       "categoryTitle": "Menstrual Flow Droplets",
-      "name": "Velvet Cascade",
-      "description": "Multi-tiered silk ribbons of plum and crimson flowing downward in smooth laminar harmony.",
+      "name": "Count Dra-Cute-La Fangs",
+      "description": "Two cute ivory vampire fangs descend from the top with a ruby drop dangling off one tip and a mischievous sparkle.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#581845",
-      "procedural": {
-        "motionType": "RAINFALL_CASCADE",
-        "color": "#581845",
-        "secondaryColor": "#900C3F",
-        "speed": 0.95,
-        "particleCount": 8,
-        "scale": 1.0
-      }
+      "accentColor": "#C62828"
     },
     {
-      "id": "anim_flow_harmonic_vortex",
-      "sku": "aura_anim_flow_harmonic_vortex",
+      "id": "anim_flow_lava_lamp",
+      "sku": "aura_anim_flow_lava_lamp",
       "category": "flow",
       "categoryTitle": "Menstrual Flow Droplets",
-      "name": "Harmonic Vortex",
-      "description": "Centripetal fluid swirl drawing scattered droplets into a unified, grounded core.",
+      "name": "1970s Ruby Lava Lamp",
+      "description": "Groovy retro glass lava lamp where gloopy ruby wax blobs slowly stretch, detach, float up, and sink.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#880E4F",
-      "procedural": {
-        "motionType": "VORTEX_SWIRL",
-        "color": "#880E4F",
-        "secondaryColor": "#D81B60",
-        "speed": 1.05,
-        "particleCount": 12,
-        "scale": 1.0
-      }
+      "accentColor": "#D81B60"
+    },
+    {
+      "id": "anim_flow_crime_scene",
+      "sku": "aura_anim_flow_crime_scene",
+      "category": "flow",
+      "categoryTitle": "Menstrual Flow Droplets",
+      "name": "Crime Scene Caution Tape",
+      "description": "Diagonal yellow & black CAUTION tape flashes across while a dramatic chalk-outline blood drop hops inside.",
+      "isDefault": false,
+      "priceUsd": "$0.99",
+      "priceAurums": 100,
+      "accentColor": "#FFC107"
     },
     {
       "id": "anim_droplet_rain",
@@ -517,64 +512,52 @@
       "accentColor": "#800020"
     },
     {
-      "id": "anim_calendar_flow_drizzle",
-      "sku": "aura_anim_calendar_flow_drizzle",
+      "id": "anim_calendar_flow_uterus_boxing",
+      "sku": "aura_anim_calendar_flow_uterus_boxing",
       "category": "calendar_flow",
       "categoryTitle": "Calendar Flow Background",
-      "name": "Glass Drizzle",
-      "description": "Droplets trickling down a frosted glass pane with realistic stop-and-go surface friction.",
+      "name": "Uterus Boxing Ring (KO)",
+      "description": "A feisty cartoon uterus wearing red boxing gloves throwing rapid left-right cramp jabs at the calendar walls.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#AD1457",
-      "procedural": {
-        "motionType": "RAINFALL_CASCADE",
-        "color": "#AD1457",
-        "secondaryColor": "#F06292",
-        "speed": 0.75,
-        "particleCount": 7,
-        "scale": 1.0
-      }
+      "accentColor": "#AD1457"
     },
     {
-      "id": "anim_calendar_flow_seep",
-      "sku": "aura_anim_calendar_flow_seep",
+      "id": "anim_calendar_flow_volcano",
+      "sku": "aura_anim_calendar_flow_volcano",
       "category": "calendar_flow",
       "categoryTitle": "Calendar Flow Background",
-      "name": "Capillary Seepage",
-      "description": "Warm watercolor bloom slowly saturating the calendar tile edges from the bottom up.",
+      "name": "Mount Menstrubius Volcano",
+      "description": "A tiny rumbling volcano at the bottom puffing smoke rings and erupting glowing ruby lava arcs.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#880E4F",
-      "procedural": {
-        "motionType": "BREATHE_HALO",
-        "color": "#880E4F",
-        "secondaryColor": "#AD1457",
-        "speed": 0.70,
-        "particleCount": 10,
-        "scale": 1.0
-      }
+      "accentColor": "#D32F2F"
     },
     {
-      "id": "anim_calendar_flow_pulse_flood",
-      "sku": "aura_anim_calendar_flow_pulse_flood",
+      "id": "anim_calendar_flow_heating_pad",
+      "sku": "aura_anim_calendar_flow_heating_pad",
       "category": "calendar_flow",
       "categoryTitle": "Calendar Flow Background",
-      "name": "Pulsed Inundation",
-      "description": "Rhythmic fluid level rising and settling across active menstrual days.",
+      "name": "Cozy Heating Pad & Wine",
+      "description": "A warm glowing hot-water bottle pulsing gently beside a swirling glass of cabernet.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#C2185B",
-      "procedural": {
-        "motionType": "TIDAL_WAVE",
-        "color": "#C2185B",
-        "secondaryColor": "#880E4F",
-        "speed": 1.0,
-        "particleCount": 10,
-        "scale": 1.0
-      }
+      "accentColor": "#880E4F"
+    },
+    {
+      "id": "anim_calendar_flow_shark_week",
+      "sku": "aura_anim_calendar_flow_shark_week",
+      "category": "calendar_flow",
+      "categoryTitle": "Calendar Flow Background",
+      "name": "Shark Week Red Tide",
+      "description": "Rolling crimson ocean waves with a dorsal shark fin surfing across active period days.",
+      "isDefault": false,
+      "priceUsd": "$0.99",
+      "priceAurums": 100,
+      "accentColor": "#B71C1C"
     },
     {
       "id": "anim_blooming_ovum",
@@ -601,64 +584,52 @@
       "accentColor": "#3D7068"
     },
     {
-      "id": "anim_calendar_fertile_solar_flare",
-      "sku": "aura_anim_calendar_fertile_solar_flare",
+      "id": "anim_calendar_fertile_tadpole_race",
+      "sku": "aura_anim_calendar_fertile_tadpole_race",
       "category": "calendar_fertile",
       "categoryTitle": "Calendar Fertile Background",
-      "name": "Solar Flare Corona",
-      "description": "Luminous amber coronal loops erupting gently around peak LH surge and ovulation tiles.",
+      "name": "The Great Tadpole Race",
+      "description": "A crowned golden egg sits in the VIP center while frantic little squiggly swimmers race around trying to get in.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#F39C12",
-      "procedural": {
-        "motionType": "PARTICLE_BURST",
-        "color": "#F39C12",
-        "secondaryColor": "#FFD54F",
-        "speed": 0.90,
-        "particleCount": 16,
-        "scale": 1.0
-      }
+      "accentColor": "#FFB300"
     },
     {
-      "id": "anim_calendar_fertile_golden_ripple",
-      "sku": "aura_anim_calendar_fertile_golden_ripple",
+      "id": "anim_calendar_fertile_egg_parachute",
+      "sku": "aura_anim_calendar_fertile_egg_parachute",
       "category": "calendar_fertile",
       "categoryTitle": "Calendar Fertile Background",
-      "name": "Golden Concentric Wave",
-      "description": "24-karat gold interference rings expanding across the fertile window.",
+      "name": "Ovulation Parachute Drop",
+      "description": "A golden egg floating down from the Fallopian sky under a tiny silk parachute, swaying side to side.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#FFD700",
-      "procedural": {
-        "motionType": "ORBIT_SPIN",
-        "color": "#FFD700",
-        "secondaryColor": "#FFA000",
-        "speed": 0.85,
-        "particleCount": 12,
-        "scale": 1.0
-      }
+      "accentColor": "#FFCA28"
     },
     {
-      "id": "anim_calendar_fertile_prism_glimmer",
-      "sku": "aura_anim_calendar_fertile_prism_glimmer",
+      "id": "anim_calendar_fertile_sunny_egg",
+      "sku": "aura_anim_calendar_fertile_sunny_egg",
       "category": "calendar_fertile",
       "categoryTitle": "Calendar Fertile Background",
-      "name": "Prismatic Glimmer",
-      "description": "Refractive diamond-dust sparkles mimicking spinnbarkeit estrogen ferning patterns.",
+      "name": "Sunny-Side Up Sizzle",
+      "description": "A cute sunny-side-up fried egg sizzling and bouncing happily because an egg is cooking!",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#E0A96D",
-      "procedural": {
-        "motionType": "FLOAT_DRIFT",
-        "color": "#E0A96D",
-        "secondaryColor": "#FFF59D",
-        "speed": 1.0,
-        "particleCount": 14,
-        "scale": 1.0
-      }
+      "accentColor": "#FFB300"
+    },
+    {
+      "id": "anim_calendar_fertile_disco_ball",
+      "sku": "aura_anim_calendar_fertile_disco_ball",
+      "category": "calendar_fertile",
+      "categoryTitle": "Calendar Fertile Background",
+      "name": "Fertile Window Disco Ball",
+      "description": "A glittering golden mirror ball spinning at the top and casting studio party beams over fertile days.",
+      "isDefault": false,
+      "priceUsd": "$0.99",
+      "priceAurums": 100,
+      "accentColor": "#FFD54F"
     },
     {
       "id": "anim_zephyr_breeze",
@@ -673,64 +644,52 @@
       "accentColor": "#7A5865"
     },
     {
-      "id": "anim_calendar_idle_solar_dust",
-      "sku": "aura_anim_calendar_idle_solar_dust",
+      "id": "anim_calendar_idle_tumbleweed",
+      "sku": "aura_anim_calendar_idle_tumbleweed",
       "category": "calendar_idle",
       "categoryTitle": "Calendar Idle Background",
-      "name": "Solar Dust",
-      "description": "Warm dust motes floating in a quiet afternoon sunbeam across unlogged days.",
+      "name": "Western Desert Tumbleweed",
+      "description": "A spiky cartoon tumbleweed bouncing and rolling across unlogged days with tiny desert dust puffs.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#BCAAA4",
-      "procedural": {
-        "motionType": "FLOAT_DRIFT",
-        "color": "#BCAAA4",
-        "secondaryColor": "#D7CCC8",
-        "speed": 0.65,
-        "particleCount": 10,
-        "scale": 1.0
-      }
+      "accentColor": "#A1887F"
     },
     {
-      "id": "anim_calendar_idle_aurora_wisp",
-      "sku": "aura_anim_calendar_idle_aurora_wisp",
+      "id": "anim_calendar_idle_sleeping_cat",
+      "sku": "aura_anim_calendar_idle_sleeping_cat",
       "category": "calendar_idle",
       "categoryTitle": "Calendar Idle Background",
-      "name": "Aurora Wisp",
-      "description": "Translucent ribbons of sage and rose slate polar light undulating in the background.",
+      "name": "Sleeping Cat & Zzzs",
+      "description": "A curled-up purring cat silhouette breathing softly at the bottom while floating Zzz bubbles rise.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#80CBC4",
-      "procedural": {
-        "motionType": "SNAKE_WIGGLE",
-        "color": "#80CBC4",
-        "secondaryColor": "#CE93D8",
-        "speed": 0.75,
-        "particleCount": 8,
-        "scale": 1.0
-      }
+      "accentColor": "#7A5865"
     },
     {
-      "id": "anim_calendar_idle_zen_sand",
-      "sku": "aura_anim_calendar_idle_zen_sand",
+      "id": "anim_calendar_idle_dvd_bounce",
+      "sku": "aura_anim_calendar_idle_dvd_bounce",
       "category": "calendar_idle",
       "categoryTitle": "Calendar Idle Background",
-      "name": "Zen Rake",
-      "description": "Minimalist kinetic sand ripples shifting imperceptibly across resting calendar cells.",
+      "name": "Retro DVD Corner Bounce",
+      "description": "A neon badge bouncing diagonally off the 4 walls—and flashing gold when it hits the exact corner!",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#D7CCC8",
-      "procedural": {
-        "motionType": "TIDAL_WAVE",
-        "color": "#D7CCC8",
-        "secondaryColor": "#A1887F",
-        "speed": 0.55,
-        "particleCount": 8,
-        "scale": 1.0
-      }
+      "accentColor": "#00E5FF"
+    },
+    {
+      "id": "anim_calendar_idle_koi_pond",
+      "sku": "aura_anim_calendar_idle_koi_pond",
+      "category": "calendar_idle",
+      "categoryTitle": "Calendar Idle Background",
+      "name": "Zen Koi Fish Figure-8",
+      "description": "Two tiny orange-and-white koi fish swimming in a lazy figure-8 circle with gentle water ripples.",
+      "isDefault": false,
+      "priceUsd": "$0.99",
+      "priceAurums": 100,
+      "accentColor": "#FF7043"
     },
     {
       "id": "anim_heart_beat",
@@ -769,65 +728,52 @@
       "accentColor": "#E53935"
     },
     {
-      "id": "anim_intimacy_unprotected_cardio_pulse",
-      "sku": "aura_anim_intimacy_unprotected_cardio_pulse",
+      "id": "anim_intimacy_unprotected_cupid_arrow",
+      "sku": "aura_anim_intimacy_unprotected_cupid_arrow",
       "category": "intimacy_unprotected",
       "categoryTitle": "Unprotected Intimacy",
-      "name": "Cardio Sinus Wave",
-      "description": "Authentic ECG sinus rhythm trace morphing into a double-beat crimson heart.",
+      "name": "Cupid's Direct Hit",
+      "description": "A golden arrow flies in diagonally, pierces a plump red heart (twang!), and makes the tail feathers vibrate.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#C62828",
-      "procedural": {
-        "motionType": "PULSE_EXPAND",
-        "vectorPath": "M12,21.35 L10.55,20.03 C5.4,15.36 2,12.27 2,8.5 C2,5.41 4.42,3 7.5,3 C9.24,3 10.91,3.81 12,5.08 C13.09,3.81 14.76,3 16.5,3 C19.58,3 22,5.41 22,8.5 C22,12.27 18.6,15.36 13.45,20.03 L12,21.35 Z",
-        "color": "#C62828",
-        "secondaryColor": "#EF5350",
-        "speed": 1.25,
-        "particleCount": 8,
-        "scale": 1.15
-      }
+      "accentColor": "#E53935"
     },
     {
-      "id": "anim_intimacy_unprotected_fusion_bloom",
-      "sku": "aura_anim_intimacy_unprotected_fusion_bloom",
+      "id": "anim_intimacy_unprotected_lucky_dice",
+      "sku": "aura_anim_intimacy_unprotected_lucky_dice",
       "category": "intimacy_unprotected",
       "categoryTitle": "Unprotected Intimacy",
-      "name": "Fusion Bloom",
-      "description": "Two luminous orbs orbiting and merging into a single radiant conception flare.",
+      "name": "Roll the Dice (Risky Business)",
+      "description": "Two tumbling casino dice rolling and landing on lucky hearts for those playing baby roulette.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#D81B60",
-      "procedural": {
-        "motionType": "ORBIT_SPIN",
-        "color": "#D81B60",
-        "secondaryColor": "#FF80AB",
-        "speed": 1.05,
-        "particleCount": 12,
-        "scale": 1.0
-      }
+      "accentColor": "#D32F2F"
     },
     {
-      "id": "anim_intimacy_unprotected_warmth_orb",
-      "sku": "aura_anim_intimacy_unprotected_warmth_orb",
+      "id": "anim_intimacy_unprotected_birds_bees",
+      "sku": "aura_anim_intimacy_unprotected_birds_bees",
       "category": "intimacy_unprotected",
       "categoryTitle": "Unprotected Intimacy",
-      "name": "Core Radiant Orb",
-      "description": "Deep oxytocin warmth radiating outward in soft, overlapping rose-gold halos.",
+      "name": "The Birds & The Bees",
+      "description": "A cute chubby bumblebee with heart-shaped wings buzzing in a loop-de-loop around a blooming rose.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#EF6C00",
-      "procedural": {
-        "motionType": "BREATHE_HALO",
-        "color": "#EF6C00",
-        "secondaryColor": "#FFB74D",
-        "speed": 0.85,
-        "particleCount": 12,
-        "scale": 1.0
-      }
+      "accentColor": "#FFCA28"
+    },
+    {
+      "id": "anim_intimacy_unprotected_fireworks",
+      "sku": "aura_anim_intimacy_unprotected_fireworks",
+      "category": "intimacy_unprotected",
+      "categoryTitle": "Unprotected Intimacy",
+      "name": "Heart Fireworks Finale",
+      "description": "Twin rockets shooting up from the bottom and exploding into a dazzling heart-shaped firework burst.",
+      "isDefault": false,
+      "priceUsd": "$0.99",
+      "priceAurums": 100,
+      "accentColor": "#FF4081"
     },
     {
       "id": "anim_protected_barrier",
@@ -846,65 +792,52 @@
       "accentColor": "#3D7068"
     },
     {
-      "id": "anim_intimacy_protected_aegis_lattice",
-      "sku": "aura_anim_intimacy_protected_aegis_lattice",
+      "id": "anim_intimacy_protected_goalie_block",
+      "sku": "aura_anim_intimacy_protected_goalie_block",
       "category": "intimacy_protected",
       "categoryTitle": "Protected Intimacy",
-      "name": "Aegis Hex Lattice",
-      "description": "Interlocking emerald-slate geodesic dome that shimmers on impact, confirming barrier integrity.",
+      "name": "Goalie Block! (Swimmers Denied)",
+      "description": "Frantic little wiggly swimmers charge toward a glowing teal shield and literally boing! bounce backward off it.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#27AE60",
-      "procedural": {
-        "motionType": "ORBIT_SPIN",
-        "vectorPath": "M12,2 L20.66,7 L20.66,17 L12,22 L3.34,17 L3.34,7 Z",
-        "color": "#27AE60",
-        "secondaryColor": "#81C784",
-        "speed": 0.80,
-        "particleCount": 8,
-        "scale": 1.10
-      }
+      "accentColor": "#26A69A"
     },
     {
-      "id": "anim_intimacy_protected_quantum_sheath",
-      "sku": "aura_anim_intimacy_protected_quantum_sheath",
+      "id": "anim_intimacy_protected_ufo_dome",
+      "sku": "aura_anim_intimacy_protected_ufo_dome",
       "category": "intimacy_protected",
       "categoryTitle": "Protected Intimacy",
-      "name": "Quantum Sheath",
-      "description": "Dual counter-rotating forcefield rings creating an impenetrable, serene boundary.",
+      "name": "Sci-Fi Forcefield Dome",
+      "description": "A holographic plasma dome drops over a heart while a green laser scan beam sweeps across (ACCESS DENIED).",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#29B6F6",
-      "procedural": {
-        "motionType": "VORTEX_SWIRL",
-        "color": "#29B6F6",
-        "secondaryColor": "#81D4FA",
-        "speed": 1.10,
-        "particleCount": 10,
-        "scale": 1.0
-      }
+      "accentColor": "#00E676"
     },
     {
-      "id": "anim_intimacy_protected_crystal_membrane",
-      "sku": "aura_anim_intimacy_protected_crystal_membrane",
+      "id": "anim_intimacy_protected_knight_padlock",
+      "sku": "aura_anim_intimacy_protected_knight_padlock",
       "category": "intimacy_protected",
       "categoryTitle": "Protected Intimacy",
-      "name": "Crystal Membrane",
-      "description": "Elastic semi-permeable light barrier flexing smoothly and rebounding without breach.",
+      "name": "Royal Vault Padlock Clank",
+      "description": "A heavy golden fortress padlock snaps its shackle shut (CLANK!) with a bright metallic glint.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#26A69A",
-      "procedural": {
-        "motionType": "BREATHE_HALO",
-        "color": "#26A69A",
-        "secondaryColor": "#80CBC4",
-        "speed": 0.90,
-        "particleCount": 12,
-        "scale": 1.0
-      }
+      "accentColor": "#FFCA28"
+    },
+    {
+      "id": "anim_intimacy_protected_club_bouncer",
+      "sku": "aura_anim_intimacy_protected_club_bouncer",
+      "category": "intimacy_protected",
+      "categoryTitle": "Protected Intimacy",
+      "name": "VIP Bouncer Shades",
+      "description": "Cool pitch-black aviator sunglasses and a velvet rope flashing NO ENTRY to uninvited guests.",
+      "isDefault": false,
+      "priceUsd": "$0.99",
+      "priceAurums": 100,
+      "accentColor": "#FF1744"
     },
     {
       "id": "anim_solo_cascade",
@@ -923,64 +856,64 @@
       "accentColor": "#7A5865"
     },
     {
-      "id": "anim_intimacy_solo_euphoric_geyser",
-      "sku": "aura_anim_intimacy_solo_euphoric_geyser",
+      "id": "anim_intimacy_solo_flicking_bean",
+      "sku": "aura_anim_intimacy_solo_flicking_bean",
       "category": "intimacy_solo",
       "categoryTitle": "Solo Wellness",
-      "name": "Euphoric Geyser",
-      "description": "High-velocity somatic release arc bursting upward into weightless, glowing champagne pearls.",
+      "name": "Flicking the Bean",
+      "description": "A cheeky cartoon finger rhythmically flicking a cute bouncing pink coffee/jelly bean with electric pleasure sparks!",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#BA68C8",
-      "procedural": {
-        "motionType": "PARTICLE_BURST",
-        "color": "#BA68C8",
-        "secondaryColor": "#E1BEE7",
-        "speed": 1.15,
-        "particleCount": 16,
-        "scale": 1.0
-      }
+      "accentColor": "#EC407A"
     },
     {
-      "id": "anim_intimacy_solo_auric_shimmer",
-      "sku": "aura_anim_intimacy_solo_auric_shimmer",
+      "id": "anim_intimacy_solo_magic_wand",
+      "sku": "aura_anim_intimacy_solo_magic_wand",
       "category": "intimacy_solo",
       "categoryTitle": "Solo Wellness",
-      "name": "Auric Shimmer",
-      "description": "Full-body endorphin wave rippling from the center outward in iridescent violet and rose.",
+      "name": "Good Vibes Magic Wand",
+      "description": "An iconic rounded-head personal massager wand buzzing intensely with zig-zag vibration lines and shooting stars.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#CE93D8",
-      "procedural": {
-        "motionType": "TIDAL_WAVE",
-        "color": "#CE93D8",
-        "secondaryColor": "#F48FB1",
-        "speed": 0.95,
-        "particleCount": 12,
-        "scale": 1.0
-      }
+      "accentColor": "#AB47BC"
     },
     {
-      "id": "anim_intimacy_solo_starlight_echo",
-      "sku": "aura_anim_intimacy_solo_starlight_echo",
+      "id": "anim_intimacy_solo_dj_turntable",
+      "sku": "aura_anim_intimacy_solo_dj_turntable",
       "category": "intimacy_solo",
       "categoryTitle": "Solo Wellness",
-      "name": "Starlight Echo",
-      "description": "Rhythmic myotonic contractions followed by a slow, floating constellation of afterglow sparks.",
+      "name": "DJ Spin That Record",
+      "description": "A spinning vinyl turntable record scratching back and forth with a stylus arm and flying musical heart notes.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#F06292",
-      "procedural": {
-        "motionType": "FLOAT_DRIFT",
-        "color": "#F06292",
-        "secondaryColor": "#F8BBD0",
-        "speed": 0.85,
-        "particleCount": 14,
-        "scale": 1.0
-      }
+      "accentColor": "#E91E63"
+    },
+    {
+      "id": "anim_intimacy_solo_champagne_pop",
+      "sku": "aura_anim_intimacy_solo_champagne_pop",
+      "category": "intimacy_solo",
+      "categoryTitle": "Solo Wellness",
+      "name": "Champagne Cork Pop!",
+      "description": "A celebratory bottle shakes under pressure and POP! launches the cork and a fountain of bubbly fizz.",
+      "isDefault": false,
+      "priceUsd": "$0.99",
+      "priceAurums": 100,
+      "accentColor": "#FFD54F"
+    },
+    {
+      "id": "anim_intimacy_solo_devils_doorbell",
+      "sku": "aura_anim_intimacy_solo_devils_doorbell",
+      "category": "intimacy_solo",
+      "categoryTitle": "Solo Wellness",
+      "name": "Ringing the Devil's Doorbell",
+      "description": "A cheeky golden bell with tiny devil horns swinging wildly side-to-side with DING-DING sonic shockwaves.",
+      "isDefault": false,
+      "priceUsd": "$0.99",
+      "priceAurums": 100,
+      "accentColor": "#FFB300"
     },
     {
       "id": "anim_ember_spark",
@@ -995,64 +928,52 @@
       "accentColor": "#C27D38"
     },
     {
-      "id": "anim_intimacy_libido_ember_flare",
-      "sku": "aura_anim_intimacy_libido_ember_flare",
+      "id": "anim_intimacy_libido_thermometer_pop",
+      "sku": "aura_anim_intimacy_libido_thermometer_pop",
       "category": "intimacy_libido",
       "categoryTitle": "High Libido & Vitality",
-      "name": "Ember Spark Flare",
-      "description": "Crackling campfire embers rising on thermal updrafts of testosterone and estrogen synergy.",
+      "name": "Thermometer Mercury Explosion",
+      "description": "A glass thermometer where boiling red mercury shoots to the top and booms out the bulb like a cartoon!",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#FF7043",
-      "procedural": {
-        "motionType": "PARTICLE_BURST",
-        "color": "#FF7043",
-        "secondaryColor": "#FFAB91",
-        "speed": 1.20,
-        "particleCount": 15,
-        "scale": 1.0
-      }
+      "accentColor": "#FF1744"
     },
     {
-      "id": "anim_intimacy_libido_plasma_arc",
-      "sku": "aura_anim_intimacy_libido_plasma_arc",
+      "id": "anim_intimacy_libido_chili_pepper",
+      "sku": "aura_anim_intimacy_libido_chili_pepper",
       "category": "intimacy_libido",
       "categoryTitle": "High Libido & Vitality",
-      "name": "Plasma Arc",
-      "description": "High-voltage bio-electric filaments dancing between twin magnetic poles.",
+      "name": "Five-Alarm Spicy Chili",
+      "description": "A fiery red jalapeño chili pepper hopping up and down while breathing cartoon fire flames.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#FF5722",
-      "procedural": {
-        "motionType": "SNAKE_WIGGLE",
-        "color": "#FF5722",
-        "secondaryColor": "#FFCC80",
-        "speed": 1.30,
-        "particleCount": 10,
-        "scale": 1.0
-      }
+      "accentColor": "#D50000"
     },
     {
-      "id": "anim_intimacy_libido_radiant_heatwave",
-      "sku": "aura_anim_intimacy_libido_radiant_heatwave",
+      "id": "anim_intimacy_libido_full_moon_howl",
+      "sku": "aura_anim_intimacy_libido_full_moon_howl",
       "category": "intimacy_libido",
       "categoryTitle": "High Libido & Vitality",
-      "name": "Radiant Heatwave",
-      "description": "Sensory thermal shimmer rising in lush waves of terracotta, ruby, and gold.",
+      "name": "Feral Full Moon Howl",
+      "description": "Peak ovulatory feral energy: a glowing full moon with wolf silhouette and pulsing AWOOOO soundwaves.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#E64A19",
-      "procedural": {
-        "motionType": "TIDAL_WAVE",
-        "color": "#E64A19",
-        "secondaryColor": "#FF8A65",
-        "speed": 1.05,
-        "particleCount": 12,
-        "scale": 1.0
-      }
+      "accentColor": "#FFF176"
+    },
+    {
+      "id": "anim_intimacy_libido_flaming_peach",
+      "sku": "aura_anim_intimacy_libido_flaming_peach",
+      "category": "intimacy_libido",
+      "categoryTitle": "High Libido & Vitality",
+      "name": "Peach on Fire",
+      "description": "A plump, juicy cartoon peach surrounded by dancing five-alarm flames and sizzling sweat droplets.",
+      "isDefault": false,
+      "priceUsd": "$0.99",
+      "priceAurums": 100,
+      "accentColor": "#FF7043"
     },
     {
       "id": "anim_pranayama",
@@ -1067,72 +988,48 @@
       "accentColor": "#5E4B8B"
     },
     {
-      "id": "anim_mindful_ocean_swell",
-      "sku": "aura_anim_mindful_ocean_swell",
+      "id": "anim_mindful_jellyfish",
+      "sku": "aura_anim_mindful_jellyfish",
       "category": "mindful",
       "categoryTitle": "Mindful Breathwork",
-      "name": "Oceanic Swell",
-      "description": "Deep pelagic tide rising on the 4-second inhale, cresting for 7, and receding for 8.",
+      "name": "Bioluminescent Jellyfish",
+      "description": "A glowing deep-sea jellyfish whose bell expands on the inhale, hovers, and propels upward with trailing tentacles.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#2E86AB",
-      "procedural": {
-        "motionType": "TIDAL_WAVE",
-        "color": "#2E86AB",
-        "secondaryColor": "#48C9B0",
-        "speed": 0.65,
-        "particleCount": 10,
-        "scale": 1.0
-      }
+      "accentColor": "#26C6DA"
     },
     {
-      "id": "anim_mindful_expanding_lotus",
-      "sku": "aura_anim_mindful_expanding_lotus",
+      "id": "anim_mindful_dandelion",
+      "sku": "aura_anim_mindful_dandelion",
       "category": "mindful",
       "categoryTitle": "Mindful Breathwork",
-      "name": "Expanding Lotus",
-      "description": "Sacred geometric mandala unfolding petal-by-petal in sync with vagal nerve pacing.",
+      "name": "Dandelion Wish Puff",
+      "description": "A fluffy white dandelion clock that swells on the inhale and releases floating wish seeds on the exhale.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#48C9B0",
-      "procedural": {
-        "motionType": "BREATHE_HALO",
-        "color": "#48C9B0",
-        "secondaryColor": "#A3E4D7",
-        "speed": 0.60,
-        "particleCount": 12,
-        "scale": 1.0
-      }
+      "accentColor": "#FFF9C4"
     },
     {
-      "id": "anim_mindful_resonance_sphere",
-      "sku": "aura_anim_mindful_resonance_sphere",
+      "id": "anim_mindful_bonsai_blossom",
+      "sku": "aura_anim_mindful_bonsai_blossom",
       "category": "mindful",
       "categoryTitle": "Mindful Breathwork",
-      "name": "Resonance Sphere",
-      "description": "3D wire-frame acoustic sphere expanding and contracting for labor surge down-regulation.",
+      "name": "Cherry Blossom Bonsai",
+      "description": "A serene bonsai silhouette whose pink sakura petals bloom outward on the inhale and drift down on the exhale.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#5C6BC0",
-      "procedural": {
-        "motionType": "ORBIT_SPIN",
-        "color": "#5C6BC0",
-        "secondaryColor": "#9FA8DA",
-        "speed": 0.70,
-        "particleCount": 12,
-        "scale": 1.0
-      }
+      "accentColor": "#F48FB1"
     }
   ],
   "valueAnchor": {
-    "totalAlacarteUsd": 67.65,
+    "totalAlacarteUsd": 77.55,
     "proLifetimeUsd": 24.99,
-    "savingsUsd": 42.66,
-    "savingsPercentage": 63,
-    "calloutTitle": "Complete Boutique Collection Value: $67.65",
-    "calloutSubtitle": "Unlock Aura Pro Lifetime for $24.99 and save $42.66 (63%) vs individual items!"
+    "savingsUsd": 52.56,
+    "savingsPercentage": 68,
+    "calloutTitle": "Complete Boutique Collection Value: $77.55",
+    "calloutSubtitle": "Unlock Aura Pro Lifetime for $24.99 and save $52.56 (68%) vs individual items!"
   }
 }
