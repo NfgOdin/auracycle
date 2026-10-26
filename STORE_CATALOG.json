@@ -1,447 +1,887 @@
 {
-  "catalogVersion": 7,
-  "lastUpdated": "2026-10-25T20:50:00Z",
-  "storeTitle": "Aura Boutique Global Catalog",
-  "currency": "USD",
-  "testerQuota": {
-    "passcode": "AURA-VIP-20",
-    "active": true,
-    "maxActivations": 20,
-    "quotaExhaustedMessage": "Tester quota filled (20 claimed). Thank you for supporting Aura!",
-    "authorizedEmails": [],
-    "revokedTesters": [],
-    "individualCodes": []
-  },
-  "promoCodes": [],
-  "proLifetime": {
-    "sku": "aura_pro_lifetime",
-    "priceUsd": "$24.99",
-    "name": "Aura Pro — Lifetime Patron",
-    "description": "Permanent zero-ad experience, Bespoke Theme Creator Studio, unrestricted access to all present and future themes and micro-animations, and unmetered clinical PDF exports.",
-    "isFlagship": true
-  },
-  "categories": [
-    {
-      "id": "cat_themes",
-      "title": "Signature Artisanal Themes",
-      "subtitle": "Clinical & sensorial color palettes calibrated for eye comfort, emotional balance, and nocturnal recovery",
-      "itemType": "theme",
-      "itemIds": [
-        "CLINICAL_PLUM",
-        "MIDNIGHT_RED_ROOM",
-        "ROSE_ORCHID",
-        "EMERALD_BOTANICAL",
-        "CUSTOM_BESPOKE"
-      ]
-    },
-    {
-      "id": "cat_spotting",
-      "title": "Spotting Droplets",
-      "subtitle": "Micro-choreography for trace intermenstrual spotting telemetry",
-      "itemType": "animation",
-      "itemIds": [
-        "anim_spotting_dance",
-        "anim_spotting_trickle"
-      ]
-    },
-    {
-      "id": "cat_flow_droplets",
-      "title": "Menstrual Flow Droplets",
-      "subtitle": "Natural fluid dynamics and splash impact physics for active flow",
-      "itemType": "animation",
-      "itemIds": [
-        "anim_droplet_splash"
-      ]
-    },
-    {
-      "id": "cat_calendar_flow",
-      "title": "Calendar Flow Background",
-      "subtitle": "Ambient rainfall streaks cascading through active menstrual bleeding days",
-      "itemType": "animation",
-      "itemIds": [
-        "anim_droplet_rain"
-      ]
-    },
-    {
-      "id": "cat_calendar_fertile",
-      "title": "Calendar Fertile Background",
-      "subtitle": "Radiant golden oocyte corona & concentric tidal ripples celebrating fertile days",
-      "itemType": "animation",
-      "itemIds": [
-        "anim_blooming_ovum",
-        "anim_ripple"
-      ]
-    },
-    {
-      "id": "cat_calendar_idle",
-      "title": "Calendar Idle Background",
-      "subtitle": "Zephyr whispering breeze drifting across unlogged days awaiting daily telemetry",
-      "itemType": "animation",
-      "itemIds": [
-        "anim_zephyr_breeze"
-      ]
-    },
-    {
-      "id": "cat_intimacy_unprotected",
-      "title": "Unprotected Intimacy (Cardio Suite)",
-      "subtitle": "Conception intent & natural biological cardio heart suite",
-      "itemType": "animation",
-      "itemIds": [
-        "anim_heart_beat",
-        "anim_heart_breathe",
-        "anim_heart_spin"
-      ]
-    },
-    {
-      "id": "cat_intimacy_protected",
-      "title": "Protected Intimacy (Aegis Bio-Barrier)",
-      "subtitle": "Crystalline aegis bio-barrier & contraceptive shielding",
-      "itemType": "animation",
-      "itemIds": [
-        "anim_protected_barrier"
-      ]
-    },
-    {
-      "id": "cat_intimacy_solo",
-      "title": "Solo Wellness (Euphoric Cascade)",
-      "subtitle": "Somatic euphoric cascade & fluid release dynamics",
-      "itemType": "animation",
-      "itemIds": [
-        "anim_solo_cascade"
-      ]
-    },
-    {
-      "id": "cat_intimacy_libido",
-      "title": "High Libido (Ember Spark)",
-      "subtitle": "Endocrine arousal surges & radiant desire spark",
-      "itemType": "animation",
-      "itemIds": [
-        "anim_ember_spark"
-      ]
-    },
-    {
-      "id": "cat_mindful",
-      "title": "Mindful Breathwork",
-      "subtitle": "4-7-8 parasympathetic respiratory coach for labor surges & PMDD soothing",
-      "itemType": "animation",
-      "itemIds": [
-        "anim_pranayama"
-      ]
-    }
-  ],
-  "bundles": [
-    {
-      "sku": "aura_themes_bundle",
-      "name": "Complete Themes Pass",
-      "priceUsd": "$7.99",
-      "priceAurums": 350,
-      "itemCount": 4,
-      "description": "Unlock all signature and bespoke themes forever.",
-      "includedItemIds": [
-        "MIDNIGHT_RED_ROOM",
-        "ROSE_ORCHID",
-        "EMERALD_BOTANICAL",
-        "CUSTOM_BESPOKE"
-      ]
-    },
-    {
-      "sku": "aura_anims_bundle",
-      "name": "Complete Animations Pass",
-      "priceUsd": "$9.99",
-      "priceAurums": 450,
-      "itemCount": 11,
-      "description": "Unlock all physiological micro-animations and calendar visual effects forever.",
-      "includedItemIds": [
-        "anim_spotting_dance",
-        "anim_spotting_trickle",
-        "anim_droplet_splash",
-        "anim_droplet_rain",
-        "anim_blooming_ovum",
-        "anim_ripple",
-        "anim_zephyr_breeze",
-        "anim_pranayama",
-        "anim_heart_beat",
-        "anim_heart_breathe",
-        "anim_heart_spin",
-        "anim_protected_barrier",
-        "anim_solo_cascade",
-        "anim_ember_spark"
-      ]
-    },
-    {
-      "sku": "aura_bundle_dark_duet",
-      "name": "Nocturnal & Botanical Duet",
-      "priceUsd": "$2.99",
-      "priceAurums": 160,
-      "itemCount": 2,
-      "description": "Midnight OLED Red Room and Emerald Botanical calming duo.",
-      "includedItemIds": [
-        "MIDNIGHT_RED_ROOM",
-        "EMERALD_BOTANICAL"
-      ]
-    },
-    {
-      "sku": "aura_bundle_vibrant_duet",
-      "name": "Velvet & Botanical Duet",
-      "priceUsd": "$2.99",
-      "priceAurums": 160,
-      "itemCount": 2,
-      "description": "Rose Velvet & Orchid Bloom and Emerald Botanical herbal pair.",
-      "includedItemIds": [
-        "ROSE_ORCHID",
-        "EMERALD_BOTANICAL"
-      ]
-    }
-  ],
-  "themes": [
-    {
-      "id": "CLINICAL_PLUM",
-      "sku": null,
-      "name": "Clinical Plum & Burgundy",
-      "description": "Aura's core signature clinical aesthetic. Deep wine plum paired with restorative crimson burgundy.",
-      "isDefault": true,
-      "primaryColor": "#4A0E2E",
-      "secondaryColor": "#800020",
-      "surfaceLight": "#FAF8F5",
-      "surfaceDark": "#181216",
-      "tags": [
-        "Clinical",
-        "Default",
-        "Plum"
-      ]
-    },
-    {
-      "id": "MIDNIGHT_RED_ROOM",
-      "sku": "aura_theme_midnight",
-      "name": "Midnight OLED Red Room",
-      "description": "0-nit pitch black with 630nm monochrome ruby accents. Engineered for 3:00 AM nursery feeds, sleep preservation, and postpartum recovery. Eliminates blue/green light, preventing melatonin suppression and avoiding waking sleeping babies, partners, or sensitive eyes in total darkness.",
-      "isDefault": false,
-      "primaryColor": "#FF1744",
-      "secondaryColor": "#800020",
-      "surfaceLight": "#120002",
-      "surfaceDark": "#000000",
-      "tags": [
-        "OLED",
-        "RedRoom",
-        "Night",
-        "NurserySafe"
-      ],
-      "priceUsd": "$1.99",
-      "priceAurums": 100
-    },
-    {
-      "id": "ROSE_ORCHID",
-      "sku": "aura_theme_rose",
-      "name": "Rose Velvet & Orchid Bloom",
-      "description": "Vibrant magenta pink and royal orchid purple against soft blush silk. Bold, energetic, unapologetically feminine elegance.",
-      "isDefault": false,
-      "primaryColor": "#D81B60",
-      "secondaryColor": "#9C27B0",
-      "surfaceLight": "#FFF0F5",
-      "surfaceDark": "#1A0A14",
-      "tags": [
-        "Feminine",
-        "Pink",
-        "Purple",
-        "Vibrant"
-      ],
-      "priceUsd": "$1.99",
-      "priceAurums": 100
-    },
-    {
-      "id": "EMERALD_BOTANICAL",
-      "sku": "aura_theme_emerald",
-      "name": "Emerald Botanical & Sage",
-      "description": "Deep jewel-toned forest jade and crisp organic mint over pale herbal sage. Restorative, grounded endocrine and nervous system calm.",
-      "isDefault": false,
-      "primaryColor": "#00695C",
-      "secondaryColor": "#26A69A",
-      "surfaceLight": "#E0F2F1",
-      "surfaceDark": "#091715",
-      "tags": [
-        "Botanical",
-        "Jade",
-        "Sage"
-      ],
-      "priceUsd": "$1.99",
-      "priceAurums": 100
-    },
-    {
-      "id": "CUSTOM_BESPOKE",
-      "sku": "aura_theme_maker",
-      "name": "Bespoke Theme Creator Studio",
-      "description": "Artisanal RGB/Hex palette studio. Craft, preview, and save your own infinite bespoke clinical color themes with real-time UI contrast validation.",
-      "isDefault": false,
-      "primaryColor": "#4A0E2E",
-      "secondaryColor": "#800020",
-      "surfaceLight": "#FAF8F5",
-      "surfaceDark": "#181216",
-      "tags": [
-        "Studio",
-        "Custom",
-        "Bespoke",
-        "Creator"
-      ],
-      "priceUsd": "$4.99",
-      "priceAurums": 250
-    }
-  ],
-  "animations": [
-    {
-      "id": "anim_spotting_dance",
-      "sku": "aura_anim_dance",
-      "category": "spotting",
-      "categoryTitle": "Spotting Droplets",
-      "name": "Dancing Spotting Droplets",
-      "description": "Harmonic alternating choreography: top drop sways right, middle sways left, bottom sways right, then smoothly reverses.",
-      "isDefault": false,
-      "accentColor": "#D32F2F"
-    },
-    {
-      "id": "anim_droplet_splash",
-      "sku": "aura_anim_droplet",
-      "category": "flow",
-      "categoryTitle": "Menstrual Flow Droplets",
-      "name": "Blood Drop Splash & Reform",
-      "description": "Natural fluid physics: blood droplets fall from position, impact and splash with radial beads, then smoothly reform and rise.",
-      "isDefault": false,
-      "accentColor": "#D32F2F"
-    },
-    {
-      "id": "anim_droplet_rain",
-      "sku": "aura_anim_rain",
-      "category": "calendar_flow",
-      "categoryTitle": "Calendar Flow Background",
-      "name": "Calendar Droplet Rain",
-      "description": "Delicate, translucent ruby raindrops gently cascading vertically through period and spotting calendar date cells.",
-      "isDefault": false,
-      "accentColor": "#800020"
-    },
-    {
-      "id": "anim_blooming_ovum",
-      "sku": "aura_anim_ovum",
-      "category": "calendar_fertile",
-      "categoryTitle": "Calendar Fertile Background",
-      "name": "Blooming Ovum & Fertile Glow",
-      "description": "Breathing radial scaling and soft golden halo pulse celebrating peak fertility and oocyte release.",
-      "isDefault": false,
-      "accentColor": "#C27D38"
-    },
-    {
-      "id": "anim_ripple",
-      "sku": "aura_anim_ripple",
-      "category": "calendar_fertile",
-      "categoryTitle": "Calendar Fertile Background",
-      "name": "Follicular Tidal Ripple",
-      "description": "Concentric tidal ripples radiating outward from high-estrogen cycle days.",
-      "isDefault": false,
-      "accentColor": "#3D7068"
-    },
-    {
-      "id": "anim_pranayama",
-      "sku": null,
-      "category": "mindful",
-      "categoryTitle": "Mindful Breathwork",
-      "name": "Pranayama Breathwork Halo",
-      "description": "4-7-8 rhythmic breathing circle guiding stress reduction, cortisol lowering, and pelvic floor relaxation.",
-      "isDefault": true,
-      "accentColor": "#5E4B8B"
-    },
-    {
-      "id": "anim_heart_beat",
-      "sku": "aura_anim_heart_beat",
-      "category": "intimacy_unprotected",
-      "categoryTitle": "Unprotected Intimacy",
-      "name": "Beating Cardio Heart",
-      "description": "Biological lub-dub cardiac rhythm pulsating with vitality on intimacy logs.",
-      "isDefault": false,
-      "accentColor": "#E53935"
-    },
-    {
-      "id": "anim_heart_breathe",
-      "sku": "aura_anim_heart_breathe",
-      "category": "intimacy_unprotected",
-      "categoryTitle": "Protected Intimacy",
-      "name": "Fluctuating Breathing Heart",
-      "description": "Harmonic gentle expansion and contraction fluctuating like an emotional tide.",
-      "isDefault": false,
-      "accentColor": "#E53935"
-    },
-    {
-      "id": "anim_heart_spin",
-      "sku": "aura_anim_heart_spin",
-      "category": "intimacy_unprotected",
-      "categoryTitle": "Solo Wellness",
-      "name": "360° Rotating Heart",
-      "description": "Playful continuous 360-degree rotational spin floating in place.",
-      "isDefault": false,
-      "accentColor": "#E53935"
-    },
-    {
-      "id": "anim_ember_spark",
-      "sku": null,
-      "category": "intimacy_libido",
-      "categoryTitle": "High Libido & Vitality",
-      "name": "Radiant Libido Spark",
-      "description": "Warm golden-amber vitality spark pulsating with endocrine desire and sexual energy on high libido days.",
-      "isDefault": true,
-      "accentColor": "#C27D38"
-    },
-    {
-      "id": "anim_protected_barrier",
-      "sku": null,
-      "name": "Aegis Bio-Barrier",
-      "subtitle": "Crystalline hexagonal protective barrier deflecting external ripples with calm contraceptive security",
-      "category": "intimacy_protected",
-      "priceUsd": "Free",
-      "priceAurums": 0,
-      "previewType": "PROTECTED_BARRIER",
-      "isNew": true,
-      "isFreeDefault": true
-    },
-    {
-      "id": "anim_solo_cascade",
-      "sku": null,
-      "name": "Euphoric Cascade",
-      "subtitle": "Dynamic somatic fluid cascade: upward fountain burst with shimmering pearl-rose droplet dispersion",
-      "category": "intimacy_solo",
-      "priceUsd": "Free",
-      "priceAurums": 0,
-      "previewType": "SOLO_CASCADE",
-      "isNew": true,
-      "isFreeDefault": true
-    },
-    {
-      "id": "anim_spotting_trickle",
-      "sku": "aura_anim_trickle",
-      "category": "spotting",
-      "categoryTitle": "Spotting Droplets",
-      "name": "Viscous Capillary Trickle",
-      "description": "Slow gravitational spotting trickle: a ruby droplet elongates from the top, drips down, and leaves a gentle trail of microscopic speckles in its wake.",
-      "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
-      "accentColor": "#D32F2F"
-    },
-    {
-      "id": "anim_zephyr_breeze",
-      "sku": null,
-      "category": "calendar_idle",
-      "categoryTitle": "Calendar Idle Background",
-      "name": "Zephyr Whispering Breeze",
-      "description": "Delicate cartoon wind wisps drifting across unlogged calendar days awaiting daily health telemetry.",
-      "isDefault": true,
-      "priceUsd": "Free",
-      "priceAurums": 0,
-      "accentColor": "#7A5865"
-    }
-  ],
-  "valueAnchor": {
-    "totalAlacarteUsd": 37.95,
-    "proLifetimeUsd": 24.99,
-    "savingsUsd": 12.96,
-    "savingsPercentage": 34,
-    "calloutTitle": "Complete Boutique Collection Value: $37.95",
-    "calloutSubtitle": "Unlock Aura Pro Lifetime for $24.99 and save $12.96 (over 34%) vs individual passes!"
-  }
+"catalogVersion": 8,
+"lastUpdated": "2026-10-26T07:15:00Z",
+"storeTitle": "Aura Boutique Global Catalog",
+"currency": "USD",
+"testerQuota": {
+"passcode": "AURA-VIP-20",
+"active": true,
+"maxActivations": 20,
+"quotaExhaustedMessage": "Tester quota filled (20 claimed). Thank you for supporting Aura!",
+"authorizedEmails": \[\],
+"revokedTesters": \[\],
+"individualCodes": \[\]
+},
+"promoCodes": \[\],
+"proLifetime": {
+"sku": "aura_pro_lifetime",
+"priceUsd": "\$24.99",
+"name": "Aura Pro — Lifetime Patron",
+"description": "Permanent zero-ad experience, Bespoke Theme Creator Studio, unrestricted access to all present and future themes and micro-animations, and unmetered clinical PDF exports.",
+"isFlagship": true
+},
+"categories": \[
+{
+"id": "cat_themes",
+"title": "Signature Artisanal Themes",
+"subtitle": "Clinical & sensorial color palettes calibrated for eye comfort, emotional balance, and nocturnal recovery",
+"itemType": "theme",
+"itemIds": \[
+"CLINICAL_PLUM",
+"MIDNIGHT_RED_ROOM",
+"ROSE_ORCHID",
+"EMERALD_BOTANICAL",
+"CUSTOM_BESPOKE"
+\]
+},
+{
+"id": "cat_spotting",
+"title": "Spotting Droplets",
+"subtitle": "Micro-choreography for trace intermenstrual spotting telemetry",
+"itemType": "animation",
+"itemIds": \[
+"anim_spotting_dance",
+"anim_spotting_trickle",
+"anim_spotting_dewdrop",
+"anim_spotting_mist_pulse",
+"anim_spotting_crimson_drift"
+\]
+},
+{
+"id": "cat_flow_droplets",
+"title": "Menstrual Flow Droplets",
+"subtitle": "Natural fluid dynamics and splash impact physics for active flow",
+"itemType": "animation",
+"itemIds": \[
+"anim_droplet_splash",
+"anim_flow_tidal_surge",
+"anim_flow_velvet_cascade",
+"anim_flow_harmonic_vortex"
+\]
+},
+{
+"id": "cat_calendar_flow",
+"title": "Calendar Flow Background",
+"subtitle": "Ambient rainfall streaks cascading through active menstrual bleeding days",
+"itemType": "animation",
+"itemIds": \[
+"anim_droplet_rain",
+"anim_calendar_flow_drizzle",
+"anim_calendar_flow_seep",
+"anim_calendar_flow_pulse_flood"
+\]
+},
+{
+"id": "cat_calendar_fertile",
+"title": "Calendar Fertile Background",
+"subtitle": "Radiant golden oocyte corona & concentric tidal ripples celebrating fertile days",
+"itemType": "animation",
+"itemIds": \[
+"anim_blooming_ovum",
+"anim_ripple",
+"anim_calendar_fertile_solar_flare",
+"anim_calendar_fertile_golden_ripple",
+"anim_calendar_fertile_prism_glimmer"
+\]
+},
+{
+"id": "cat_calendar_idle",
+"title": "Calendar Idle Background",
+"subtitle": "Zephyr whispering breeze drifting across unlogged days awaiting daily telemetry",
+"itemType": "animation",
+"itemIds": \[
+"anim_zephyr_breeze",
+"anim_calendar_idle_solar_dust",
+"anim_calendar_idle_aurora_wisp",
+"anim_calendar_idle_zen_sand"
+\]
+},
+{
+"id": "cat_intimacy_unprotected",
+"title": "Unprotected Intimacy (Cardio Suite)",
+"subtitle": "Conception intent & natural biological cardio heart suite",
+"itemType": "animation",
+"itemIds": \[
+"anim_heart_beat",
+"anim_heart_breathe",
+"anim_heart_spin",
+"anim_intimacy_unprotected_cardio_pulse",
+"anim_intimacy_unprotected_fusion_bloom",
+"anim_intimacy_unprotected_warmth_orb"
+\]
+},
+{
+"id": "cat_intimacy_protected",
+"title": "Protected Intimacy (Aegis Bio-Barrier)",
+"subtitle": "Crystalline aegis bio-barrier & contraceptive shielding",
+"itemType": "animation",
+"itemIds": \[
+"anim_protected_barrier",
+"anim_intimacy_protected_aegis_lattice",
+"anim_intimacy_protected_quantum_sheath",
+"anim_intimacy_protected_crystal_membrane"
+\]
+},
+{
+"id": "cat_intimacy_solo",
+"title": "Solo Wellness (Euphoric Cascade)",
+"subtitle": "Somatic euphoric cascade & fluid release dynamics",
+"itemType": "animation",
+"itemIds": \[
+"anim_solo_cascade",
+"anim_intimacy_solo_euphoric_geyser",
+"anim_intimacy_solo_auric_shimmer",
+"anim_intimacy_solo_starlight_echo"
+\]
+},
+{
+"id": "cat_intimacy_libido",
+"title": "High Libido (Ember Spark)",
+"subtitle": "Endocrine arousal surges & radiant desire spark",
+"itemType": "animation",
+"itemIds": \[
+"anim_ember_spark",
+"anim_intimacy_libido_ember_flare",
+"anim_intimacy_libido_plasma_arc",
+"anim_intimacy_libido_radiant_heatwave"
+\]
+},
+{
+"id": "cat_mindful",
+"title": "Mindful Breathwork",
+"subtitle": "4-7-8 parasympathetic respiratory coach for labor surges & PMDD soothing",
+"itemType": "animation",
+"itemIds": \[
+"anim_pranayama",
+"anim_mindful_ocean_swell",
+"anim_mindful_expanding_lotus",
+"anim_mindful_resonance_sphere"
+\]
+}
+\],
+"bundles": \[
+{
+"sku": "aura_themes_bundle",
+"name": "Complete Themes Pass",
+"priceUsd": "\$7.99",
+"priceAurums": 350,
+"itemCount": 4,
+"description": "Unlock all signature and bespoke themes forever.",
+"includedItemIds": \[
+"MIDNIGHT_RED_ROOM",
+"ROSE_ORCHID",
+"EMERALD_BOTANICAL",
+"CUSTOM_BESPOKE"
+\]
+},
+{
+"sku": "aura_anims_bundle",
+"name": "Complete Animations Pass",
+"priceUsd": "\$19.99",
+"priceAurums": 950,
+"itemCount": 44,
+"description": "Unlock all physiological micro-animations and calendar visual effects forever.",
+"includedItemIds": \[
+"anim_spotting_dance",
+"anim_spotting_trickle",
+"anim_spotting_dewdrop",
+"anim_spotting_mist_pulse",
+"anim_spotting_crimson_drift",
+"anim_droplet_splash",
+"anim_flow_tidal_surge",
+"anim_flow_velvet_cascade",
+"anim_flow_harmonic_vortex",
+"anim_droplet_rain",
+"anim_calendar_flow_drizzle",
+"anim_calendar_flow_seep",
+"anim_calendar_flow_pulse_flood",
+"anim_blooming_ovum",
+"anim_ripple",
+"anim_calendar_fertile_solar_flare",
+"anim_calendar_fertile_golden_ripple",
+"anim_calendar_fertile_prism_glimmer",
+"anim_zephyr_breeze",
+"anim_calendar_idle_solar_dust",
+"anim_calendar_idle_aurora_wisp",
+"anim_calendar_idle_zen_sand",
+"anim_heart_beat",
+"anim_heart_breathe",
+"anim_heart_spin",
+"anim_intimacy_unprotected_cardio_pulse",
+"anim_intimacy_unprotected_fusion_bloom",
+"anim_intimacy_unprotected_warmth_orb",
+"anim_protected_barrier",
+"anim_intimacy_protected_aegis_lattice",
+"anim_intimacy_protected_quantum_sheath",
+"anim_intimacy_protected_crystal_membrane",
+"anim_solo_cascade",
+"anim_intimacy_solo_euphoric_geyser",
+"anim_intimacy_solo_auric_shimmer",
+"anim_intimacy_solo_starlight_echo",
+"anim_ember_spark",
+"anim_intimacy_libido_ember_flare",
+"anim_intimacy_libido_plasma_arc",
+"anim_intimacy_libido_radiant_heatwave",
+"anim_pranayama",
+"anim_mindful_ocean_swell",
+"anim_mindful_expanding_lotus",
+"anim_mindful_resonance_sphere"
+\]
+},
+{
+"sku": "aura_bundle_dark_duet",
+"name": "Nocturnal & Botanical Duet",
+"priceUsd": "\$2.99",
+"priceAurums": 160,
+"itemCount": 2,
+"description": "Midnight OLED Red Room and Emerald Botanical calming duo.",
+"includedItemIds": \[
+"MIDNIGHT_RED_ROOM",
+"EMERALD_BOTANICAL"
+\]
+},
+{
+"sku": "aura_bundle_vibrant_duet",
+"name": "Velvet & Botanical Duet",
+"priceUsd": "\$2.99",
+"priceAurums": 160,
+"itemCount": 2,
+"description": "Rose Velvet & Orchid Bloom and Emerald Botanical herbal pair.",
+"includedItemIds": \[
+"ROSE_ORCHID",
+"EMERALD_BOTANICAL"
+\]
+}
+\],
+"themes": \[
+{
+"id": "CLINICAL_PLUM",
+"sku": null,
+"name": "Clinical Plum & Burgundy",
+"description": "Aura's core signature clinical aesthetic. Deep wine plum paired with restorative crimson burgundy.",
+"isDefault": true,
+"primaryColor": "#4A0E2E",
+"secondaryColor": "#800020",
+"surfaceLight": "#FAF8F5",
+"surfaceDark": "#181216",
+"tags": \[
+"Clinical",
+"Default",
+"Plum"
+\]
+},
+{
+"id": "MIDNIGHT_RED_ROOM",
+"sku": "aura_theme_midnight",
+"name": "Midnight OLED Red Room",
+"description": "0-nit pitch black with 630nm monochrome ruby accents. Engineered for 3:00 AM nursery feeds, sleep preservation, and postpartum recovery. Eliminates blue/green light, preventing melatonin suppression and avoiding waking sleeping babies, partners, or sensitive eyes in total darkness.",
+"isDefault": false,
+"primaryColor": "#FF1744",
+"secondaryColor": "#800020",
+"surfaceLight": "#120002",
+"surfaceDark": "#000000",
+"tags": \[
+"OLED",
+"RedRoom",
+"Night",
+"NurserySafe"
+\],
+"priceUsd": "\$1.99",
+"priceAurums": 100
+},
+{
+"id": "ROSE_ORCHID",
+"sku": "aura_theme_rose",
+"name": "Rose Velvet & Orchid Bloom",
+"description": "Vibrant magenta pink and royal orchid purple against soft blush silk. Bold, energetic, unapologetically feminine elegance.",
+"isDefault": false,
+"primaryColor": "#D81B60",
+"secondaryColor": "#9C27B0",
+"surfaceLight": "#FFF0F5",
+"surfaceDark": "#1A0A14",
+"tags": \[
+"Feminine",
+"Pink",
+"Purple",
+"Vibrant"
+\],
+"priceUsd": "\$1.99",
+"priceAurums": 100
+},
+{
+"id": "EMERALD_BOTANICAL",
+"sku": "aura_theme_emerald",
+"name": "Emerald Botanical & Sage",
+"description": "Deep jewel-toned forest jade and crisp organic mint over pale herbal sage. Restorative, grounded endocrine and nervous system calm.",
+"isDefault": false,
+"primaryColor": "#00695C",
+"secondaryColor": "#26A69A",
+"surfaceLight": "#E0F2F1",
+"surfaceDark": "#091715",
+"tags": \[
+"Botanical",
+"Jade",
+"Sage"
+\],
+"priceUsd": "\$1.99",
+"priceAurums": 100
+},
+{
+"id": "CUSTOM_BESPOKE",
+"sku": "aura_theme_maker",
+"name": "Bespoke Theme Creator Studio",
+"description": "Artisanal RGB/Hex palette studio. Craft, preview, and save your own infinite bespoke clinical color themes with real-time UI contrast validation.",
+"isDefault": false,
+"primaryColor": "#4A0E2E",
+"secondaryColor": "#800020",
+"surfaceLight": "#FAF8F5",
+"surfaceDark": "#181216",
+"tags": \[
+"Studio",
+"Custom",
+"Bespoke",
+"Creator"
+\],
+"priceUsd": "\$4.99",
+"priceAurums": 250
+}
+\],
+"animations": \[
+{
+"id": "anim_spotting_dance",
+"sku": "aura_anim_dance",
+"category": "spotting",
+"categoryTitle": "Spotting Droplets",
+"name": "Dancing Spotting Droplets",
+"description": "Harmonic alternating choreography: top drop sways right, middle sways left, bottom sways right, then smoothly reverses.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#D32F2F"
+},
+{
+"id": "anim_spotting_trickle",
+"sku": "aura_anim_trickle",
+"category": "spotting",
+"categoryTitle": "Spotting Droplets",
+"name": "Viscous Capillary Trickle",
+"description": "Slow gravitational spotting trickle: a ruby droplet elongates from the top, drips down, and leaves a gentle trail of microscopic speckles in its wake.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#D32F2F"
+},
+{
+"id": "anim_spotting_dewdrop",
+"sku": "aura_anim_spotting_dewdrop",
+"category": "spotting",
+"categoryTitle": "Spotting Droplets",
+"name": "Morning Dewdrop",
+"description": "Slow surface-tension teardrop bead forming with a micro-capillary release.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#C0392B"
+},
+{
+"id": "anim_spotting_mist_pulse",
+"sku": "aura_anim_spotting_mist_pulse",
+"category": "spotting",
+"categoryTitle": "Spotting Droplets",
+"name": "Aerosol Mist Pulse",
+"description": "Soft radial vapor dispersion dissipating outward from the center point.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#E57373"
+},
+{
+"id": "anim_spotting_crimson_drift",
+"sku": "aura_anim_spotting_crimson_drift",
+"category": "spotting",
+"categoryTitle": "Spotting Droplets",
+"name": "Crimson Drift",
+"description": "Gentle horizontal laminar drift of suspended micro-droplets.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#B71C1C"
+},
+{
+"id": "anim_droplet_splash",
+"sku": "aura_anim_droplet",
+"category": "flow",
+"categoryTitle": "Menstrual Flow Droplets",
+"name": "Blood Drop Splash & Reform",
+"description": "Natural fluid physics: blood droplets fall from position, impact and splash with radial beads, then smoothly reform and rise.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#D32F2F"
+},
+{
+"id": "anim_flow_tidal_surge",
+"sku": "aura_anim_flow_tidal_surge",
+"category": "flow",
+"categoryTitle": "Menstrual Flow Droplets",
+"name": "Tidal Surge",
+"description": "Dual sine-wave undulating fluid body with dynamic depth damping.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#900C3F"
+},
+{
+"id": "anim_flow_velvet_cascade",
+"sku": "aura_anim_flow_velvet_cascade",
+"category": "flow",
+"categoryTitle": "Menstrual Flow Droplets",
+"name": "Velvet Cascade",
+"description": "Thick laminar ribbon falling smoothly down the central y-axis.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#581845"
+},
+{
+"id": "anim_flow_harmonic_vortex",
+"sku": "aura_anim_flow_harmonic_vortex",
+"category": "flow",
+"categoryTitle": "Menstrual Flow Droplets",
+"name": "Harmonic Vortex",
+"description": "Slow inward spiral whirlpool indicating deep fluid circulation.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#880E4F"
+},
+{
+"id": "anim_droplet_rain",
+"sku": "aura_anim_rain",
+"category": "calendar_flow",
+"categoryTitle": "Calendar Flow Background",
+"name": "Calendar Droplet Rain",
+"description": "Delicate, translucent ruby raindrops gently cascading vertically through period and spotting calendar date cells.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#800020"
+},
+{
+"id": "anim_calendar_flow_drizzle",
+"sku": "aura_anim_calendar_flow_drizzle",
+"category": "calendar_flow",
+"categoryTitle": "Calendar Flow Background",
+"name": "Glass Drizzle",
+"description": "Diagonal streaking rain vectors cutting across active bleeding calendar tiles.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#AD1457"
+},
+{
+"id": "anim_calendar_flow_seep",
+"sku": "aura_anim_calendar_flow_seep",
+"category": "calendar_flow",
+"categoryTitle": "Calendar Flow Background",
+"name": "Capillary Seepage",
+"description": "Perimeter border soak that creeps along cell boundaries like saturated linen.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#880E4F"
+},
+{
+"id": "anim_calendar_flow_pulse_flood",
+"sku": "aura_anim_calendar_flow_pulse_flood",
+"category": "calendar_flow",
+"categoryTitle": "Calendar Flow Background",
+"name": "Pulsed Inundation",
+"description": "Low-frequency rhythmic bottom-to-top fluid fill across the day cell.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#C2185B"
+},
+{
+"id": "anim_blooming_ovum",
+"sku": "aura_anim_ovum",
+"category": "calendar_fertile",
+"categoryTitle": "Calendar Fertile Background",
+"name": "Blooming Ovum & Fertile Glow",
+"description": "Breathing radial scaling and soft golden halo pulse celebrating peak fertility and oocyte release.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#C27D38"
+},
+{
+"id": "anim_ripple",
+"sku": "aura_anim_ripple",
+"category": "calendar_fertile",
+"categoryTitle": "Calendar Fertile Background",
+"name": "Follicular Tidal Ripple",
+"description": "Concentric tidal ripples radiating outward from high-estrogen cycle days.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#3D7068"
+},
+{
+"id": "anim_calendar_fertile_solar_flare",
+"sku": "aura_anim_calendar_fertile_solar_flare",
+"category": "calendar_fertile",
+"categoryTitle": "Calendar Fertile Background",
+"name": "Solar Flare Corona",
+"description": "Soft radial luminescence rays emanating outward on high LH/fertile days.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#F39C12"
+},
+{
+"id": "anim_calendar_fertile_golden_ripple",
+"sku": "aura_anim_calendar_fertile_golden_ripple",
+"category": "calendar_fertile",
+"categoryTitle": "Calendar Fertile Background",
+"name": "Golden Concentric Wave",
+"description": "Expanding harmonic concentric ripples pulsing from ovulation zero-hour.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#FFD700"
+},
+{
+"id": "anim_calendar_fertile_prism_glimmer",
+"sku": "aura_anim_calendar_fertile_prism_glimmer",
+"category": "calendar_fertile",
+"categoryTitle": "Calendar Fertile Background",
+"name": "Prismatic Glimmer",
+"description": "Subtle iridescent refraction rotation marking the fertile window peak.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#E0A96D"
+},
+{
+"id": "anim_zephyr_breeze",
+"sku": null,
+"category": "calendar_idle",
+"categoryTitle": "Calendar Idle Background",
+"name": "Zephyr Whispering Breeze",
+"description": "Delicate cartoon wind wisps drifting across unlogged calendar days awaiting daily health telemetry.",
+"isDefault": true,
+"priceUsd": "Free",
+"priceAurums": 0,
+"accentColor": "#7A5865"
+},
+{
+"id": "anim_calendar_idle_solar_dust",
+"sku": "aura_anim_calendar_idle_solar_dust",
+"category": "calendar_idle",
+"categoryTitle": "Calendar Idle Background",
+"name": "Solar Dust",
+"description": "Suspended ambient particulate Brownian motion over unlogged days.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#BCAAA4"
+},
+{
+"id": "anim_calendar_idle_aurora_wisp",
+"sku": "aura_anim_calendar_idle_aurora_wisp",
+"category": "calendar_idle",
+"categoryTitle": "Calendar Idle Background",
+"name": "Aurora Wisp",
+"description": "Soft sinusoidal color curtain drifting across empty calendar cells.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#80CBC4"
+},
+{
+"id": "anim_calendar_idle_zen_sand",
+"sku": "aura_anim_calendar_idle_zen_sand",
+"category": "calendar_idle",
+"categoryTitle": "Calendar Idle Background",
+"name": "Zen Rake",
+"description": "Gentle shifting diagonal gradient lines suggesting calm stillness.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#D7CCC8"
+},
+{
+"id": "anim_heart_beat",
+"sku": "aura_anim_heart_beat",
+"category": "intimacy_unprotected",
+"categoryTitle": "Unprotected Intimacy (Cardio Suite)",
+"name": "Beating Cardio Heart",
+"description": "Biological lub-dub cardiac rhythm pulsating with vitality on intimacy logs.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#E53935"
+},
+{
+"id": "anim_heart_breathe",
+"sku": "aura_anim_heart_breathe",
+"category": "intimacy_unprotected",
+"categoryTitle": "Unprotected Intimacy (Cardio Suite)",
+"name": "Fluctuating Breathing Heart",
+"description": "Harmonic gentle expansion and contraction fluctuating like an emotional tide.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#E53935"
+},
+{
+"id": "anim_heart_spin",
+"sku": "aura_anim_heart_spin",
+"category": "intimacy_unprotected",
+"categoryTitle": "Unprotected Intimacy (Cardio Suite)",
+"name": "360° Rotating Heart",
+"description": "Playful continuous 360-degree rotational spin floating in place.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#E53935"
+},
+{
+"id": "anim_intimacy_unprotected_cardio_pulse",
+"sku": "aura_anim_intimacy_unprotected_cardio_pulse",
+"category": "intimacy_unprotected",
+"categoryTitle": "Unprotected Intimacy (Cardio Suite)",
+"name": "Cardio Sinus Wave",
+"description": "Sharp biometric ECG spiked beat followed by an echoing vascular ring.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#C62828"
+},
+{
+"id": "anim_intimacy_unprotected_fusion_bloom",
+"sku": "aura_anim_intimacy_unprotected_fusion_bloom",
+"category": "intimacy_unprotected",
+"categoryTitle": "Unprotected Intimacy (Cardio Suite)",
+"name": "Fusion Bloom",
+"description": "Two interlocking energy nodes merging into an intense single bloom.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#D81B60"
+},
+{
+"id": "anim_intimacy_unprotected_warmth_orb",
+"sku": "aura_anim_intimacy_unprotected_warmth_orb",
+"category": "intimacy_unprotected",
+"categoryTitle": "Unprotected Intimacy (Cardio Suite)",
+"name": "Core Radiant Orb",
+"description": "Deep red-gold radial thermographic heat map expansion.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#EF6C00"
+},
+{
+"id": "anim_protected_barrier",
+"sku": null,
+"category": "intimacy_protected",
+"categoryTitle": "Protected Intimacy (Aegis Bio-Barrier)",
+"name": "Aegis Bio-Barrier",
+"description": "Crystalline hexagonal protective barrier deflecting external ripples with calm contraceptive security.",
+"isDefault": true,
+"priceUsd": "Free",
+"priceAurums": 0,
+"accentColor": "#00897B"
+},
+{
+"id": "anim_intimacy_protected_aegis_lattice",
+"sku": "aura_anim_intimacy_protected_aegis_lattice",
+"category": "intimacy_protected",
+"categoryTitle": "Protected Intimacy (Aegis Bio-Barrier)",
+"name": "Aegis Hex Lattice",
+"description": "Interlocking glowing hexagonal shields sweeping across an active perimeter barrier.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#27AE60"
+},
+{
+"id": "anim_intimacy_protected_quantum_sheath",
+"sku": "aura_anim_intimacy_protected_quantum_sheath",
+"category": "intimacy_protected",
+"categoryTitle": "Protected Intimacy (Aegis Bio-Barrier)",
+"name": "Quantum Sheath",
+"description": "Ultra-thin double-ring oscillation reflecting all incoming vectors.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#29B6F6"
+},
+{
+"id": "anim_intimacy_protected_crystal_membrane",
+"sku": "aura_anim_intimacy_protected_crystal_membrane",
+"category": "intimacy_protected",
+"categoryTitle": "Protected Intimacy (Aegis Bio-Barrier)",
+"name": "Crystal Membrane",
+"description": "Vitreous boundary pulse with subtle high-contrast refractive edge highlights.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#26A69A"
+},
+{
+"id": "anim_solo_cascade",
+"sku": null,
+"category": "intimacy_solo",
+"categoryTitle": "Solo Wellness (Euphoric Cascade)",
+"name": "Euphoric Cascade",
+"description": "Dynamic somatic fluid cascade: upward fountain burst with shimmering pearl-rose droplet dispersion.",
+"isDefault": true,
+"priceUsd": "Free",
+"priceAurums": 0,
+"accentColor": "#AB47BC"
+},
+{
+"id": "anim_intimacy_solo_euphoric_geyser",
+"sku": "aura_anim_intimacy_solo_euphoric_geyser",
+"category": "intimacy_solo",
+"categoryTitle": "Solo Wellness (Euphoric Cascade)",
+"name": "Euphoric Geyser",
+"description": "Vertical particle ascent bursting outward into a cascading arc.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#BA68C8"
+},
+{
+"id": "anim_intimacy_solo_auric_shimmer",
+"sku": "aura_anim_intimacy_solo_auric_shimmer",
+"category": "intimacy_solo",
+"categoryTitle": "Solo Wellness (Euphoric Cascade)",
+"name": "Auric Shimmer",
+"description": "High-frequency micro-sparkle blanket vibrating across the canvas.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#CE93D8"
+},
+{
+"id": "anim_intimacy_solo_starlight_echo",
+"sku": "aura_anim_intimacy_solo_starlight_echo",
+"category": "intimacy_solo",
+"categoryTitle": "Solo Wellness (Euphoric Cascade)",
+"name": "Starlight Echo",
+"description": "Expanding starburst ring echoing from internal release points.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#F06292"
+},
+{
+"id": "anim_ember_spark",
+"sku": null,
+"category": "intimacy_libido",
+"categoryTitle": "High Libido (Ember Spark)",
+"name": "Radiant Libido Spark",
+"description": "Warm golden-amber vitality spark pulsating with endocrine desire and sexual energy on high libido days.",
+"isDefault": true,
+"priceUsd": "Free",
+"priceAurums": 0,
+"accentColor": "#C27D38"
+},
+{
+"id": "anim_intimacy_libido_ember_flare",
+"sku": "aura_anim_intimacy_libido_ember_flare",
+"category": "intimacy_libido",
+"categoryTitle": "High Libido (Ember Spark)",
+"name": "Ember Spark Flare",
+"description": "Upward swirling thermal ember particles rising with accelerated frequency.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#FF7043"
+},
+{
+"id": "anim_intimacy_libido_plasma_arc",
+"sku": "aura_anim_intimacy_libido_plasma_arc",
+"category": "intimacy_libido",
+"categoryTitle": "High Libido (Ember Spark)",
+"name": "Plasma Arc",
+"description": "Dynamic crackling bio-electric arc traveling along the sensor perimeter.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#FF5722"
+},
+{
+"id": "anim_intimacy_libido_radiant_heatwave",
+"sku": "aura_anim_intimacy_libido_radiant_heatwave",
+"category": "intimacy_libido",
+"categoryTitle": "High Libido (Ember Spark)",
+"name": "Radiant Heatwave",
+"description": "Atmospheric optical shimmer distorting base elements with rising heat.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#E64A19"
+},
+{
+"id": "anim_pranayama",
+"sku": null,
+"category": "mindful",
+"categoryTitle": "Mindful Breathwork",
+"name": "Pranayama Breathwork Halo",
+"description": "4-7-8 rhythmic breathing circle guiding stress reduction, cortisol lowering, and pelvic floor relaxation.",
+"isDefault": true,
+"priceUsd": "Free",
+"priceAurums": 0,
+"accentColor": "#5E4B8B"
+},
+{
+"id": "anim_mindful_ocean_swell",
+"sku": "aura_anim_mindful_ocean_swell",
+"category": "mindful",
+"categoryTitle": "Mindful Breathwork",
+"name": "Oceanic Swell",
+"description": "Smooth 4-7-8 ratio inhalation swell and long exhalation trough.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#2E86AB"
+},
+{
+"id": "anim_mindful_expanding_lotus",
+"sku": "aura_anim_mindful_expanding_lotus",
+"category": "mindful",
+"categoryTitle": "Mindful Breathwork",
+"name": "Expanding Lotus",
+"description": "Geometric petal expansion pacing parasympathetic breath cycles.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#48C9B0"
+},
+{
+"id": "anim_mindful_resonance_sphere",
+"sku": "aura_anim_mindful_resonance_sphere",
+"category": "mindful",
+"categoryTitle": "Mindful Breathwork",
+"name": "Resonance Sphere",
+"description": "Soft blurred sphere expanding with oxygen intake, contracting on hold.",
+"isDefault": false,
+"priceUsd": "\$0.99",
+"priceAurums": 100,
+"accentColor": "#5C6BC0"
+}
+\],
+"valueAnchor": {
+"totalAlacarteUsd": 49.58,
+"proLifetimeUsd": 24.99,
+"savingsUsd": 24.59,
+"savingsPercentage": 49,
+"calloutTitle": "Complete Boutique Collection Value: \$49.58",
+"calloutSubtitle": "Unlock Aura Pro Lifetime for \$24.99 and save $24.59 (over 49%) vs individual passes!"
+}
 }
