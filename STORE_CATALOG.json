@@ -369,14 +369,14 @@
   "animations": [
     {
       "id": "anim_spotting_dance",
-      "sku": "aura_anim_dance",
+      "sku": null,
       "category": "spotting",
       "categoryTitle": "Spotting Droplets",
-      "name": "Dancing Spotting Droplets",
-      "description": "Harmonic alternating choreography: top drop sways right, middle sways left, bottom sways right, then smoothly reverses.",
-      "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "name": "Hopping Ruby Trio",
+      "description": "Playful 3-droplet wave hopping in rhythm with fluid squash-and-stretch physics and tiny landing ripples.",
+      "isDefault": true,
+      "priceUsd": "Free",
+      "priceAurums": 0,
       "accentColor": "#D32F2F"
     },
     {
