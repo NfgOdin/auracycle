@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 9,
-  "lastUpdated": "2026-10-26T10:30:00Z",
+  "catalogVersion": 10,
+  "lastUpdated": "2026-10-26T13:00:00Z",
   "storeTitle": "Aura Boutique Global Catalog",
   "currency": "USD",
   "testerQuota": {
@@ -377,7 +377,17 @@
       "isDefault": true,
       "priceUsd": "Free",
       "priceAurums": 0,
-      "accentColor": "#D32F2F"
+      "accentColor": "#D32F2F",
+      "procedural": {
+        "motionType": "HOP",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.0,
+        "scale": 1.0,
+        "color": "#D32F2F",
+        "secondaryColor": "#EF5350",
+        "vectorPath": "M 50,15 Q 78,48 68,70 A 20,20 0 1 1 32,70 Q 22,48 50,15 Z"
+      }
     },
     {
       "id": "anim_spotting_trickle",
@@ -389,7 +399,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#D32F2F"
+      "accentColor": "#D32F2F",
+      "procedural": {
+        "motionType": "RAINFALL_CASCADE",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.9,
+        "scale": 1.0,
+        "color": "#D32F2F",
+        "secondaryColor": "#B71C1C",
+        "vectorPath": "M 50,10 Q 72,46 64,72 A 16,16 0 1 1 36,72 Q 28,46 50,10 Z"
+      }
     },
     {
       "id": "anim_spotting_ninja_drop",
@@ -401,7 +421,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#D32F2F"
+      "accentColor": "#D32F2F",
+      "procedural": {
+        "motionType": "HOP",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.0,
+        "scale": 1.0,
+        "color": "#D32F2F",
+        "secondaryColor": "#212121",
+        "vectorPath": "M 50,12 Q 78,46 68,68 A 20,20 0 1 1 32,68 Q 22,46 50,12 Z"
+      }
     },
     {
       "id": "anim_spotting_shark_fin",
@@ -409,11 +439,21 @@
       "category": "spotting",
       "categoryTitle": "Spotting Droplets",
       "name": "White Panty Jaws (Shark Fin)",
-      "description": "A menacing little crimson dorsal fin circles back and forth like Jaws before doing a cheeky chomp splash.",
+      "description": "A menacing little crimson dorsal fin circles back and forth like Jaws (facing forward in the direction of travel!) before doing a cheeky chomp splash.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#C62828"
+      "accentColor": "#C62828",
+      "procedural": {
+        "motionType": "SNAKE_WIGGLE",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.05,
+        "scale": 1.0,
+        "color": "#C62828",
+        "secondaryColor": "#EF5350",
+        "vectorPath": "M 85,78 Q 58,14 22,22 Q 40,54 28,78 Z"
+      }
     },
     {
       "id": "anim_spotting_morse_sos",
@@ -425,7 +465,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#E53935"
+      "accentColor": "#E53935",
+      "procedural": {
+        "motionType": "PULSE_EXPAND",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.85,
+        "scale": 1.0,
+        "color": "#E53935",
+        "secondaryColor": "#FFCDD2",
+        "vectorPath": "M 20,50 A 8,8 0 1 0 36,50 A 8,8 0 1 0 20,50 M 44,46 L 68,46 L 68,54 L 44,54 Z"
+      }
     },
     {
       "id": "anim_spotting_leaky_faucet",
@@ -437,7 +487,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#B71C1C"
+      "accentColor": "#B71C1C",
+      "procedural": {
+        "motionType": "RAINFALL_CASCADE",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.9,
+        "scale": 1.0,
+        "color": "#B71C1C",
+        "secondaryColor": "#D4AF37",
+        "vectorPath": "M 20,25 L 65,25 L 65,45 L 52,45 L 52,35 L 20,35 Z M 58,52 Q 70,70 64,82 A 8,8 0 1 1 52,82 Q 46,70 58,52 Z"
+      }
     },
     {
       "id": "anim_droplet_splash",
@@ -449,7 +509,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#D32F2F"
+      "accentColor": "#D32F2F",
+      "procedural": {
+        "motionType": "RAINFALL_CASCADE",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.0,
+        "scale": 1.0,
+        "color": "#D32F2F",
+        "secondaryColor": "#FF5252",
+        "vectorPath": "M 50,12 Q 78,46 68,68 A 20,20 0 1 1 32,68 Q 22,46 50,12 Z"
+      }
     },
     {
       "id": "anim_flow_shining_elevator",
@@ -461,7 +531,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#880E4F"
+      "accentColor": "#880E4F",
+      "procedural": {
+        "motionType": "TIDAL_WAVE",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.9,
+        "scale": 1.0,
+        "color": "#880E4F",
+        "secondaryColor": "#D4AF37",
+        "vectorPath": "M 20,18 L 80,18 L 80,82 L 20,82 Z M 48,18 L 52,18 L 52,82 L 48,82 Z"
+      }
     },
     {
       "id": "anim_flow_vampire_fangs",
@@ -473,7 +553,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#C62828"
+      "accentColor": "#C62828",
+      "procedural": {
+        "motionType": "HOP",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.95,
+        "scale": 1.0,
+        "color": "#C62828",
+        "secondaryColor": "#FFF8E1",
+        "vectorPath": "M 20,25 L 36,68 L 48,25 L 52,25 L 64,68 L 80,25 Z"
+      }
     },
     {
       "id": "anim_flow_lava_lamp",
@@ -485,7 +575,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#D81B60"
+      "accentColor": "#D81B60",
+      "procedural": {
+        "motionType": "FLOAT_DRIFT",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.7,
+        "scale": 1.0,
+        "color": "#D81B60",
+        "secondaryColor": "#880E4F",
+        "vectorPath": "M 36,15 L 64,15 L 76,72 L 24,72 Z M 30,72 L 70,72 L 74,88 L 26,88 Z"
+      }
     },
     {
       "id": "anim_flow_crime_scene",
@@ -497,7 +597,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#FFC107"
+      "accentColor": "#FFC107",
+      "procedural": {
+        "motionType": "HOP",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.0,
+        "scale": 1.0,
+        "color": "#FFC107",
+        "secondaryColor": "#D32F2F",
+        "vectorPath": "M 12,24 L 88,42 L 88,54 L 12,36 Z M 50,28 Q 72,54 64,72 A 16,16 0 1 1 36,72 Q 28,54 50,28 Z"
+      }
     },
     {
       "id": "anim_droplet_rain",
@@ -509,7 +619,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#800020"
+      "accentColor": "#800020",
+      "procedural": {
+        "motionType": "RAINFALL_CASCADE",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.0,
+        "scale": 1.0,
+        "color": "#800020",
+        "secondaryColor": "#D32F2F",
+        "vectorPath": "M 30,20 L 30,45 M 50,35 L 50,60 M 70,15 L 70,40"
+      }
     },
     {
       "id": "anim_calendar_flow_uterus_boxing",
@@ -521,7 +641,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#AD1457"
+      "accentColor": "#AD1457",
+      "procedural": {
+        "motionType": "HOP",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.25,
+        "scale": 1.0,
+        "color": "#AD1457",
+        "secondaryColor": "#E53935",
+        "vectorPath": "M 32,35 L 68,35 L 58,72 L 42,72 Z M 14,28 A 10,10 0 1 0 30,28 M 70,28 A 10,10 0 1 0 86,28"
+      }
     },
     {
       "id": "anim_calendar_flow_volcano",
@@ -533,7 +663,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#D32F2F"
+      "accentColor": "#D32F2F",
+      "procedural": {
+        "motionType": "PARTICLE_BURST",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.95,
+        "scale": 1.0,
+        "color": "#D32F2F",
+        "secondaryColor": "#FF6F00",
+        "vectorPath": "M 15,85 L 36,35 L 64,35 L 85,85 Z"
+      }
     },
     {
       "id": "anim_calendar_flow_heating_pad",
@@ -545,7 +685,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#880E4F"
+      "accentColor": "#880E4F",
+      "procedural": {
+        "motionType": "BREATHE_HALO",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.8,
+        "scale": 1.0,
+        "color": "#880E4F",
+        "secondaryColor": "#EF5350",
+        "vectorPath": "M 28,28 L 72,28 Q 80,28 80,38 L 80,76 Q 80,86 72,86 L 28,86 Q 20,86 20,76 L 20,38 Q 20,28 28,28 Z"
+      }
     },
     {
       "id": "anim_calendar_flow_shark_week",
@@ -553,11 +703,21 @@
       "category": "calendar_flow",
       "categoryTitle": "Calendar Flow Background",
       "name": "Shark Week Red Tide",
-      "description": "Rolling crimson ocean waves with a dorsal shark fin surfing across active period days.",
+      "description": "Rolling crimson ocean waves with a forward-facing dorsal shark fin surfing across active period days.",
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#B71C1C"
+      "accentColor": "#B71C1C",
+      "procedural": {
+        "motionType": "TIDAL_WAVE",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.0,
+        "scale": 1.0,
+        "color": "#B71C1C",
+        "secondaryColor": "#E57373",
+        "vectorPath": "M 85,78 Q 58,14 22,22 Q 40,54 28,78 Z"
+      }
     },
     {
       "id": "anim_blooming_ovum",
@@ -569,7 +729,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#C27D38"
+      "accentColor": "#C27D38",
+      "procedural": {
+        "motionType": "BREATHE_HALO",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.85,
+        "scale": 1.0,
+        "color": "#C27D38",
+        "secondaryColor": "#FFD54F",
+        "vectorPath": "M 50,22 A 28,28 0 1 0 50,78 A 28,28 0 1 0 50,22 Z"
+      }
     },
     {
       "id": "anim_ripple",
@@ -581,7 +751,17 @@
       "isDefault": true,
       "priceUsd": "Free",
       "priceAurums": 0,
-      "accentColor": "#3D7068"
+      "accentColor": "#3D7068",
+      "procedural": {
+        "motionType": "PULSE_EXPAND",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.85,
+        "scale": 1.0,
+        "color": "#3D7068",
+        "secondaryColor": "#80CBC4",
+        "vectorPath": "M 50,20 A 30,30 0 1 0 50,80 A 30,30 0 1 0 50,20 Z"
+      }
     },
     {
       "id": "anim_calendar_fertile_tadpole_race",
@@ -593,7 +773,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#FFB300"
+      "accentColor": "#FFB300",
+      "procedural": {
+        "motionType": "ORBIT_SPIN",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.15,
+        "scale": 1.0,
+        "color": "#FFB300",
+        "secondaryColor": "#FFF8E1",
+        "vectorPath": "M 50,30 A 20,20 0 1 0 50,70 A 20,20 0 1 0 50,30 Z"
+      }
     },
     {
       "id": "anim_calendar_fertile_egg_parachute",
@@ -605,7 +795,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#FFCA28"
+      "accentColor": "#FFCA28",
+      "procedural": {
+        "motionType": "FLOAT_DRIFT",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.75,
+        "scale": 1.0,
+        "color": "#FFCA28",
+        "secondaryColor": "#F48FB1",
+        "vectorPath": "M 20,45 A 30,30 0 0 1 80,45 Z M 50,58 A 14,16 0 1 0 50,86 A 14,16 0 1 0 50,58 Z"
+      }
     },
     {
       "id": "anim_calendar_fertile_sunny_egg",
@@ -617,7 +817,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#FFB300"
+      "accentColor": "#FFB300",
+      "procedural": {
+        "motionType": "HOP",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.0,
+        "scale": 1.0,
+        "color": "#FFB300",
+        "secondaryColor": "#FFFFFF",
+        "vectorPath": "M 18,50 A 32,24 0 1 0 82,50 A 32,24 0 1 0 18,50 Z M 50,38 A 12,12 0 1 0 50,62 A 12,12 0 1 0 50,38 Z"
+      }
     },
     {
       "id": "anim_calendar_fertile_disco_ball",
@@ -629,7 +839,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#FFD54F"
+      "accentColor": "#FFD54F",
+      "procedural": {
+        "motionType": "ORBIT_SPIN",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.9,
+        "scale": 1.0,
+        "color": "#FFD54F",
+        "secondaryColor": "#FF80AB",
+        "vectorPath": "M 50,24 A 24,24 0 1 0 50,72 A 24,24 0 1 0 50,24 Z"
+      }
     },
     {
       "id": "anim_zephyr_breeze",
@@ -641,7 +861,17 @@
       "isDefault": true,
       "priceUsd": "Free",
       "priceAurums": 0,
-      "accentColor": "#7A5865"
+      "accentColor": "#7A5865",
+      "procedural": {
+        "motionType": "FLOAT_DRIFT",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.8,
+        "scale": 1.0,
+        "color": "#7A5865",
+        "secondaryColor": "#D7CCC8",
+        "vectorPath": "M 15,45 Q 40,30 65,45 T 90,45"
+      }
     },
     {
       "id": "anim_calendar_idle_tumbleweed",
@@ -653,7 +883,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#A1887F"
+      "accentColor": "#A1887F",
+      "procedural": {
+        "motionType": "HOP",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.85,
+        "scale": 1.0,
+        "color": "#A1887F",
+        "secondaryColor": "#D7CCC8",
+        "vectorPath": "M 50,24 A 26,26 0 1 0 50,76 A 26,26 0 1 0 50,24 Z"
+      }
     },
     {
       "id": "anim_calendar_idle_sleeping_cat",
@@ -665,7 +905,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#7A5865"
+      "accentColor": "#7A5865",
+      "procedural": {
+        "motionType": "BREATHE_HALO",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.65,
+        "scale": 1.0,
+        "color": "#7A5865",
+        "secondaryColor": "#B39DDB",
+        "vectorPath": "M 25,60 A 25,18 0 1 0 75,60 A 25,18 0 1 0 25,60 Z"
+      }
     },
     {
       "id": "anim_calendar_idle_dvd_bounce",
@@ -677,7 +927,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#00E5FF"
+      "accentColor": "#00E5FF",
+      "procedural": {
+        "motionType": "FLOAT_DRIFT",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.9,
+        "scale": 1.0,
+        "color": "#00E5FF",
+        "secondaryColor": "#FFD700",
+        "vectorPath": "M 24,36 L 76,36 L 76,64 L 24,64 Z"
+      }
     },
     {
       "id": "anim_calendar_idle_koi_pond",
@@ -689,7 +949,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#FF7043"
+      "accentColor": "#FF7043",
+      "procedural": {
+        "motionType": "ORBIT_SPIN",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.75,
+        "scale": 1.0,
+        "color": "#FF7043",
+        "secondaryColor": "#4DB6AC",
+        "vectorPath": "M 65,45 Q 45,30 25,45 L 15,38 L 18,52 L 25,45 Q 45,60 65,45 Z"
+      }
     },
     {
       "id": "anim_heart_beat",
@@ -701,7 +971,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#E53935"
+      "accentColor": "#E53935",
+      "procedural": {
+        "motionType": "PULSE_EXPAND",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.0,
+        "scale": 1.0,
+        "color": "#E53935",
+        "secondaryColor": "#FF8A80",
+        "vectorPath": "M 50,82 C 16,58 18,24 36,24 C 44,24 50,32 50,38 C 50,32 56,24 64,24 C 82,24 84,58 50,82 Z"
+      }
     },
     {
       "id": "anim_heart_breathe",
@@ -713,7 +993,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#E53935"
+      "accentColor": "#E53935",
+      "procedural": {
+        "motionType": "BREATHE_HALO",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.8,
+        "scale": 1.0,
+        "color": "#E53935",
+        "secondaryColor": "#FFCDD2",
+        "vectorPath": "M 50,82 C 16,58 18,24 36,24 C 44,24 50,32 50,38 C 50,32 56,24 64,24 C 82,24 84,58 50,82 Z"
+      }
     },
     {
       "id": "anim_heart_spin",
@@ -725,7 +1015,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#E53935"
+      "accentColor": "#E53935",
+      "procedural": {
+        "motionType": "ORBIT_SPIN",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.95,
+        "scale": 1.0,
+        "color": "#E53935",
+        "secondaryColor": "#FF80AB",
+        "vectorPath": "M 50,82 C 16,58 18,24 36,24 C 44,24 50,32 50,38 C 50,32 56,24 64,24 C 82,24 84,58 50,82 Z"
+      }
     },
     {
       "id": "anim_intimacy_unprotected_cupid_arrow",
@@ -737,7 +1037,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#E53935"
+      "accentColor": "#E53935",
+      "procedural": {
+        "motionType": "PULSE_EXPAND",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.0,
+        "scale": 1.0,
+        "color": "#E53935",
+        "secondaryColor": "#FFD54F",
+        "vectorPath": "M 50,82 C 16,58 18,24 36,24 C 44,24 50,32 50,38 C 50,32 56,24 64,24 C 82,24 84,58 50,82 Z M 18,18 L 82,82"
+      }
     },
     {
       "id": "anim_intimacy_unprotected_lucky_dice",
@@ -749,7 +1059,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#D32F2F"
+      "accentColor": "#D32F2F",
+      "procedural": {
+        "motionType": "ORBIT_SPIN",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.05,
+        "scale": 1.0,
+        "color": "#D32F2F",
+        "secondaryColor": "#FFFFFF",
+        "vectorPath": "M 22,28 L 54,28 L 54,60 L 22,60 Z M 46,40 L 78,40 L 78,72 L 46,72 Z"
+      }
     },
     {
       "id": "anim_intimacy_unprotected_birds_bees",
@@ -761,7 +1081,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#FFCA28"
+      "accentColor": "#FFCA28",
+      "procedural": {
+        "motionType": "SNAKE_WIGGLE",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.0,
+        "scale": 1.0,
+        "color": "#FFCA28",
+        "secondaryColor": "#E91E63",
+        "vectorPath": "M 35,45 A 15,10 0 1 0 65,45 A 15,10 0 1 0 35,45 Z"
+      }
     },
     {
       "id": "anim_intimacy_unprotected_fireworks",
@@ -773,7 +1103,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#FF4081"
+      "accentColor": "#FF4081",
+      "procedural": {
+        "motionType": "PARTICLE_BURST",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.0,
+        "scale": 1.0,
+        "color": "#FF4081",
+        "secondaryColor": "#FFD740",
+        "vectorPath": "M 50,82 C 16,58 18,24 36,24 C 44,24 50,32 50,38 C 50,32 56,24 64,24 C 82,24 84,58 50,82 Z"
+      }
     },
     {
       "id": "anim_protected_barrier",
@@ -789,7 +1129,17 @@
       "isNew": true,
       "isDefault": true,
       "isFreeDefault": true,
-      "accentColor": "#3D7068"
+      "accentColor": "#3D7068",
+      "procedural": {
+        "motionType": "BREATHE_HALO",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.85,
+        "scale": 1.0,
+        "color": "#3D7068",
+        "secondaryColor": "#80CBC4",
+        "vectorPath": "M 50,16 L 78,32 L 78,68 L 50,84 L 22,68 L 22,32 Z"
+      }
     },
     {
       "id": "anim_intimacy_protected_goalie_block",
@@ -801,7 +1151,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#26A69A"
+      "accentColor": "#26A69A",
+      "procedural": {
+        "motionType": "HOP",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.1,
+        "scale": 1.0,
+        "color": "#26A69A",
+        "secondaryColor": "#FFFFFF",
+        "vectorPath": "M 62,20 Q 82,50 62,80"
+      }
     },
     {
       "id": "anim_intimacy_protected_ufo_dome",
@@ -813,7 +1173,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#00E676"
+      "accentColor": "#00E676",
+      "procedural": {
+        "motionType": "BREATHE_HALO",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.9,
+        "scale": 1.0,
+        "color": "#00E676",
+        "secondaryColor": "#29B6F6",
+        "vectorPath": "M 20,65 A 30,30 0 0 1 80,65 Z"
+      }
     },
     {
       "id": "anim_intimacy_protected_knight_padlock",
@@ -825,7 +1195,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#FFCA28"
+      "accentColor": "#FFCA28",
+      "procedural": {
+        "motionType": "PULSE_EXPAND",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.95,
+        "scale": 1.0,
+        "color": "#FFCA28",
+        "secondaryColor": "#37474F",
+        "vectorPath": "M 26,44 L 74,44 L 74,84 L 26,84 Z M 34,44 L 34,30 A 16,16 0 0 1 66,30 L 66,44"
+      }
     },
     {
       "id": "anim_intimacy_protected_club_bouncer",
@@ -837,7 +1217,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#FF1744"
+      "accentColor": "#FF1744",
+      "procedural": {
+        "motionType": "FLOAT_DRIFT",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.85,
+        "scale": 1.0,
+        "color": "#212121",
+        "secondaryColor": "#FF1744",
+        "vectorPath": "M 16,32 L 46,32 L 42,50 L 20,50 Z M 54,32 L 84,32 L 80,50 L 58,50 Z"
+      }
     },
     {
       "id": "anim_solo_cascade",
@@ -853,7 +1243,17 @@
       "isNew": true,
       "isDefault": true,
       "isFreeDefault": true,
-      "accentColor": "#7A5865"
+      "accentColor": "#7A5865",
+      "procedural": {
+        "motionType": "PARTICLE_BURST",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.0,
+        "scale": 1.0,
+        "color": "#7A5865",
+        "secondaryColor": "#F48FB1",
+        "vectorPath": "M 50,20 Q 70,50 50,80 Q 30,50 50,20 Z"
+      }
     },
     {
       "id": "anim_intimacy_solo_flicking_bean",
@@ -865,7 +1265,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#EC407A"
+      "accentColor": "#EC407A",
+      "procedural": {
+        "motionType": "HOP",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.35,
+        "scale": 1.0,
+        "color": "#EC407A",
+        "secondaryColor": "#FFCCBC",
+        "vectorPath": "M 42,26 A 18,26 0 1 0 68,68 A 18,26 0 1 0 42,26 Z"
+      }
     },
     {
       "id": "anim_intimacy_solo_magic_wand",
@@ -877,7 +1287,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#AB47BC"
+      "accentColor": "#AB47BC",
+      "procedural": {
+        "motionType": "SNAKE_WIGGLE",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.4,
+        "scale": 1.0,
+        "color": "#AB47BC",
+        "secondaryColor": "#FFD54F",
+        "vectorPath": "M 50,18 A 14,14 0 1 0 50,46 A 14,14 0 1 0 50,18 Z M 42,48 L 58,48 L 58,84 L 42,84 Z"
+      }
     },
     {
       "id": "anim_intimacy_solo_dj_turntable",
@@ -889,7 +1309,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#E91E63"
+      "accentColor": "#E91E63",
+      "procedural": {
+        "motionType": "ORBIT_SPIN",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.15,
+        "scale": 1.0,
+        "color": "#212121",
+        "secondaryColor": "#E91E63",
+        "vectorPath": "M 46,20 A 28,28 0 1 0 46,76 A 28,28 0 1 0 46,20 Z"
+      }
     },
     {
       "id": "anim_intimacy_solo_champagne_pop",
@@ -901,7 +1331,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#FFD54F"
+      "accentColor": "#FFD54F",
+      "procedural": {
+        "motionType": "PARTICLE_BURST",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.05,
+        "scale": 1.0,
+        "color": "#FFD54F",
+        "secondaryColor": "#2E7D32",
+        "vectorPath": "M 36,45 L 64,45 L 68,85 L 32,85 Z M 44,18 A 6,6 0 1 0 56,18 A 6,6 0 1 0 44,18 Z"
+      }
     },
     {
       "id": "anim_intimacy_solo_devils_doorbell",
@@ -913,7 +1353,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#FFB300"
+      "accentColor": "#FFB300",
+      "procedural": {
+        "motionType": "SNAKE_WIGGLE",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.3,
+        "scale": 1.0,
+        "color": "#FFB300",
+        "secondaryColor": "#D32F2F",
+        "vectorPath": "M 34,30 L 66,30 L 76,68 L 24,68 Z M 50,74 A 8,8 0 1 0 50,86 A 8,8 0 1 0 50,74 Z"
+      }
     },
     {
       "id": "anim_ember_spark",
@@ -925,7 +1375,17 @@
       "isDefault": true,
       "priceUsd": "Free",
       "priceAurums": 0,
-      "accentColor": "#C27D38"
+      "accentColor": "#C27D38",
+      "procedural": {
+        "motionType": "PULSE_EXPAND",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.0,
+        "scale": 1.0,
+        "color": "#C27D38",
+        "secondaryColor": "#FFD54F",
+        "vectorPath": "M 50,16 Q 74,48 64,74 A 18,18 0 1 1 36,74 Q 26,48 50,16 Z"
+      }
     },
     {
       "id": "anim_intimacy_libido_thermometer_pop",
@@ -937,7 +1397,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#FF1744"
+      "accentColor": "#FF1744",
+      "procedural": {
+        "motionType": "PULSE_EXPAND",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.1,
+        "scale": 1.0,
+        "color": "#FF1744",
+        "secondaryColor": "#FFFFFF",
+        "vectorPath": "M 42,16 L 58,16 L 58,64 A 14,14 0 1 1 42,64 Z"
+      }
     },
     {
       "id": "anim_intimacy_libido_chili_pepper",
@@ -949,7 +1419,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#D50000"
+      "accentColor": "#D50000",
+      "procedural": {
+        "motionType": "HOP",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.15,
+        "scale": 1.0,
+        "color": "#D50000",
+        "secondaryColor": "#FF9100",
+        "vectorPath": "M 24,32 Q 45,82 82,58 Q 56,52 38,24 Z"
+      }
     },
     {
       "id": "anim_intimacy_libido_full_moon_howl",
@@ -961,7 +1441,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#FFF176"
+      "accentColor": "#FFF176",
+      "procedural": {
+        "motionType": "BREATHE_HALO",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.85,
+        "scale": 1.0,
+        "color": "#FFF176",
+        "secondaryColor": "#311B92",
+        "vectorPath": "M 50,20 A 28,28 0 1 0 50,76 A 28,28 0 1 0 50,20 Z"
+      }
     },
     {
       "id": "anim_intimacy_libido_flaming_peach",
@@ -973,7 +1463,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#FF7043"
+      "accentColor": "#FF7043",
+      "procedural": {
+        "motionType": "HOP",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 1.15,
+        "scale": 1.0,
+        "color": "#FF7043",
+        "secondaryColor": "#FFD54F",
+        "vectorPath": "M 36,36 A 18,20 0 1 0 36,76 A 18,20 0 1 0 36,36 Z M 64,36 A 18,20 0 1 0 64,76 A 18,20 0 1 0 64,36 Z"
+      }
     },
     {
       "id": "anim_pranayama",
@@ -985,7 +1485,17 @@
       "isDefault": true,
       "priceUsd": "Free",
       "priceAurums": 0,
-      "accentColor": "#5E4B8B"
+      "accentColor": "#5E4B8B",
+      "procedural": {
+        "motionType": "BREATHE_HALO",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.65,
+        "scale": 1.0,
+        "color": "#5E4B8B",
+        "secondaryColor": "#B39DDB",
+        "vectorPath": "M 50,20 A 30,30 0 1 0 50,80 A 30,30 0 1 0 50,20 Z"
+      }
     },
     {
       "id": "anim_mindful_jellyfish",
@@ -997,7 +1507,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#26C6DA"
+      "accentColor": "#26C6DA",
+      "procedural": {
+        "motionType": "BREATHE_HALO",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.65,
+        "scale": 1.0,
+        "color": "#26C6DA",
+        "secondaryColor": "#BA68C8",
+        "vectorPath": "M 22,48 A 28,24 0 0 1 78,48 Z"
+      }
     },
     {
       "id": "anim_mindful_dandelion",
@@ -1009,7 +1529,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#FFF9C4"
+      "accentColor": "#FFF9C4",
+      "procedural": {
+        "motionType": "FLOAT_DRIFT",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.65,
+        "scale": 1.0,
+        "color": "#FFF9C4",
+        "secondaryColor": "#81C784",
+        "vectorPath": "M 44,24 A 18,18 0 1 0 44,60 A 18,18 0 1 0 44,24 Z M 44,60 L 44,86"
+      }
     },
     {
       "id": "anim_mindful_bonsai_blossom",
@@ -1021,7 +1551,17 @@
       "isDefault": false,
       "priceUsd": "$0.99",
       "priceAurums": 100,
-      "accentColor": "#F48FB1"
+      "accentColor": "#F48FB1",
+      "procedural": {
+        "motionType": "BREATHE_HALO",
+        "direction": "forward",
+        "flipX": false,
+        "speed": 0.65,
+        "scale": 1.0,
+        "color": "#F48FB1",
+        "secondaryColor": "#6D4C41",
+        "vectorPath": "M 50,22 A 20,16 0 1 0 50,54 A 20,16 0 1 0 50,22 Z M 46,50 L 54,50 L 56,84 L 44,84 Z"
+      }
     }
   ],
   "valueAnchor": {
