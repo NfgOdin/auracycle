@@ -1,6 +1,6 @@
 {
-  "catalogVersion": 10,
-  "lastUpdated": "2026-10-26T13:00:00Z",
+  "catalogVersion": 13,
+  "lastUpdated": "2026-11-12T23:55:00Z",
   "storeTitle": "Aura Boutique Global Catalog",
   "currency": "USD",
   "testerQuota": {
@@ -15,11 +15,59 @@
   "promoCodes": [],
   "proLifetime": {
     "sku": "aura_pro_lifetime",
-    "priceUsd": "$24.99",
-    "name": "Aura Pro — Lifetime Patron",
-    "description": "Permanent zero-ad experience, Bespoke Theme Creator Studio, unrestricted access to all present and future themes and all 54 micro-animations, and unmetered clinical PDF exports.",
+    "priceUsd": "$14.99",
+    "welcomeGoldBonus": 500,
+    "name": "Aura Pro — Lifetime Utility",
+    "description": "Permanent zero-ad experience, unmetered clinical PDF exports, unrestricted Library & Studios access, 2X daily Silver earnings, and a one-time +500 Gold Welcome Bonus.",
     "isFlagship": true
   },
+  "goldPacks": [
+    {
+      "sku": "aura_gold_pack_100",
+      "name": "Small Offering",
+      "priceUsd": "$0.99",
+      "baseGold": 100,
+      "bonusGold": 0,
+      "totalGold": 100,
+      "badge": null
+    },
+    {
+      "sku": "aura_gold_pack_320",
+      "name": "Collector's Cache",
+      "priceUsd": "$2.99",
+      "baseGold": 300,
+      "bonusGold": 20,
+      "totalGold": 320,
+      "badge": "+20 Bonus"
+    },
+    {
+      "sku": "aura_gold_pack_575",
+      "name": "Patron's Reservoir",
+      "priceUsd": "$4.99",
+      "baseGold": 500,
+      "bonusGold": 75,
+      "totalGold": 575,
+      "badge": "+75 Bonus (+15%)"
+    },
+    {
+      "sku": "aura_gold_pack_1200",
+      "name": "Sanctuary Vault",
+      "priceUsd": "$9.99",
+      "baseGold": 1000,
+      "bonusGold": 200,
+      "totalGold": 1200,
+      "badge": "+200 Bonus (+20%)"
+    },
+    {
+      "sku": "aura_gold_pack_2600",
+      "name": "Sovereign Treasury",
+      "priceUsd": "$19.99",
+      "baseGold": 2000,
+      "bonusGold": 600,
+      "totalGold": 2600,
+      "badge": "+600 Bonus (+30% Best Value)"
+    }
+  ],
   "categories": [
     {
       "id": "cat_themes",
@@ -167,30 +215,37 @@
         "anim_mindful_dandelion",
         "anim_mindful_bonsai_blossom"
       ]
+    },
+    {
+      "id": "cat_mascot",
+      "title": "Aura Puff Mascot",
+      "subtitle": "Official interactive White Puff companion reacting live to your cycle & daily logs",
+      "itemType": "animation",
+      "itemIds": [
+        "anim_puff_white_companion"
+      ]
     }
   ],
   "bundles": [
     {
       "sku": "aura_themes_bundle",
       "name": "Complete Themes Pass",
-      "priceUsd": "$7.99",
-      "priceAurums": 350,
-      "itemCount": 4,
-      "description": "Unlock all signature and bespoke themes forever.",
+      "priceAurums": 450,
+      "itemCount": 3,
+      "description": "Unlock all curated signature themes with Gold Credits (Save 25% vs individual, excludes Bespoke Theme Studio).",
       "includedItemIds": [
         "MIDNIGHT_RED_ROOM",
         "ROSE_ORCHID",
-        "EMERALD_BOTANICAL",
-        "CUSTOM_BESPOKE"
-      ]
+        "EMERALD_BOTANICAL"
+      ],
+      "goldPrice": 450
     },
     {
       "sku": "aura_anims_bundle",
-      "name": "Complete Animations Pass",
-      "priceUsd": "$9.99",
-      "priceAurums": 450,
+      "name": "Complete Base Animations Pass",
+      "priceAurums": 1800,
       "itemCount": 54,
-      "description": "Unlock all 54 physiological & humorous cartoon micro-animations and calendar visual effects forever.",
+      "description": "Unlock all standard physiological and humorous micro-animations (excludes standalone White Aura Puff companion).",
       "includedItemIds": [
         "anim_spotting_dance",
         "anim_spotting_trickle",
@@ -246,31 +301,32 @@
         "anim_intimacy_libido_chili_pepper",
         "anim_intimacy_libido_full_moon_howl",
         "anim_intimacy_libido_flaming_peach"
-      ]
+      ],
+      "goldPrice": 1800
     },
     {
       "sku": "aura_bundle_dark_duet",
       "name": "Nocturnal & Botanical Duet",
-      "priceUsd": "$2.99",
-      "priceAurums": 160,
+      "priceAurums": 300,
       "itemCount": 2,
       "description": "Midnight OLED Red Room and Emerald Botanical calming duo.",
       "includedItemIds": [
         "MIDNIGHT_RED_ROOM",
         "EMERALD_BOTANICAL"
-      ]
+      ],
+      "goldPrice": 300
     },
     {
       "sku": "aura_bundle_vibrant_duet",
       "name": "Velvet & Botanical Duet",
-      "priceUsd": "$2.99",
-      "priceAurums": 160,
+      "priceAurums": 300,
       "itemCount": 2,
       "description": "Rose Velvet & Orchid Bloom and Emerald Botanical herbal pair.",
       "includedItemIds": [
         "ROSE_ORCHID",
         "EMERALD_BOTANICAL"
-      ]
+      ],
+      "goldPrice": 300
     }
   ],
   "themes": [
@@ -288,7 +344,10 @@
         "Clinical",
         "Default",
         "Plum"
-      ]
+      ],
+      "goldPrice": 0,
+      "silverPrice": 0,
+      "isDarkBase": false
     },
     {
       "id": "MIDNIGHT_RED_ROOM",
@@ -306,8 +365,10 @@
         "Night",
         "NurserySafe"
       ],
-      "priceUsd": "$1.99",
-      "priceAurums": 100
+      "priceAurums": 250,
+      "goldPrice": 200,
+      "silverPrice": 250,
+      "isDarkBase": true
     },
     {
       "id": "ROSE_ORCHID",
@@ -325,8 +386,10 @@
         "Purple",
         "Vibrant"
       ],
-      "priceUsd": "$1.99",
-      "priceAurums": 100
+      "priceAurums": 250,
+      "goldPrice": 200,
+      "silverPrice": 250,
+      "isDarkBase": false
     },
     {
       "id": "EMERALD_BOTANICAL",
@@ -343,8 +406,10 @@
         "Jade",
         "Sage"
       ],
-      "priceUsd": "$1.99",
-      "priceAurums": 100
+      "priceAurums": 250,
+      "goldPrice": 200,
+      "silverPrice": 250,
+      "isDarkBase": false
     },
     {
       "id": "CUSTOM_BESPOKE",
@@ -362,8 +427,10 @@
         "Bespoke",
         "Creator"
       ],
-      "priceUsd": "$4.99",
-      "priceAurums": 250
+      "priceAurums": 400,
+      "goldPrice": 400,
+      "silverPrice": -1,
+      "isDarkBase": false
     }
   ],
   "animations": [
@@ -375,7 +442,6 @@
       "name": "Hopping Ruby Trio",
       "description": "Playful 3-droplet wave hopping in rhythm with fluid squash-and-stretch physics and tiny landing ripples.",
       "isDefault": true,
-      "priceUsd": "Free",
       "priceAurums": 0,
       "accentColor": "#D32F2F",
       "procedural": {
@@ -387,7 +453,9 @@
         "color": "#D32F2F",
         "secondaryColor": "#EF5350",
         "vectorPath": "M 50,15 Q 78,48 68,70 A 20,20 0 1 1 32,70 Q 22,48 50,15 Z"
-      }
+      },
+      "goldPrice": 0,
+      "silverPrice": 0
     },
     {
       "id": "anim_spotting_trickle",
@@ -397,8 +465,7 @@
       "name": "Viscous Capillary Trickle",
       "description": "Slow gravitational spotting trickle: a ruby droplet elongates from the top, drips down, and leaves a gentle trail of microscopic speckles in its wake.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#D32F2F",
       "procedural": {
         "motionType": "RAINFALL_CASCADE",
@@ -409,7 +476,9 @@
         "color": "#D32F2F",
         "secondaryColor": "#B71C1C",
         "vectorPath": "M 50,10 Q 72,46 64,72 A 16,16 0 1 1 36,72 Q 28,46 50,10 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_spotting_ninja_drop",
@@ -419,8 +488,7 @@
       "name": "Ninja Sneak-Attack Drop",
       "description": "A sneaky crimson droplet wearing a black ninja headband tiptoes across and vanishes in a smoke puff.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#D32F2F",
       "procedural": {
         "motionType": "HOP",
@@ -431,7 +499,9 @@
         "color": "#D32F2F",
         "secondaryColor": "#212121",
         "vectorPath": "M 50,12 Q 78,46 68,68 A 20,20 0 1 1 32,68 Q 22,46 50,12 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_spotting_shark_fin",
@@ -441,8 +511,7 @@
       "name": "White Panty Jaws (Shark Fin)",
       "description": "A menacing little crimson dorsal fin circles back and forth like Jaws (facing forward in the direction of travel!) before doing a cheeky chomp splash.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#C62828",
       "procedural": {
         "motionType": "SNAKE_WIGGLE",
@@ -453,7 +522,9 @@
         "color": "#C62828",
         "secondaryColor": "#EF5350",
         "vectorPath": "M 85,78 Q 58,14 22,22 Q 40,54 28,78 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_spotting_morse_sos",
@@ -463,8 +534,7 @@
       "name": "Morse Code Uterus SOS",
       "description": "Droplets blinking • • • — — — • • • (SOS) in rhythmic distress flashes from your uterus.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#E53935",
       "procedural": {
         "motionType": "PULSE_EXPAND",
@@ -475,7 +545,9 @@
         "color": "#E53935",
         "secondaryColor": "#FFCDD2",
         "vectorPath": "M 20,50 A 8,8 0 1 0 36,50 A 8,8 0 1 0 20,50 M 44,46 L 68,46 L 68,54 L 44,54 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_spotting_leaky_faucet",
@@ -485,8 +557,7 @@
       "name": "Leaky Faucet Plink",
       "description": "A vintage brass faucet spout builds up one stubborn ruby drop, plinks into a tiny puddle, and wiggles.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#B71C1C",
       "procedural": {
         "motionType": "RAINFALL_CASCADE",
@@ -497,7 +568,9 @@
         "color": "#B71C1C",
         "secondaryColor": "#D4AF37",
         "vectorPath": "M 20,25 L 65,25 L 65,45 L 52,45 L 52,35 L 20,35 Z M 58,52 Q 70,70 64,82 A 8,8 0 1 1 52,82 Q 46,70 58,52 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_droplet_splash",
@@ -507,8 +580,7 @@
       "name": "Blood Drop Splash & Reform",
       "description": "Natural fluid physics: blood droplets fall from position, impact and splash with radial beads, then smoothly reform and rise.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#D32F2F",
       "procedural": {
         "motionType": "RAINFALL_CASCADE",
@@ -519,7 +591,9 @@
         "color": "#D32F2F",
         "secondaryColor": "#FF5252",
         "vectorPath": "M 50,12 Q 78,46 68,68 A 20,20 0 1 1 32,68 Q 22,46 50,12 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_flow_shining_elevator",
@@ -529,8 +603,7 @@
       "name": "The Shining Elevator",
       "description": "Two tiny brass elevator doors slide open and a dramatic Day-2 cartoon wave of crimson gushes out both sides.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#880E4F",
       "procedural": {
         "motionType": "TIDAL_WAVE",
@@ -541,7 +614,9 @@
         "color": "#880E4F",
         "secondaryColor": "#D4AF37",
         "vectorPath": "M 20,18 L 80,18 L 80,82 L 20,82 Z M 48,18 L 52,18 L 52,82 L 48,82 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_flow_vampire_fangs",
@@ -551,8 +626,7 @@
       "name": "Count Dra-Cute-La Fangs",
       "description": "Two cute ivory vampire fangs descend from the top with a ruby drop dangling off one tip and a mischievous sparkle.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#C62828",
       "procedural": {
         "motionType": "HOP",
@@ -563,7 +637,9 @@
         "color": "#C62828",
         "secondaryColor": "#FFF8E1",
         "vectorPath": "M 20,25 L 36,68 L 48,25 L 52,25 L 64,68 L 80,25 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_flow_lava_lamp",
@@ -573,8 +649,7 @@
       "name": "1970s Ruby Lava Lamp",
       "description": "Groovy retro glass lava lamp where gloopy ruby wax blobs slowly stretch, detach, float up, and sink.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#D81B60",
       "procedural": {
         "motionType": "FLOAT_DRIFT",
@@ -585,7 +660,9 @@
         "color": "#D81B60",
         "secondaryColor": "#880E4F",
         "vectorPath": "M 36,15 L 64,15 L 76,72 L 24,72 Z M 30,72 L 70,72 L 74,88 L 26,88 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_flow_crime_scene",
@@ -595,8 +672,7 @@
       "name": "Crime Scene Caution Tape",
       "description": "Diagonal yellow & black CAUTION tape flashes across while a dramatic chalk-outline blood drop hops inside.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#FFC107",
       "procedural": {
         "motionType": "HOP",
@@ -607,7 +683,9 @@
         "color": "#FFC107",
         "secondaryColor": "#D32F2F",
         "vectorPath": "M 12,24 L 88,42 L 88,54 L 12,36 Z M 50,28 Q 72,54 64,72 A 16,16 0 1 1 36,72 Q 28,54 50,28 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_droplet_rain",
@@ -617,8 +695,7 @@
       "name": "Calendar Droplet Rain",
       "description": "Delicate, translucent ruby raindrops gently cascading vertically through period and spotting calendar date cells.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#800020",
       "procedural": {
         "motionType": "RAINFALL_CASCADE",
@@ -629,7 +706,9 @@
         "color": "#800020",
         "secondaryColor": "#D32F2F",
         "vectorPath": "M 30,20 L 30,45 M 50,35 L 50,60 M 70,15 L 70,40"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_calendar_flow_uterus_boxing",
@@ -639,8 +718,7 @@
       "name": "Uterus Boxing Ring (KO)",
       "description": "A feisty cartoon uterus wearing red boxing gloves throwing rapid left-right cramp jabs at the calendar walls.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#AD1457",
       "procedural": {
         "motionType": "HOP",
@@ -651,7 +729,9 @@
         "color": "#AD1457",
         "secondaryColor": "#E53935",
         "vectorPath": "M 32,35 L 68,35 L 58,72 L 42,72 Z M 14,28 A 10,10 0 1 0 30,28 M 70,28 A 10,10 0 1 0 86,28"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_calendar_flow_volcano",
@@ -661,8 +741,7 @@
       "name": "Mount Menstrubius Volcano",
       "description": "A tiny rumbling volcano at the bottom puffing smoke rings and erupting glowing ruby lava arcs.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#D32F2F",
       "procedural": {
         "motionType": "PARTICLE_BURST",
@@ -673,7 +752,9 @@
         "color": "#D32F2F",
         "secondaryColor": "#FF6F00",
         "vectorPath": "M 15,85 L 36,35 L 64,35 L 85,85 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_calendar_flow_heating_pad",
@@ -683,8 +764,7 @@
       "name": "Cozy Heating Pad & Wine",
       "description": "A warm glowing hot-water bottle pulsing gently beside a swirling glass of cabernet.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#880E4F",
       "procedural": {
         "motionType": "BREATHE_HALO",
@@ -695,7 +775,9 @@
         "color": "#880E4F",
         "secondaryColor": "#EF5350",
         "vectorPath": "M 28,28 L 72,28 Q 80,28 80,38 L 80,76 Q 80,86 72,86 L 28,86 Q 20,86 20,76 L 20,38 Q 20,28 28,28 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_calendar_flow_shark_week",
@@ -705,8 +787,7 @@
       "name": "Shark Week Red Tide",
       "description": "Rolling crimson ocean waves with a forward-facing dorsal shark fin surfing across active period days.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#B71C1C",
       "procedural": {
         "motionType": "TIDAL_WAVE",
@@ -717,7 +798,9 @@
         "color": "#B71C1C",
         "secondaryColor": "#E57373",
         "vectorPath": "M 85,78 Q 58,14 22,22 Q 40,54 28,78 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_blooming_ovum",
@@ -727,8 +810,7 @@
       "name": "Blooming Ovum & Fertile Glow",
       "description": "Breathing radial scaling and soft golden halo pulse celebrating peak fertility and oocyte release.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#C27D38",
       "procedural": {
         "motionType": "BREATHE_HALO",
@@ -739,7 +821,9 @@
         "color": "#C27D38",
         "secondaryColor": "#FFD54F",
         "vectorPath": "M 50,22 A 28,28 0 1 0 50,78 A 28,28 0 1 0 50,22 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_ripple",
@@ -749,7 +833,6 @@
       "name": "Follicular Tidal Ripple",
       "description": "Concentric tidal ripples radiating outward from high-estrogen cycle days.",
       "isDefault": true,
-      "priceUsd": "Free",
       "priceAurums": 0,
       "accentColor": "#3D7068",
       "procedural": {
@@ -761,7 +844,9 @@
         "color": "#3D7068",
         "secondaryColor": "#80CBC4",
         "vectorPath": "M 50,20 A 30,30 0 1 0 50,80 A 30,30 0 1 0 50,20 Z"
-      }
+      },
+      "goldPrice": 0,
+      "silverPrice": 0
     },
     {
       "id": "anim_calendar_fertile_tadpole_race",
@@ -771,8 +856,7 @@
       "name": "The Great Tadpole Race",
       "description": "A crowned golden egg sits in the VIP center while frantic little squiggly swimmers race around trying to get in.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#FFB300",
       "procedural": {
         "motionType": "ORBIT_SPIN",
@@ -783,7 +867,9 @@
         "color": "#FFB300",
         "secondaryColor": "#FFF8E1",
         "vectorPath": "M 50,30 A 20,20 0 1 0 50,70 A 20,20 0 1 0 50,30 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_calendar_fertile_egg_parachute",
@@ -793,8 +879,7 @@
       "name": "Ovulation Parachute Drop",
       "description": "A golden egg floating down from the Fallopian sky under a tiny silk parachute, swaying side to side.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#FFCA28",
       "procedural": {
         "motionType": "FLOAT_DRIFT",
@@ -805,7 +890,9 @@
         "color": "#FFCA28",
         "secondaryColor": "#F48FB1",
         "vectorPath": "M 20,45 A 30,30 0 0 1 80,45 Z M 50,58 A 14,16 0 1 0 50,86 A 14,16 0 1 0 50,58 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_calendar_fertile_sunny_egg",
@@ -815,8 +902,7 @@
       "name": "Sunny-Side Up Sizzle",
       "description": "A cute sunny-side-up fried egg sizzling and bouncing happily because an egg is cooking!",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#FFB300",
       "procedural": {
         "motionType": "HOP",
@@ -827,7 +913,9 @@
         "color": "#FFB300",
         "secondaryColor": "#FFFFFF",
         "vectorPath": "M 18,50 A 32,24 0 1 0 82,50 A 32,24 0 1 0 18,50 Z M 50,38 A 12,12 0 1 0 50,62 A 12,12 0 1 0 50,38 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_calendar_fertile_disco_ball",
@@ -837,8 +925,7 @@
       "name": "Fertile Window Disco Ball",
       "description": "A glittering golden mirror ball spinning at the top and casting studio party beams over fertile days.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#FFD54F",
       "procedural": {
         "motionType": "ORBIT_SPIN",
@@ -849,7 +936,9 @@
         "color": "#FFD54F",
         "secondaryColor": "#FF80AB",
         "vectorPath": "M 50,24 A 24,24 0 1 0 50,72 A 24,24 0 1 0 50,24 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_zephyr_breeze",
@@ -859,7 +948,6 @@
       "name": "Zephyr Whispering Breeze",
       "description": "Delicate cartoon wind wisps drifting across unlogged calendar days awaiting daily health telemetry.",
       "isDefault": true,
-      "priceUsd": "Free",
       "priceAurums": 0,
       "accentColor": "#7A5865",
       "procedural": {
@@ -871,7 +959,9 @@
         "color": "#7A5865",
         "secondaryColor": "#D7CCC8",
         "vectorPath": "M 15,45 Q 40,30 65,45 T 90,45"
-      }
+      },
+      "goldPrice": 0,
+      "silverPrice": 0
     },
     {
       "id": "anim_calendar_idle_tumbleweed",
@@ -881,8 +971,7 @@
       "name": "Western Desert Tumbleweed",
       "description": "A spiky cartoon tumbleweed bouncing and rolling across unlogged days with tiny desert dust puffs.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#A1887F",
       "procedural": {
         "motionType": "HOP",
@@ -893,7 +982,9 @@
         "color": "#A1887F",
         "secondaryColor": "#D7CCC8",
         "vectorPath": "M 50,24 A 26,26 0 1 0 50,76 A 26,26 0 1 0 50,24 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_calendar_idle_sleeping_cat",
@@ -903,8 +994,7 @@
       "name": "Sleeping Cat & Zzzs",
       "description": "A curled-up purring cat silhouette breathing softly at the bottom while floating Zzz bubbles rise.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#7A5865",
       "procedural": {
         "motionType": "BREATHE_HALO",
@@ -915,7 +1005,9 @@
         "color": "#7A5865",
         "secondaryColor": "#B39DDB",
         "vectorPath": "M 25,60 A 25,18 0 1 0 75,60 A 25,18 0 1 0 25,60 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_calendar_idle_dvd_bounce",
@@ -925,8 +1017,7 @@
       "name": "Retro DVD Corner Bounce",
       "description": "A neon badge bouncing diagonally off the 4 walls—and flashing gold when it hits the exact corner!",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#00E5FF",
       "procedural": {
         "motionType": "FLOAT_DRIFT",
@@ -937,7 +1028,9 @@
         "color": "#00E5FF",
         "secondaryColor": "#FFD700",
         "vectorPath": "M 24,36 L 76,36 L 76,64 L 24,64 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_calendar_idle_koi_pond",
@@ -947,8 +1040,7 @@
       "name": "Zen Koi Fish Figure-8",
       "description": "Two tiny orange-and-white koi fish swimming in a lazy figure-8 circle with gentle water ripples.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#FF7043",
       "procedural": {
         "motionType": "ORBIT_SPIN",
@@ -959,7 +1051,9 @@
         "color": "#FF7043",
         "secondaryColor": "#4DB6AC",
         "vectorPath": "M 65,45 Q 45,30 25,45 L 15,38 L 18,52 L 25,45 Q 45,60 65,45 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_heart_beat",
@@ -969,8 +1063,7 @@
       "name": "Beating Cardio Heart",
       "description": "Biological lub-dub cardiac rhythm pulsating with vitality on intimacy logs.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#E53935",
       "procedural": {
         "motionType": "PULSE_EXPAND",
@@ -981,7 +1074,9 @@
         "color": "#E53935",
         "secondaryColor": "#FF8A80",
         "vectorPath": "M 50,82 C 16,58 18,24 36,24 C 44,24 50,32 50,38 C 50,32 56,24 64,24 C 82,24 84,58 50,82 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_heart_breathe",
@@ -991,8 +1086,7 @@
       "name": "Fluctuating Breathing Heart",
       "description": "Harmonic gentle expansion and contraction fluctuating like an emotional tide.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#E53935",
       "procedural": {
         "motionType": "BREATHE_HALO",
@@ -1003,7 +1097,9 @@
         "color": "#E53935",
         "secondaryColor": "#FFCDD2",
         "vectorPath": "M 50,82 C 16,58 18,24 36,24 C 44,24 50,32 50,38 C 50,32 56,24 64,24 C 82,24 84,58 50,82 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_heart_spin",
@@ -1013,8 +1109,7 @@
       "name": "360° Rotating Heart",
       "description": "Playful continuous 360-degree rotational spin floating in place.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#E53935",
       "procedural": {
         "motionType": "ORBIT_SPIN",
@@ -1025,7 +1120,9 @@
         "color": "#E53935",
         "secondaryColor": "#FF80AB",
         "vectorPath": "M 50,82 C 16,58 18,24 36,24 C 44,24 50,32 50,38 C 50,32 56,24 64,24 C 82,24 84,58 50,82 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_intimacy_unprotected_cupid_arrow",
@@ -1035,8 +1132,7 @@
       "name": "Cupid's Direct Hit",
       "description": "A golden arrow flies in diagonally, pierces a plump red heart (twang!), and makes the tail feathers vibrate.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#E53935",
       "procedural": {
         "motionType": "PULSE_EXPAND",
@@ -1047,7 +1143,9 @@
         "color": "#E53935",
         "secondaryColor": "#FFD54F",
         "vectorPath": "M 50,82 C 16,58 18,24 36,24 C 44,24 50,32 50,38 C 50,32 56,24 64,24 C 82,24 84,58 50,82 Z M 18,18 L 82,82"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_intimacy_unprotected_lucky_dice",
@@ -1057,8 +1155,7 @@
       "name": "Roll the Dice (Risky Business)",
       "description": "Two tumbling casino dice rolling and landing on lucky hearts for those playing baby roulette.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#D32F2F",
       "procedural": {
         "motionType": "ORBIT_SPIN",
@@ -1069,7 +1166,9 @@
         "color": "#D32F2F",
         "secondaryColor": "#FFFFFF",
         "vectorPath": "M 22,28 L 54,28 L 54,60 L 22,60 Z M 46,40 L 78,40 L 78,72 L 46,72 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_intimacy_unprotected_birds_bees",
@@ -1079,8 +1178,7 @@
       "name": "The Birds & The Bees",
       "description": "A cute chubby bumblebee with heart-shaped wings buzzing in a loop-de-loop around a blooming rose.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#FFCA28",
       "procedural": {
         "motionType": "SNAKE_WIGGLE",
@@ -1091,7 +1189,9 @@
         "color": "#FFCA28",
         "secondaryColor": "#E91E63",
         "vectorPath": "M 35,45 A 15,10 0 1 0 65,45 A 15,10 0 1 0 35,45 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_intimacy_unprotected_fireworks",
@@ -1101,8 +1201,7 @@
       "name": "Heart Fireworks Finale",
       "description": "Twin rockets shooting up from the bottom and exploding into a dazzling heart-shaped firework burst.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#FF4081",
       "procedural": {
         "motionType": "PARTICLE_BURST",
@@ -1113,7 +1212,9 @@
         "color": "#FF4081",
         "secondaryColor": "#FFD740",
         "vectorPath": "M 50,82 C 16,58 18,24 36,24 C 44,24 50,32 50,38 C 50,32 56,24 64,24 C 82,24 84,58 50,82 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_protected_barrier",
@@ -1123,7 +1224,6 @@
       "name": "Aegis Bio-Barrier",
       "subtitle": "Crystalline hexagonal protective barrier deflecting external ripples with calm contraceptive security",
       "description": "Crystalline hexagonal protective barrier deflecting external ripples with calm contraceptive security.",
-      "priceUsd": "Free",
       "priceAurums": 0,
       "previewType": "PROTECTED_BARRIER",
       "isNew": true,
@@ -1139,7 +1239,9 @@
         "color": "#3D7068",
         "secondaryColor": "#80CBC4",
         "vectorPath": "M 50,16 L 78,32 L 78,68 L 50,84 L 22,68 L 22,32 Z"
-      }
+      },
+      "goldPrice": 0,
+      "silverPrice": 0
     },
     {
       "id": "anim_intimacy_protected_goalie_block",
@@ -1149,8 +1251,7 @@
       "name": "Goalie Block! (Swimmers Denied)",
       "description": "Frantic little wiggly swimmers charge toward a glowing teal shield and literally boing! bounce backward off it.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#26A69A",
       "procedural": {
         "motionType": "HOP",
@@ -1161,7 +1262,9 @@
         "color": "#26A69A",
         "secondaryColor": "#FFFFFF",
         "vectorPath": "M 62,20 Q 82,50 62,80"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_intimacy_protected_ufo_dome",
@@ -1171,8 +1274,7 @@
       "name": "Sci-Fi Forcefield Dome",
       "description": "A holographic plasma dome drops over a heart while a green laser scan beam sweeps across (ACCESS DENIED).",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#00E676",
       "procedural": {
         "motionType": "BREATHE_HALO",
@@ -1183,7 +1285,9 @@
         "color": "#00E676",
         "secondaryColor": "#29B6F6",
         "vectorPath": "M 20,65 A 30,30 0 0 1 80,65 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_intimacy_protected_knight_padlock",
@@ -1193,8 +1297,7 @@
       "name": "Royal Vault Padlock Clank",
       "description": "A heavy golden fortress padlock snaps its shackle shut (CLANK!) with a bright metallic glint.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#FFCA28",
       "procedural": {
         "motionType": "PULSE_EXPAND",
@@ -1205,7 +1308,9 @@
         "color": "#FFCA28",
         "secondaryColor": "#37474F",
         "vectorPath": "M 26,44 L 74,44 L 74,84 L 26,84 Z M 34,44 L 34,30 A 16,16 0 0 1 66,30 L 66,44"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_intimacy_protected_club_bouncer",
@@ -1215,8 +1320,7 @@
       "name": "VIP Bouncer Shades",
       "description": "Cool pitch-black aviator sunglasses and a velvet rope flashing NO ENTRY to uninvited guests.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#FF1744",
       "procedural": {
         "motionType": "FLOAT_DRIFT",
@@ -1227,7 +1331,9 @@
         "color": "#212121",
         "secondaryColor": "#FF1744",
         "vectorPath": "M 16,32 L 46,32 L 42,50 L 20,50 Z M 54,32 L 84,32 L 80,50 L 58,50 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_solo_cascade",
@@ -1237,7 +1343,6 @@
       "name": "Euphoric Cascade",
       "subtitle": "Dynamic somatic fluid cascade: upward fountain burst with shimmering pearl-rose droplet dispersion",
       "description": "Dynamic somatic fluid cascade: upward fountain burst with shimmering pearl-rose droplet dispersion.",
-      "priceUsd": "Free",
       "priceAurums": 0,
       "previewType": "SOLO_CASCADE",
       "isNew": true,
@@ -1253,7 +1358,9 @@
         "color": "#7A5865",
         "secondaryColor": "#F48FB1",
         "vectorPath": "M 50,20 Q 70,50 50,80 Q 30,50 50,20 Z"
-      }
+      },
+      "goldPrice": 0,
+      "silverPrice": 0
     },
     {
       "id": "anim_intimacy_solo_flicking_bean",
@@ -1263,8 +1370,7 @@
       "name": "Flicking the Bean",
       "description": "A cheeky cartoon finger rhythmically flicking a cute bouncing pink coffee/jelly bean with electric pleasure sparks!",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#EC407A",
       "procedural": {
         "motionType": "HOP",
@@ -1275,7 +1381,9 @@
         "color": "#EC407A",
         "secondaryColor": "#FFCCBC",
         "vectorPath": "M 42,26 A 18,26 0 1 0 68,68 A 18,26 0 1 0 42,26 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_intimacy_solo_magic_wand",
@@ -1285,8 +1393,7 @@
       "name": "Good Vibes Magic Wand",
       "description": "An iconic rounded-head personal massager wand buzzing intensely with zig-zag vibration lines and shooting stars.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#AB47BC",
       "procedural": {
         "motionType": "SNAKE_WIGGLE",
@@ -1297,7 +1404,9 @@
         "color": "#AB47BC",
         "secondaryColor": "#FFD54F",
         "vectorPath": "M 50,18 A 14,14 0 1 0 50,46 A 14,14 0 1 0 50,18 Z M 42,48 L 58,48 L 58,84 L 42,84 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_intimacy_solo_dj_turntable",
@@ -1307,8 +1416,7 @@
       "name": "DJ Spin That Record",
       "description": "A spinning vinyl turntable record scratching back and forth with a stylus arm and flying musical heart notes.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#E91E63",
       "procedural": {
         "motionType": "ORBIT_SPIN",
@@ -1319,7 +1427,9 @@
         "color": "#212121",
         "secondaryColor": "#E91E63",
         "vectorPath": "M 46,20 A 28,28 0 1 0 46,76 A 28,28 0 1 0 46,20 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_intimacy_solo_champagne_pop",
@@ -1329,8 +1439,7 @@
       "name": "Champagne Cork Pop!",
       "description": "A celebratory bottle shakes under pressure and POP! launches the cork and a fountain of bubbly fizz.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#FFD54F",
       "procedural": {
         "motionType": "PARTICLE_BURST",
@@ -1341,7 +1450,9 @@
         "color": "#FFD54F",
         "secondaryColor": "#2E7D32",
         "vectorPath": "M 36,45 L 64,45 L 68,85 L 32,85 Z M 44,18 A 6,6 0 1 0 56,18 A 6,6 0 1 0 44,18 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_intimacy_solo_devils_doorbell",
@@ -1351,8 +1462,7 @@
       "name": "Ringing the Devil's Doorbell",
       "description": "A cheeky golden bell with tiny devil horns swinging wildly side-to-side with DING-DING sonic shockwaves.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#FFB300",
       "procedural": {
         "motionType": "SNAKE_WIGGLE",
@@ -1363,7 +1473,9 @@
         "color": "#FFB300",
         "secondaryColor": "#D32F2F",
         "vectorPath": "M 34,30 L 66,30 L 76,68 L 24,68 Z M 50,74 A 8,8 0 1 0 50,86 A 8,8 0 1 0 50,74 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_ember_spark",
@@ -1373,7 +1485,6 @@
       "name": "Radiant Libido Spark",
       "description": "Warm golden-amber vitality spark pulsating with endocrine desire and sexual energy on high libido days.",
       "isDefault": true,
-      "priceUsd": "Free",
       "priceAurums": 0,
       "accentColor": "#C27D38",
       "procedural": {
@@ -1385,7 +1496,9 @@
         "color": "#C27D38",
         "secondaryColor": "#FFD54F",
         "vectorPath": "M 50,16 Q 74,48 64,74 A 18,18 0 1 1 36,74 Q 26,48 50,16 Z"
-      }
+      },
+      "goldPrice": 0,
+      "silverPrice": 0
     },
     {
       "id": "anim_intimacy_libido_thermometer_pop",
@@ -1395,8 +1508,7 @@
       "name": "Thermometer Mercury Explosion",
       "description": "A glass thermometer where boiling red mercury shoots to the top and booms out the bulb like a cartoon!",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#FF1744",
       "procedural": {
         "motionType": "PULSE_EXPAND",
@@ -1407,7 +1519,9 @@
         "color": "#FF1744",
         "secondaryColor": "#FFFFFF",
         "vectorPath": "M 42,16 L 58,16 L 58,64 A 14,14 0 1 1 42,64 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_intimacy_libido_chili_pepper",
@@ -1417,8 +1531,7 @@
       "name": "Five-Alarm Spicy Chili",
       "description": "A fiery red jalapeño chili pepper hopping up and down while breathing cartoon fire flames.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#D50000",
       "procedural": {
         "motionType": "HOP",
@@ -1429,7 +1542,9 @@
         "color": "#D50000",
         "secondaryColor": "#FF9100",
         "vectorPath": "M 24,32 Q 45,82 82,58 Q 56,52 38,24 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_intimacy_libido_full_moon_howl",
@@ -1439,8 +1554,7 @@
       "name": "Feral Full Moon Howl",
       "description": "Peak ovulatory feral energy: a glowing full moon with wolf silhouette and pulsing AWOOOO soundwaves.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#FFF176",
       "procedural": {
         "motionType": "BREATHE_HALO",
@@ -1451,7 +1565,9 @@
         "color": "#FFF176",
         "secondaryColor": "#311B92",
         "vectorPath": "M 50,20 A 28,28 0 1 0 50,76 A 28,28 0 1 0 50,20 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_intimacy_libido_flaming_peach",
@@ -1461,8 +1577,7 @@
       "name": "Peach on Fire",
       "description": "A plump, juicy cartoon peach surrounded by dancing five-alarm flames and sizzling sweat droplets.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#FF7043",
       "procedural": {
         "motionType": "HOP",
@@ -1473,7 +1588,9 @@
         "color": "#FF7043",
         "secondaryColor": "#FFD54F",
         "vectorPath": "M 36,36 A 18,20 0 1 0 36,76 A 18,20 0 1 0 36,36 Z M 64,36 A 18,20 0 1 0 64,76 A 18,20 0 1 0 64,36 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_pranayama",
@@ -1483,7 +1600,6 @@
       "name": "Pranayama Breathwork Halo",
       "description": "4-7-8 rhythmic breathing circle guiding stress reduction, cortisol lowering, and pelvic floor relaxation.",
       "isDefault": true,
-      "priceUsd": "Free",
       "priceAurums": 0,
       "accentColor": "#5E4B8B",
       "procedural": {
@@ -1495,7 +1611,9 @@
         "color": "#5E4B8B",
         "secondaryColor": "#B39DDB",
         "vectorPath": "M 50,20 A 30,30 0 1 0 50,80 A 30,30 0 1 0 50,20 Z"
-      }
+      },
+      "goldPrice": 0,
+      "silverPrice": 0
     },
     {
       "id": "anim_mindful_jellyfish",
@@ -1505,8 +1623,7 @@
       "name": "Bioluminescent Jellyfish",
       "description": "A glowing deep-sea jellyfish whose bell expands on the inhale, hovers, and propels upward with trailing tentacles.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#26C6DA",
       "procedural": {
         "motionType": "BREATHE_HALO",
@@ -1517,7 +1634,9 @@
         "color": "#26C6DA",
         "secondaryColor": "#BA68C8",
         "vectorPath": "M 22,48 A 28,24 0 0 1 78,48 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_mindful_dandelion",
@@ -1527,8 +1646,7 @@
       "name": "Dandelion Wish Puff",
       "description": "A fluffy white dandelion clock that swells on the inhale and releases floating wish seeds on the exhale.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#FFF9C4",
       "procedural": {
         "motionType": "FLOAT_DRIFT",
@@ -1539,7 +1657,9 @@
         "color": "#FFF9C4",
         "secondaryColor": "#81C784",
         "vectorPath": "M 44,24 A 18,18 0 1 0 44,60 A 18,18 0 1 0 44,24 Z M 44,60 L 44,86"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
     },
     {
       "id": "anim_mindful_bonsai_blossom",
@@ -1549,8 +1669,7 @@
       "name": "Cherry Blossom Bonsai",
       "description": "A serene bonsai silhouette whose pink sakura petals bloom outward on the inhale and drift down on the exhale.",
       "isDefault": false,
-      "priceUsd": "$0.99",
-      "priceAurums": 100,
+      "priceAurums": 150,
       "accentColor": "#F48FB1",
       "procedural": {
         "motionType": "BREATHE_HALO",
@@ -1561,15 +1680,28 @@
         "color": "#F48FB1",
         "secondaryColor": "#6D4C41",
         "vectorPath": "M 50,22 A 20,16 0 1 0 50,54 A 20,16 0 1 0 50,22 Z M 46,50 L 54,50 L 56,84 L 44,84 Z"
-      }
+      },
+      "goldPrice": 100,
+      "silverPrice": 150
+    },
+    {
+      "id": "anim_puff_white_companion",
+      "sku": "aura_anim_puff_white_companion",
+      "category": "mascot",
+      "categoryTitle": "Aura Puff Mascot",
+      "name": "White Aura Puff — Official Mascot",
+      "description": "Complete White Puff animation suite: breathing idle, sign-hoisting cycle cues, phase reactions & log celebration hops.",
+      "isDefault": false,
+      "priceAurums": 500,
+      "goldPrice": 500,
+      "silverPrice": -1,
+      "accentColor": "#FCFBF8"
     }
   ],
   "valueAnchor": {
-    "totalAlacarteUsd": 77.55,
-    "proLifetimeUsd": 24.99,
-    "savingsUsd": 52.56,
-    "savingsPercentage": 68,
-    "calloutTitle": "Complete Boutique Collection Value: $77.55",
-    "calloutSubtitle": "Unlock Aura Pro Lifetime for $24.99 and save $52.56 (68%) vs individual items!"
+    "proLifetimeUsd": 14.99,
+    "welcomeGoldBonus": 500,
+    "calloutTitle": "Credit-First Boutique Economy",
+    "calloutSubtitle": "Aura Pro ($14.99) removes ads forever, unlocks all utility tools, and includes +500 Welcome Gold Credits."
   }
 }
