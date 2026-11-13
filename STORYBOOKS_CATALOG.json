@@ -1,0 +1,1511 @@
+{
+  "catalogVersion": 3,
+  "lastUpdated": "2026-11-13T03:45:00Z",
+  "catalogType": "aura_puff_storybooks",
+  "storybooks": [
+    {
+      "id": "puff_forgot_sleep",
+      "sku": null,
+      "goldPrice": 0,
+      "titleEn": "Where Did Little Puff's Yawn Go?",
+      "titleEs": "¿A Dónde Fue el Bostezo de Puff?",
+      "subtitleEn": "A quiet hunt through sunset grass, dark woods, and starry hills for a sleepy runaway yawn.",
+      "subtitleEs": "Una búsqueda tranquila entre la hierba, el bosque y las estrellas tras un bostezo dormilón.",
+      "ageRangeEn": "Ages 2–6 • Bedtime",
+      "ageRangeEs": "Edades 2–6 • Dormir",
+      "themeTag": "Bedtime",
+      "coverScene": "MOON_CRADLE",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "textEn": "The warm sun dipped low behind the green grass. Every furry creature curled up tight for sleep—except wide-eyed Little Puff.",
+          "textEs": "El sol tibio bajó tras la hierba verde. Cada criatura peluda se acurrucó para dormir... menos Puff, con dos ojitos bien abiertos.",
+          "backdropScene": "SUNRISE_NURSERY",
+          "actorKeyframe": {
+            "offsetXFraction": -0.20,
+            "offsetYFraction": 0.14,
+            "scale": 1.0,
+            "reaction": "ALERT_WIGGLE",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 7500
+        },
+        {
+          "pageNumber": 2,
+          "textEn": "Little Puff smoothed down shaggy white fur with two small hands, while two bouncy feet went tap-tap. \"Where did bedtime's yawn go?\"",
+          "textEs": "Puff alisó la suave pelusa blanca con dos manitas, mientras dos piecitos inquietos hacían tip-tap. —¿A dónde fue el bostezo?",
+          "backdropScene": "SUNRISE_NURSERY",
+          "actorKeyframe": {
+            "offsetXFraction": 0.15,
+            "offsetYFraction": 0.12,
+            "scale": 1.05,
+            "reaction": "ALERT_WIGGLE",
+            "signVisible": true
+          },
+          "puffSignEn": "Lost Yawn!",
+          "puffSignEs": "¡Sin bostezo!",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 3,
+          "textEn": "Tip-toe, tip-toe into the quiet woods. Fluffy fur brushed softly past tall dark trees as four golden fireflies drifted above.",
+          "textEs": "De puntitas, de puntitas hacia el bosque callado. La pelusa blanca rozó los troncos altos mientras cuatro luciérnagas doradas flotaban arriba.",
+          "backdropScene": "LANTERN_GROVE",
+          "actorKeyframe": {
+            "offsetXFraction": -0.28,
+            "offsetYFraction": 0.14,
+            "scale": 0.96,
+            "reaction": "IDLE",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8000
+        },
+        {
+          "pageNumber": 4,
+          "textEn": "Up stretched two small hands toward a glowing bug. \"Excuse me, Firefly! Did a sleepy yawn flutter past these trees?\"",
+          "textEs": "Se alzaron dos manitas hacia una luz dorada. —¡Disculpa, luciérnaga! ¿Viste pasar un bostezo con sueño por aquí?",
+          "backdropScene": "LANTERN_GROVE",
+          "actorKeyframe": {
+            "offsetXFraction": 0.22,
+            "offsetYFraction": 0.10,
+            "scale": 1.02,
+            "reaction": "CELEBRATE_HOP",
+            "signVisible": true
+          },
+          "puffSignEn": "Any yawns?",
+          "puffSignEs": "¿Hay bostezos?",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 5,
+          "textEn": "Out on the grassy hills, sixteen silver stars blinked hello. Hop, hop, hop! Little Puff leaped high on springy feet to grab one.",
+          "textEs": "En las colinas verdes, dieciséis estrellas guiñaron un saludo. ¡Brinca, brinca! Puff saltó alto con dos piecitos rápidos para atrapar uno.",
+          "backdropScene": "STARLIT_MEADOW",
+          "actorKeyframe": {
+            "offsetXFraction": -0.22,
+            "offsetYFraction": 0.16,
+            "scale": 0.98,
+            "reaction": "CELEBRATE_HOP",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8000
+        },
+        {
+          "pageNumber": 6,
+          "textEn": "Tumble-plop! Shaggy fur landed in a messy tuft on the hill. Chasing a yawn only made two little feet bounce faster!",
+          "textEs": "¡Cataplúm! La suave pelusa cayó despeinada sobre la colina. ¡Perseguir un bostezo solo hacía que dos piecitos saltaran más rápido!",
+          "backdropScene": "STARLIT_MEADOW",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.14,
+            "scale": 1.04,
+            "reaction": "LUTEAL_CHILL",
+            "signVisible": true
+          },
+          "puffSignEn": "Too bouncy!",
+          "puffSignEs": "¡Cuánto brinco!",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 7,
+          "textEn": "Far overhead in the purple sky, a golden moon watched two slow clouds drift by. Little Puff stopped jumping and tucked two feet into cozy fur.",
+          "textEs": "Muy alto en el cielo morado, una luna dorada miraba dos nubes pasar despacio. Puff dejó de saltar y escondió dos piecitos bajo la pelusa tibia.",
+          "backdropScene": "MOON_CRADLE",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.16,
+            "scale": 1.0,
+            "reaction": "COZY_REST",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 8,
+          "textEn": "Both small hands rested calmly on the cool ground. In drifted soft night air... whoooosh went one long, gentle sigh.",
+          "textEs": "Las dos manitas descansaron en calma sobre el suelo fresco. Entró el aire nocturno... fuuuu salió un suspiro largo y suave.",
+          "backdropScene": "MOON_CRADLE",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.12,
+            "scale": 1.06,
+            "reaction": "COZY_REST",
+            "signVisible": true
+          },
+          "puffSignEn": "Breathe slow...",
+          "puffSignEs": "Respira lento",
+          "autoPlayDurationMs": 9000
+        },
+        {
+          "pageNumber": 9,
+          "textEn": "Warm fur settled round and still. Two bright eyes blinked slow, then heavy. Out from behind the fluffy fur popped one big \"Oooooh-yaaawn!\" The yawn was home inside.",
+          "textEs": "La pelusa tibia quedó redonda y quieta. Dos ojitos parpadearon lento, muy despacio. Y entre la pelusa blanca asomó un gran —¡Aaaah-bostezo!— El bostezo ya estaba en casa.",
+          "backdropScene": "MOON_CRADLE",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.16,
+            "scale": 1.08,
+            "reaction": "SLEEPY_YAWN",
+            "signVisible": true
+          },
+          "puffSignEn": "Nighty-night",
+          "puffSignEs": "Dulces sueños",
+          "autoPlayDurationMs": 9000
+        }
+      ]
+    },
+    {
+      "id": "puff_big_feelings",
+      "sku": null,
+      "goldPrice": 0,
+      "titleEn": "Little Puff and the Bristly Storm",
+      "titleEs": "Puff y la Tormenta en la Pelusa",
+      "subtitleEn": "When everything goes sideways at once, shaggy fur puffs out—until real rain clears the sky.",
+      "subtitleEs": "Cuando todo sale al revés, la pelusa se eriza... hasta que la lluvia deja ver un arcoíris.",
+      "ageRangeEn": "Ages 3–7 • Big Feelings",
+      "ageRangeEs": "Edades 3–7 • Emociones",
+      "themeTag": "Big Feelings",
+      "coverScene": "RAINBOW_PUDDLES",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "textEn": "Warm morning sun peeked behind the green grass. Little Puff bounced out on two happy feet, carrying one smooth white pebble.",
+          "textEs": "El sol de la mañana asomó tras la hierba verde. Puff salió saltando con dos piecitos alegres y una piedrita suave.",
+          "backdropScene": "SUNRISE_NURSERY",
+          "actorKeyframe": {
+            "offsetXFraction": -0.22,
+            "offsetYFraction": 0.14,
+            "scale": 1.0,
+            "reaction": "CELEBRATE_HOP",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 7500
+        },
+        {
+          "pageNumber": 2,
+          "textEn": "Trip-stumble-plop! One toe caught a tangled grass knot. Down tumbled the pebble—and up bristled every tuft of fluffy white fur!",
+          "textEs": "¡Tropezón y plop! Un pie se enredó en la hierba alta. Cayó la piedrita... ¡y toda la pelusa blanca se erizó al instante!",
+          "backdropScene": "SUNRISE_NURSERY",
+          "actorKeyframe": {
+            "offsetXFraction": 0.12,
+            "offsetYFraction": 0.14,
+            "scale": 1.04,
+            "reaction": "ALERT_WIGGLE",
+            "signVisible": true
+          },
+          "puffSignEn": "Uh-oh! Plop!",
+          "puffSignEs": "¡Plop! ¡Ay!",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 3,
+          "textEn": "High in the cool periwinkle sky, three puffy clouds drifted past. Inside Little Puff's shaggy coat, a prickly storm began to rumble.",
+          "textEs": "Alto en el cielo violeta pasaban tres nubes grandes. Dentro de la pelusa despeinada de Puff empezó a rugir una tormenta.",
+          "backdropScene": "CLOUD_HARBOR",
+          "actorKeyframe": {
+            "offsetXFraction": -0.18,
+            "offsetYFraction": 0.12,
+            "scale": 1.06,
+            "reaction": "ALERT_WIGGLE",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8000
+        },
+        {
+          "pageNumber": 4,
+          "textEn": "Stomp, stomp, THUMP! Both small hands curled tight while two eyes narrowed low. \"Not fair!\" grumbled a voice behind the fur.",
+          "textEs": "¡Pum, pum, PAF! Las dos manitas se cerraron fuerte y dos ojitos se entrecerraron. —¡No es justo! —gruñó una voz bajo la pelusa.",
+          "backdropScene": "CLOUD_HARBOR",
+          "actorKeyframe": {
+            "offsetXFraction": 0.10,
+            "offsetYFraction": 0.10,
+            "scale": 1.10,
+            "reaction": "ALERT_WIGGLE",
+            "signVisible": true
+          },
+          "puffSignEn": "Grrr-stomp!",
+          "puffSignEs": "¡Grrr! ¡Pum!",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 5,
+          "textEn": "Rain had left a shiny blue puddle in the grass. Heavy drops welled inside two wide eyes and rolled straight into warm white fur.",
+          "textEs": "La lluvia dejó un charco azul brillante en la hierba. Dos gotas tibias brotaron de dos ojitos y rodaron por la pelusa blanca.",
+          "backdropScene": "RAINBOW_PUDDLES",
+          "actorKeyframe": {
+            "offsetXFraction": -0.22,
+            "offsetYFraction": 0.16,
+            "scale": 0.98,
+            "reaction": "LUTEAL_CHILL",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 6,
+          "textEn": "Splish, splash! Two bouncy feet kicked the cool puddle water, letting the hot fizz pour out until only soft sniffles stayed behind.",
+          "textEs": "¡Chof, chof! Dos piecitos chapotearon en el agua fresca, dejando salir todo el enojo hasta que solo quedó un suspiro suave.",
+          "backdropScene": "RAINBOW_PUDDLES",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.14,
+            "scale": 1.04,
+            "reaction": "LUTEAL_CHILL",
+            "signVisible": true
+          },
+          "puffSignEn": "Drip, drop...",
+          "puffSignEs": "Plip, plop...",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 7,
+          "textEn": "Above the green grass, four bright bands of rainbow stretched across pale blue sky. Little Puff stopped stomping and looked way up high.",
+          "textEs": "Sobre la hierba verde, un arcoíris de cuatro colores cruzó el cielo azul claro. Puff dejó de golpear el suelo y miró hacia arriba.",
+          "backdropScene": "RAINBOW_PUDDLES",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.14,
+            "scale": 1.06,
+            "reaction": "COZY_REST",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 8,
+          "textEn": "Shaka-shaka-shook! Fluffy fur gave one dizzy whole-body wiggle. Out from under the fur blew a loud, slow \"Hmph-whoooosh!\"",
+          "textEs": "¡Chaca-chaca-chú! Toda la pelusa dio una sacudida gigante de pies a cabeza. Y bajo el pelo blanco salió un largo —¡Fuuuuu!—",
+          "backdropScene": "RAINBOW_PUDDLES",
+          "actorKeyframe": {
+            "offsetXFraction": 0.05,
+            "offsetYFraction": 0.12,
+            "scale": 1.04,
+            "reaction": "COZY_REST",
+            "signVisible": true
+          },
+          "puffSignEn": "Shaka-shook!",
+          "puffSignEs": "¡Sacudida!",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 9,
+          "textEn": "Soft tufts settled calm and cozy once more. Two small hands scooped up the smooth pebble—and two bouncy feet leaped clear over the puddle!",
+          "textEs": "Cada mechón volvió a quedar tibio y suave. Dos manitas recogieron la piedrita lisa... ¡y dos piecitos saltaron felices sobre el charco!",
+          "backdropScene": "RAINBOW_PUDDLES",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.16,
+            "scale": 1.08,
+            "reaction": "CELEBRATE_HOP",
+            "signVisible": true
+          },
+          "puffSignEn": "All clear!",
+          "puffSignEs": "¡Cielo limpio!",
+          "autoPlayDurationMs": 9000
+        }
+      ]
+    },
+    {
+      "id": "puff_two_on_one_cloud",
+      "sku": "aura_story_new_sibling_puff",
+      "goldPrice": 100,
+      "titleEn": "Room for Two in the Softest Nest",
+      "titleEs": "Lugar para Dos en el Nido Suave",
+      "subtitleEn": "A cozy meadow hollow built for one furry Puff suddenly holds a tiny wrapped bundle too.",
+      "subtitleEs": "Un rincón suave, hecho solo para Puff, de pronto guarda un bultito muy chiquito.",
+      "ageRangeEn": "Ages 2–7 • New Sibling",
+      "ageRangeEs": "Edades 2–7 • Nuevo Bebé",
+      "themeTag": "New Sibling",
+      "coverScene": "SUNRISE_NURSERY",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "textEn": "Soft green grass and warm golden sunbeams! Little Puff loved the cozy meadow hollow built for one round, shaggy Puff.",
+          "textEs": "¡Hierba suave y rayos tibios de sol! Puff adoraba el rincón mullido del prado, hecho solo para Puff y la pelusa blanca.",
+          "backdropScene": "SUNRISE_NURSERY",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.14,
+            "scale": 1.0,
+            "reaction": "IDLE",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 7500
+        },
+        {
+          "pageNumber": 2,
+          "textEn": "Then Mama set down one teeny wrapped bundle right in the middle. Hic-peep! whispered a tiny new voice. Little Puff froze on two round feet.",
+          "textEs": "Entonces Mamá dejó un bultito envuelto justo en el centro. —¡Hip-pío! —sonó una vocecita nueva. Puff detuvo dos piecitos al instante.",
+          "backdropScene": "SUNRISE_NURSERY",
+          "actorKeyframe": {
+            "offsetXFraction": -0.25,
+            "offsetYFraction": 0.14,
+            "scale": 0.98,
+            "reaction": "ALERT_WIGGLE",
+            "signVisible": true
+          },
+          "puffSignEn": "Who's there?",
+          "puffSignEs": "¿Quién llegó?",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 3,
+          "textEn": "Little Puff squeezed both small hands into fluffy fur and scooted way back to the edge. Look how tiny the grass felt now!",
+          "textEs": "Puff apretó las dos manitas contra la suave pelusa y se apartó hasta la orilla. ¡Qué apretado se sentía el rincón ahora!",
+          "backdropScene": "SUNRISE_NURSERY",
+          "actorKeyframe": {
+            "offsetXFraction": -0.32,
+            "offsetYFraction": 0.14,
+            "scale": 0.94,
+            "reaction": "ALERT_WIGGLE",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 4,
+          "textEn": "Up in the twilight sky floated three drifting clouds. \"Is there still enough cozy fur, enough warm grass, and enough lap for Little Puff?\" sighed a small voice behind the fur.",
+          "textEs": "Arriba en el cielo suave flotaban tres nubes lentas. —¿Alcanzará todavía la hierba tibia y el abrazo para Puff? —suspiró una voz bajo la pelusa.",
+          "backdropScene": "CLOUD_HARBOR",
+          "actorKeyframe": {
+            "offsetXFraction": -0.20,
+            "offsetYFraction": 0.14,
+            "scale": 0.98,
+            "reaction": "LUTEAL_CHILL",
+            "signVisible": true
+          },
+          "puffSignEn": "Enough left?",
+          "puffSignEs": "¿Quedará?",
+          "autoPlayDurationMs": 9000
+        },
+        {
+          "pageNumber": 5,
+          "textEn": "Clomp, clomp went two cross feet toward the quiet trees. Four golden fireflies danced side by side without stealing anyone's glow.",
+          "textEs": "Pum, pum caminaron dos piecitos hacia el bosque callado. Cuatro luciérnagas doradas brillaban juntas sin quitarse la luz.",
+          "backdropScene": "LANTERN_GROVE",
+          "actorKeyframe": {
+            "offsetXFraction": 0.22,
+            "offsetYFraction": 0.14,
+            "scale": 0.96,
+            "reaction": "LUTEAL_CHILL",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 6,
+          "textEn": "From the meadow behind came a tinier meep-hic—the sound of a brand-new creature missing a warm windbreak. Two bright eyes blinked soft.",
+          "textEs": "Desde el prado llegó un ¡hip-pío! muy chiquito, como de alguien recién llegado buscando abrigo. Dos ojitos grandes parpadearon suave.",
+          "backdropScene": "LANTERN_GROVE",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.14,
+            "scale": 1.0,
+            "reaction": "IDLE",
+            "signVisible": true
+          },
+          "puffSignEn": "*Meep-hic!*",
+          "puffSignEs": "*¡Hip-pío!*",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 7,
+          "textEn": "Under eighteen twinkling stars, Little Puff tiptoed back slowly and pressed warm, shaggy fur right beside the tiny bundle.",
+          "textEs": "Bajo dieciocho estrellas brillantes, Puff regresó de puntitas y acercó la pelusa tibia junto al pequeño bultito.",
+          "backdropScene": "MOON_CRADLE",
+          "actorKeyframe": {
+            "offsetXFraction": -0.12,
+            "offsetYFraction": 0.14,
+            "scale": 1.02,
+            "reaction": "COZY_REST",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 8,
+          "textEn": "A teeny hand peeked out of the wrap and tickled Little Puff's fluffy side! Out from behind the fur tumbled a surprised giggle.",
+          "textEs": "Una manita diminuta asomó de la manta e hizo cosquillas en la pelusa blanca. ¡De entre el pelo de Puff brotó una risita alegre!",
+          "backdropScene": "MOON_CRADLE",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.12,
+            "scale": 1.05,
+            "reaction": "CELEBRATE_HOP",
+            "signVisible": true
+          },
+          "puffSignEn": "Tiny wiggle!",
+          "puffSignEs": "¡Cosquillas!",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 9,
+          "textEn": "The golden crescent moon smiled down from the purple sky. Strange magic! Sharing the softest nest hadn't made love smaller—just twice as warm.",
+          "textEs": "La luna dorada brilló en lo alto del cielo morado. ¡Qué magia tan dulce! Compartir el nido no achicó el cariño... lo volvió el doble de tibio.",
+          "backdropScene": "MOON_CRADLE",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.16,
+            "scale": 1.08,
+            "reaction": "COZY_REST",
+            "signVisible": true
+          },
+          "puffSignEn": "Room for two",
+          "puffSignEs": "Lugar para dos",
+          "autoPlayDurationMs": 9000
+        }
+      ]
+    },
+    {
+      "id": "puff_mama_cozy_cloud",
+      "sku": "aura_story_mommy_rests_puff",
+      "goldPrice": 100,
+      "titleEn": "The Day Mama Curled Still",
+      "titleEs": "El Día en que Mamá Guardó Calma",
+      "subtitleEn": "Even tall trees and bright moons take slow, quiet days—and Little Puff learns gentle company is plenty.",
+      "subtitleEs": "Hasta los árboles altos y la luna tienen días lentos... y Puff descubre cómo acompañar con dulzura.",
+      "ageRangeEn": "Ages 3–8 • Mama Rest Day",
+      "ageRangeEs": "Edades 3–8 • Calma de Mamá",
+      "themeTag": "Mama Rest Day",
+      "coverScene": "LANTERN_GROVE",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "textEn": "Most mornings on the green grass, Mama could out-hop windblown petals and lift Little Puff right toward the sun.",
+          "textEs": "Casi todas las mañanas en el prado, Mamá corría más rápido que la brisa y alzaba a Puff hacia el sol tibio.",
+          "backdropScene": "SUNRISE_NURSERY",
+          "actorKeyframe": {
+            "offsetXFraction": -0.20,
+            "offsetYFraction": 0.14,
+            "scale": 1.0,
+            "reaction": "CELEBRATE_HOP",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 7500
+        },
+        {
+          "pageNumber": 2,
+          "textEn": "Tap-tap danced two bouncy feet beside the mossy den. \"Sun's up, Mama!\" called a voice through shaggy white fur.",
+          "textEs": "Tip-tap bailaron dos piecitos junto a la entrada tibia. —¡Ya salió el sol, Mamá! —llamó una voz entre la pelusa blanca.",
+          "backdropScene": "SUNRISE_NURSERY",
+          "actorKeyframe": {
+            "offsetXFraction": 0.18,
+            "offsetYFraction": 0.14,
+            "scale": 0.98,
+            "reaction": "ALERT_WIGGLE",
+            "signVisible": true
+          },
+          "puffSignEn": "Play tag?",
+          "puffSignEs": "¿Jugamos?",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 3,
+          "textEn": "Inside the shaded trees, Mama stayed curled up like a quiet hill, wrapped round in soft fur, barely moving a single hand.",
+          "textEs": "Entre la sombra tranquila de los árboles, Mamá seguía acurrucada como una loma quieta, envuelta en suave pelusa blanca.",
+          "backdropScene": "LANTERN_GROVE",
+          "actorKeyframe": {
+            "offsetXFraction": -0.25,
+            "offsetYFraction": 0.14,
+            "scale": 0.96,
+            "reaction": "LUTEAL_CHILL",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 4,
+          "textEn": "Two bright eyes grew wide. Wait—why wasn't Mama hopping? Little Puff pressed both small hands against shaggy fur, whispering soft, \"Did Mama's bounce break?\"",
+          "textEs": "Dos ojitos se abrieron enormes. ¿Por qué no saltaba Mamá hoy? Puff apoyó dos manitas sobre la pelusa y susurró: —¿Se rompió la fuerza de Mamá?",
+          "backdropScene": "LANTERN_GROVE",
+          "actorKeyframe": {
+            "offsetXFraction": -0.10,
+            "offsetYFraction": 0.14,
+            "scale": 1.0,
+            "reaction": "ALERT_WIGGLE",
+            "signVisible": true
+          },
+          "puffSignEn": "Uh-oh...",
+          "puffSignEs": "¿Qué pasa?",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 5,
+          "textEn": "One warm eye peeked open. \"Not broken, Little Puff,\" murmured Mama softly. \"Even tall trees rest deep inside while new strength quietly fills up.\"",
+          "textEs": "Un ojito tibio se entreabrió despacio. —No está rota, Puff —murmuró Mamá—. Hasta los árboles altos descansan hondo para recobrar su fuerza.",
+          "backdropScene": "LANTERN_GROVE",
+          "actorKeyframe": {
+            "offsetXFraction": 0.15,
+            "offsetYFraction": 0.14,
+            "scale": 1.0,
+            "reaction": "COZY_REST",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 9000
+        },
+        {
+          "pageNumber": 6,
+          "textEn": "Out across the cool grassy hills, Little Puff saw sixteen silver stars glowing quietly without rushing the moon, simply keeping steady watch.",
+          "textEs": "Sobre las colinas verdes, Puff miró dieciséis estrellas brillando en silencio sin apurar a la luna, cuidando el cielo con calma.",
+          "backdropScene": "STARLIT_MEADOW",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.16,
+            "scale": 1.0,
+            "reaction": "IDLE",
+            "signVisible": true
+          },
+          "puffSignEn": "Tiptoe steps",
+          "puffSignEs": "Pasos suaves",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 7,
+          "textEn": "Shhh-pat, shhh-pat went two gentle feet back among the four glowing fireflies. No loud calls, no big jumps—just soft quiet steps.",
+          "textEs": "Chist, chist regresaron dos piecitos sin ruido junto a las cuatro luciérnagas doradas. Sin gritos ni saltos altos, solo pasos muy suaves.",
+          "backdropScene": "LANTERN_GROVE",
+          "actorKeyframe": {
+            "offsetXFraction": -0.18,
+            "offsetYFraction": 0.14,
+            "scale": 1.02,
+            "reaction": "IDLE",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 8,
+          "textEn": "Little Puff nestled warm white fur right beside Mama's shaggy side and traced sleepy circles in the grass with one small hand, watching two slow clouds drift.",
+          "textEs": "Puff acomodó la tibia pelusa justo junto al costado suave de Mamá y dibujó círculos lentos en la hierba con una manita, mirando dos nubes pasar.",
+          "backdropScene": "MOON_CRADLE",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.14,
+            "scale": 1.04,
+            "reaction": "COZY_REST",
+            "signVisible": true
+          },
+          "puffSignEn": "Warm & near",
+          "puffSignEs": "Cerca en calma",
+          "autoPlayDurationMs": 9000
+        },
+        {
+          "pageNumber": 9,
+          "textEn": "Under the golden crescent moon, Mama let out one slow, grateful sigh. Little Puff didn't have to fix a thing—just keeping warm near Mama was magic enough.",
+          "textEs": "Bajo la luna dorada en forma de cuna, Mamá soltó un suspiro tibio de descanso. Puff no tenía nada que arreglar: estar cerca y en calma era magia suficiente.",
+          "backdropScene": "MOON_CRADLE",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.16,
+            "scale": 1.08,
+            "reaction": "SLEEPY_YAWN",
+            "signVisible": true
+          },
+          "puffSignEn": "Rest mends",
+          "puffSignEs": "Descansar sana",
+          "autoPlayDurationMs": 9000
+        }
+      ]
+    },
+    {
+      "id": "puff_night_noises",
+      "sku": "aura_story_night_noises_puff",
+      "goldPrice": 100,
+      "titleEn": "Who Goes Rustle in the Lantern Woods?",
+      "titleEs": "¿Quién Susurra en el Bosque de Luces?",
+      "subtitleEn": "After lights-out, shadows look tall and noisy—until four golden fireflies help Little Puff meet every nighttime sound.",
+      "subtitleEs": "Al apagarse la luz, el bosque suena enorme... hasta que cuatro luciérnagas iluminan cada ruidito nocturno.",
+      "ageRangeEn": "Ages 3–7 • Night Fears",
+      "ageRangeEs": "Edades 3–7 • Noche",
+      "themeTag": "Night Fears",
+      "coverScene": "LANTERN_GROVE",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "textEn": "Deep blue night spread across the quiet hills. Above, sixteen silver stars blinked awake. Below, Little Puff curled shaggy white fur near the trees.",
+          "textEs": "La noche azul cubrió las colinas calladas. Arriba, dieciséis estrellas guiñaron un saludo. Abajo, Puff acurrucó la pelusa blanca junto al bosque.",
+          "backdropScene": "STARLIT_MEADOW",
+          "actorKeyframe": {
+            "offsetXFraction": -0.20,
+            "offsetYFraction": 0.14,
+            "scale": 1.0,
+            "reaction": "IDLE",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 7500
+        },
+        {
+          "pageNumber": 2,
+          "textEn": "Shhh-rustle! Tap-CRACK! In the dark woods, shadows looked tall and spooky. Every strand of fluffy white fur stood straight on end!",
+          "textEs": "¡Chist-roce! ¡Tic-CRAC! Entre los troncos oscuros, las sombras parecían enormes. ¡Toda la pelusa blanca se erizó de golpe!",
+          "backdropScene": "LANTERN_GROVE",
+          "actorKeyframe": {
+            "offsetXFraction": -0.25,
+            "offsetYFraction": 0.14,
+            "scale": 1.02,
+            "reaction": "ALERT_WIGGLE",
+            "signVisible": true
+          },
+          "puffSignEn": "What was that?",
+          "puffSignEs": "¿Qué fue eso?",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 3,
+          "textEn": "Something creepy whispered behind the first dark tree trunk. Swish-swish-swish! Both small hands gripped the shaggy fur tight.",
+          "textEs": "Algo misterioso susurró detrás del primer árbol oscuro. ¡Suis-suis-suis! Las dos manitas agarraron fuerte la pelusa tibia.",
+          "backdropScene": "LANTERN_GROVE",
+          "actorKeyframe": {
+            "offsetXFraction": -0.12,
+            "offsetYFraction": 0.14,
+            "scale": 0.98,
+            "reaction": "ALERT_WIGGLE",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 4,
+          "textEn": "Blink! One golden firefly floated down to peek behind the trunk. No monster! Just cool night breeze tickling tall grass.",
+          "textEs": "¡Clin! Una luciérnaga dorada bajó a mirar detrás del tronco. ¡No había monstruos! Solo era la brisa haciendo cosquillas en la hierba.",
+          "backdropScene": "LANTERN_GROVE",
+          "actorKeyframe": {
+            "offsetXFraction": 0.08,
+            "offsetYFraction": 0.12,
+            "scale": 1.0,
+            "reaction": "IDLE",
+            "signVisible": true
+          },
+          "puffSignEn": "Just wind!",
+          "puffSignEs": "¡Solo viento!",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 5,
+          "textEn": "CRICK-CRACK! snapped a second noise close by! Two eyes popped round as marbles—until two more glowing fireflies drifted down by two little feet.",
+          "textEs": "¡CRIC-CRAC! sonó otro ruido muy cerquita. Dos ojitos se abrieron enormes... hasta que dos luciérnagas alumbraron justo bajo dos piecitos.",
+          "backdropScene": "LANTERN_GROVE",
+          "actorKeyframe": {
+            "offsetXFraction": 0.22,
+            "offsetYFraction": 0.12,
+            "scale": 1.04,
+            "reaction": "ALERT_WIGGLE",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 6,
+          "textEn": "Right under Little Puff's own left toe sat one tiny dry twig! Out from behind the fur popped a loud, surprised \"Haha!\"",
+          "textEs": "¡Justo bajo un piecito de Puff había una ramita seca! De entre la suave pelusa blanca escapó una risita sorprendida: —¡Ja, ja!",
+          "backdropScene": "LANTERN_GROVE",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.14,
+            "scale": 1.06,
+            "reaction": "CELEBRATE_HOP",
+            "signVisible": true
+          },
+          "puffSignEn": "Haha! A twig!",
+          "puffSignEs": "¡Ja, un palito!",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 7,
+          "textEn": "Grrr-rumble! went a third low growl—wait! Whose growl? A fourth bright firefly hovered close, and Little Puff patted one warm, round belly. Snack time?",
+          "textEs": "¡Grrr-rummm! sonó un tercer gruñido bajito... ¿de quién sería? La cuarta luciérnaga brilló cerca, y Puff dio palmaditas suaves a la pancita peluda. ¿Hambre?",
+          "backdropScene": "LANTERN_GROVE",
+          "actorKeyframe": {
+            "offsetXFraction": -0.05,
+            "offsetYFraction": 0.14,
+            "scale": 1.02,
+            "reaction": "LUTEAL_CHILL",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 8,
+          "textEn": "Swish sang the breeze, crick chimed the twig, rummm hummed one happy tummy, while two clouds drifted silently below a golden crescent moon.",
+          "textEs": "Suis cantó la brisa, cric respondió la rama, rummm roncó la pancita tibia, mientras dos nubes flotaban bajo la luna dorada.",
+          "backdropScene": "MOON_CRADLE",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.14,
+            "scale": 1.04,
+            "reaction": "COZY_REST",
+            "signVisible": true
+          },
+          "puffSignEn": "Night lullaby",
+          "puffSignEs": "Canto nocturno",
+          "autoPlayDurationMs": 9000
+        },
+        {
+          "pageNumber": 9,
+          "textEn": "Not spooky noises at all—just nighttime playing a gentle lullaby band. Fluffy white fur settled smooth, and two bright eyes drifted safely off to sleep.",
+          "textEs": "No eran ruidos de susto: era la noche tocando una canción de cuna. La pelusa blanca se acomodó suave, y dos ojitos se cerraron en paz.",
+          "backdropScene": "MOON_CRADLE",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.16,
+            "scale": 1.08,
+            "reaction": "SLEEPY_YAWN",
+            "signVisible": true
+          },
+          "puffSignEn": "Safe & cozy",
+          "puffSignEs": "En paz",
+          "autoPlayDurationMs": 9000
+        }
+      ]
+    },
+    {
+      "id": "puff_brave_checkup",
+      "sku": "aura_story_brave_checkup_puff",
+      "goldPrice": 100,
+      "titleEn": "Little Puff's Tickly Checkup Morning",
+      "titleEs": "La Mañana de Cosquillas de Puff",
+      "subtitleEn": "Jumpy grasshoppers turn checkup morning wiggly—until a tickly circle and five calm breaths make Little Puff feel tall and brave.",
+      "subtitleEs": "Diez saltamontes llenan la pancita de nervios... hasta que un circulito con cosquillas y cinco respiros despiertan gran valentía.",
+      "ageRangeEn": "Ages 3–7 • Brave Checkup",
+      "ageRangeEs": "Edades 3–7 • Revisión",
+      "themeTag": "Brave Checkup",
+      "coverScene": "SUNRISE_NURSERY",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "textEn": "Warm peach sun peeked above green grass. Checkup morning had arrived! Deep inside Little Puff's fluffy belly fur, ten jumpy grasshoppers began flipping somersaults.",
+          "textEs": "El sol tibio asomó sobre la hierba verde. ¡Era mañana de revisión! Bajo la suave pelusa de Puff, diez saltamontes nerviosos daban volteretas.",
+          "backdropScene": "SUNRISE_NURSERY",
+          "actorKeyframe": {
+            "offsetXFraction": -0.22,
+            "offsetYFraction": 0.14,
+            "scale": 1.0,
+            "reaction": "ALERT_WIGGLE",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 7500
+        },
+        {
+          "pageNumber": 2,
+          "textEn": "Jiggle-tap, jiggle-tap went two nervous feet. Both small hands clutched fluffy white sides. \"Wait—what if checkup morning feels scary?\" whispered a tight little voice.",
+          "textEs": "Tip-tap, tip-tap temblaban dos piecitos inquietos. Las dos manitas apretaron la pelusa blanca. —¿Y si la revisión da miedo? —susurró una voz bajita.",
+          "backdropScene": "SUNRISE_NURSERY",
+          "actorKeyframe": {
+            "offsetXFraction": 0.14,
+            "offsetYFraction": 0.14,
+            "scale": 1.02,
+            "reaction": "ALERT_WIGGLE",
+            "signVisible": true
+          },
+          "puffSignEn": "Tummy flips!",
+          "puffSignEs": "¡Qué nervios!",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 3,
+          "textEn": "Three wide clouds drifted lazily across the quiet periwinkle sky. Waiting felt like the longest minute ever! Every tuft of fur wanted to run straight home.",
+          "textEs": "Tres nubes lentas cruzaban el cielo violeta y tranquilo. ¡Esperar parecía el minuto más largo del mundo! Cada mechón de pelusa quería salir corriendo.",
+          "backdropScene": "CLOUD_HARBOR",
+          "actorKeyframe": {
+            "offsetXFraction": -0.18,
+            "offsetYFraction": 0.14,
+            "scale": 0.98,
+            "reaction": "LUTEAL_CHILL",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 4,
+          "textEn": "Gently, Mama squeezed one small hand. \"Count five slow breaths with Mama.\" One... two... three... four... five. Slow air brushed softly out from under the fur.",
+          "textEs": "Con dulzura, Mamá tomó una manita suave. —Contemos cinco respiros lentos. Uno... dos... tres... cuatro... cinco. El aire salió tibio bajo la pelusa.",
+          "backdropScene": "CLOUD_HARBOR",
+          "actorKeyframe": {
+            "offsetXFraction": 0.05,
+            "offsetYFraction": 0.12,
+            "scale": 1.02,
+            "reaction": "COZY_REST",
+            "signVisible": true
+          },
+          "puffSignEn": "Count five",
+          "puffSignEs": "Cuenta cinco",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 5,
+          "textEn": "Next came the kind doctor, warming up a shiny listening circle first so it wouldn't sting. Thump-a-thump! ticked Little Puff's busy heart under thick white fur.",
+          "textEs": "Luego llegó la doctora amable, entibiando primero su circulito brillante para no dar frío. ¡Pum-pum, pum-pum! sonó el corazón valiente bajo la pelusa blanca.",
+          "backdropScene": "SUNRISE_NURSERY",
+          "actorKeyframe": {
+            "offsetXFraction": -0.10,
+            "offsetYFraction": 0.14,
+            "scale": 1.04,
+            "reaction": "IDLE",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 6,
+          "textEn": "Wait—that didn't hurt at all! It tickled straight down to two springy feet! Out from behind the shaggy fur burst a bubbly \"Haha, tickles!\"",
+          "textEs": "¡Pero si eso no dolía nada! ¡Hacía cosquillas hasta en dos piecitos! De entre la pelusa despeinada brotó una risa traviesa: —¡Ja, ja, qué cosquillas!",
+          "backdropScene": "SUNRISE_NURSERY",
+          "actorKeyframe": {
+            "offsetXFraction": 0.15,
+            "offsetYFraction": 0.14,
+            "scale": 1.06,
+            "reaction": "CELEBRATE_HOP",
+            "signVisible": true
+          },
+          "puffSignEn": "Hehe! Tickles!",
+          "puffSignEs": "¡Cosquillas!",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 7,
+          "textEn": "One tiny flashlight peeked gently at two bright eyes. One big whoooosh! breath showed off strong lungs—and both round feet passed a bouncy tap check!",
+          "textEs": "Una lucecita suave saludó a dos ojitos brillantes. Un gran soplido ¡fuuuu! mostró unos pulmones fuertes... ¡y dos piecitos pasaron la prueba de saltos!",
+          "backdropScene": "RAINBOW_PUDDLES",
+          "actorKeyframe": {
+            "offsetXFraction": -0.12,
+            "offsetYFraction": 0.14,
+            "scale": 1.04,
+            "reaction": "IDLE",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 8,
+          "textEn": "\"Brave, healthy, and strong!\" smiled the doctor. All ten tummy grasshoppers hopped peacefully away, leaving warm, smooth tufts everywhere.",
+          "textEs": "—¡Qué fuerza y qué valentía! —sonrió la doctora. Los diez saltamontes se marcharon en paz, dejando toda la pelusa tibia y tranquila.",
+          "backdropScene": "RAINBOW_PUDDLES",
+          "actorKeyframe": {
+            "offsetXFraction": 0.05,
+            "offsetYFraction": 0.14,
+            "scale": 1.06,
+            "reaction": "COZY_REST",
+            "signVisible": true
+          },
+          "puffSignEn": "All done!",
+          "puffSignEs": "¡Listo ya!",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 9,
+          "textEn": "Outside, a four-striped rainbow curved above the blue puddle. Two proud feet leaped high into the fresh breeze—Little Puff could do hard things!",
+          "textEs": "Afuera, un arcoíris de cuatro colores brillaba sobre el charco azul. Dos piecitos orgullosos saltaron alto al viento: ¡Puff era capaz de todo!",
+          "backdropScene": "RAINBOW_PUDDLES",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.16,
+            "scale": 1.08,
+            "reaction": "CELEBRATE_HOP",
+            "signVisible": true
+          },
+          "puffSignEn": "Brave hop!",
+          "puffSignEs": "¡Salto valiente!",
+          "autoPlayDurationMs": 9000
+        }
+      ]
+    },
+    {
+      "id": "puff_waiting_for_spring",
+      "sku": "aura_story_waiting_for_spring_puff",
+      "goldPrice": 100,
+      "titleEn": "How Long Until the Sun Wakes Up?",
+      "titleEs": "¿Cuánto Falta para que Despierte el Sol?",
+      "subtitleEn": "Waiting feels endless when Little Puff wants tomorrow now—until dusk turns lavender and morning arrives right on time.",
+      "subtitleEs": "Esperar parece eterno cuando Puff quiere el mañana ya... hasta que el cielo cambia de color y el sol despierta a su hora.",
+      "ageRangeEn": "Ages 3–7 • Patience",
+      "ageRangeEs": "Edades 3–7 • Paciencia",
+      "themeTag": "Patience",
+      "coverScene": "SUNRISE_NURSERY",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "textEn": "Deep purple night hung over two drifting clouds. Wide awake on the cool grass sat Little Puff, staring straight at one unhurried golden moon.",
+          "textEs": "La noche morada cubría dos nubes tranquilas. Con los ojos bien abiertos en la hierba fresca, Puff miraba fijo a la luna dorada y calma.",
+          "backdropScene": "MOON_CRADLE",
+          "actorKeyframe": {
+            "offsetXFraction": -0.20,
+            "offsetYFraction": 0.14,
+            "scale": 1.0,
+            "reaction": "ALERT_WIGGLE",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 7500
+        },
+        {
+          "pageNumber": 2,
+          "textEn": "Waiting for morning took forever! Up waved two impatient small hands toward the sky. \"Shoo, Moon! Wake up, Sun! Little Puff wants tomorrow right NOW!\"",
+          "textEs": "¡Esperar al sol tardaba una eternidad! Dos manitas impacientes agitaron el aire hacia el cielo. —¡Vete, luna! ¡Despierta, sol! ¡El mañana hace falta YA!",
+          "backdropScene": "MOON_CRADLE",
+          "actorKeyframe": {
+            "offsetXFraction": 0.12,
+            "offsetYFraction": 0.14,
+            "scale": 1.04,
+            "reaction": "ALERT_WIGGLE",
+            "signVisible": true
+          },
+          "puffSignEn": "Hurry up!",
+          "puffSignEs": "¡Más rápido!",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 3,
+          "textEn": "Out across the hills, Little Puff counted sixteen silver stars at lightning speed—one-two-four-sixteen! Not one twinkling star blinked any faster.",
+          "textEs": "Sobre las colinas, Puff contó dieciséis estrellas a toda velocidad: ¡una-dos-cuatro-dieciséis! Ninguna estrella parpadeó ni un poquito más rápido.",
+          "backdropScene": "STARLIT_MEADOW",
+          "actorKeyframe": {
+            "offsetXFraction": -0.18,
+            "offsetYFraction": 0.16,
+            "scale": 0.98,
+            "reaction": "CELEBRATE_HOP",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 4,
+          "textEn": "Into the dark woods padded shaggy white fur. Between four tall tree trunks, four golden fireflies drifted slowly, taking all the unhurried time in the world.",
+          "textEs": "Al bosque oscuro entró la suave pelusa blanca. Entre cuatro árboles altos, cuatro luciérnagas doradas flotaban despacio, sin prisa ninguna en el mundo.",
+          "backdropScene": "LANTERN_GROVE",
+          "actorKeyframe": {
+            "offsetXFraction": 0.18,
+            "offsetYFraction": 0.14,
+            "scale": 1.0,
+            "reaction": "IDLE",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 5,
+          "textEn": "Plop! Two tired feet sat flat on the forest floor. Shaggy fur drooped low. Waiting felt sticky, bumpy, and way too slow!",
+          "textEs": "¡Plop! Dos piecitos cansados se apoyaron en el suelo oscuro. Toda la pelusa cayó sin brillo. ¡Esperar se sentía largo, pesado y demasiado lento!",
+          "backdropScene": "LANTERN_GROVE",
+          "actorKeyframe": {
+            "offsetXFraction": -0.05,
+            "offsetYFraction": 0.14,
+            "scale": 1.02,
+            "reaction": "LUTEAL_CHILL",
+            "signVisible": true
+          },
+          "puffSignEn": "Too slow...",
+          "puffSignEs": "¡Qué lento!",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 6,
+          "textEn": "Wait—look up! While two small hands rested side by side, the night sky softly blushed pink and lavender around three quiet clouds.",
+          "textEs": "¡Alto, mira arriba! Mientras dos manitas descansaban juntas en calma, el cielo se tiñó de rosa y lavanda junto a tres nubes suaves.",
+          "backdropScene": "CLOUD_HARBOR",
+          "actorKeyframe": {
+            "offsetXFraction": -0.15,
+            "offsetYFraction": 0.14,
+            "scale": 1.02,
+            "reaction": "IDLE",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 7,
+          "textEn": "Little Puff gave one silly wiggle-hop, smoothed down fluffy fur, and hummed a secret tune from behind the white fluff instead of pushing the sky.",
+          "textEs": "Puff dio un saltito divertido, alisó la pelusa blanca y canturreó una canción secreta bajo el pelo suave, en vez de empujar el cielo.",
+          "backdropScene": "CLOUD_HARBOR",
+          "actorKeyframe": {
+            "offsetXFraction": 0.10,
+            "offsetYFraction": 0.14,
+            "scale": 1.05,
+            "reaction": "CELEBRATE_HOP",
+            "signVisible": true
+          },
+          "puffSignEn": "Play right now!",
+          "puffSignEs": "¡Jugar ahora!",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 8,
+          "textEn": "GASP! Warm peach sunlight spilled right over the green grass! There climbed the glowing morning sun—not late, not hurried, shining right on time.",
+          "textEs": "¡OH! ¡La luz tibia del amanecer bañó de pronto la hierba verde! Allí subía el sol brillante... sin apuros, llegando justo a su hora exacta.",
+          "backdropScene": "SUNRISE_NURSERY",
+          "actorKeyframe": {
+            "offsetXFraction": -0.12,
+            "offsetYFraction": 0.14,
+            "scale": 1.06,
+            "reaction": "ALERT_WIGGLE",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 9,
+          "textEn": "Two bright eyes sparkled in golden light. Out from behind warm shaggy fur rang a happy cheer! Big wonders don't rush—they bloom step by gentle step.",
+          "textEs": "Dos ojitos brillaron bajo la luz dorada. ¡De entre la tibia pelusa blanca brotó un grito feliz! Las cosas grandes no corren: crecen paso a pasito.",
+          "backdropScene": "SUNRISE_NURSERY",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.16,
+            "scale": 1.08,
+            "reaction": "CELEBRATE_HOP",
+            "signVisible": true
+          },
+          "puffSignEn": "Good morning!",
+          "puffSignEs": "¡Buenos días!",
+          "autoPlayDurationMs": 9000
+        }
+      ]
+    },
+    {
+      "id": "puff_grumpy_shoes",
+      "sku": "aura_story_grumpy_shoes_puff",
+      "goldPrice": 100,
+      "titleEn": "The Inside-Out Morning",
+      "titleEs": "La Mañana al Revés",
+      "subtitleEn": "Some mornings wake up backwards and grumpy—until one silly puddle wiggle lets the whole day start over.",
+      "subtitleEs": "Algunas mañanas despiertan gruñonas y al revés... hasta que un bailoteo en el charco reinicia el día entero.",
+      "ageRangeEn": "Ages 2–6 • Fresh Start",
+      "ageRangeEs": "Edades 2–6 • Nuevo Inicio",
+      "themeTag": "Fresh Start",
+      "coverScene": "RAINBOW_PUDDLES",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "textEn": "Peach sunlight spilled across the morning meadow, bright and sweet—and Little Puff woke up sideways from the very first blink!",
+          "textEs": "La luz tibia del amanecer llenó el prado entero... ¡y Puff despertó de malas desde el mismísimo primer parpadeo!",
+          "backdropScene": "SUNRISE_NURSERY",
+          "actorKeyframe": {
+            "offsetXFraction": -0.22,
+            "offsetYFraction": 0.14,
+            "scale": 1.0,
+            "reaction": "ALERT_WIGGLE",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 7500
+        },
+        {
+          "pageNumber": 2,
+          "textEn": "Shaggy white fur stuck out crooked in every direction. Two small hands pushed away the sunshine. \"Too bright!\" grumbled a cross voice behind the fur. \"Green grass is too green!\"",
+          "textEs": "La pelusa blanca amaneció chueca hacia todos lados. Dos manitas empujaron el sol. —¡Mucha luz! —gruñó una voz bajo el pelo—. ¡Y la hierba está muy verde!",
+          "backdropScene": "SUNRISE_NURSERY",
+          "actorKeyframe": {
+            "offsetXFraction": 0.14,
+            "offsetYFraction": 0.14,
+            "scale": 1.02,
+            "reaction": "ALERT_WIGGLE",
+            "signVisible": true
+          },
+          "puffSignEn": "Wrong day!",
+          "puffSignEs": "¡Todo al revés!",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 3,
+          "textEn": "Left foot bumped right foot. Right hand tangled left hand. Everything felt backwards, itchy, and wrong—like an inside-out morning!",
+          "textEs": "Un piecito chocó con el otro. Una manita se enredó con su pareja. Todo se sentía torcido, molesto y raro... ¡una mañana puesta al revés!",
+          "backdropScene": "SUNRISE_NURSERY",
+          "actorKeyframe": {
+            "offsetXFraction": -0.12,
+            "offsetYFraction": 0.14,
+            "scale": 1.0,
+            "reaction": "LUTEAL_CHILL",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 4,
+          "textEn": "Up floated three fluffy clouds overhead, slow and cheerful. Little Puff glared up at all three. \"Hmph! Clouds are too puffy today too!\"",
+          "textEs": "Arriba flotaban tres nubes alegres y suaves. Puff las miró con dos ojitos bien fruncidos. —¡Hmph! ¡Las nubes también están muy gordas hoy!",
+          "backdropScene": "CLOUD_HARBOR",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.14,
+            "scale": 0.98,
+            "reaction": "LUTEAL_CHILL",
+            "signVisible": true
+          },
+          "puffSignEn": "Hmph! No!",
+          "puffSignEs": "¡Hmph! ¡No!",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 5,
+          "textEn": "Clumpity-clump walked two grumpy feet onto cool green grass by a blue puddle—and stared straight down into the shimmering water below.",
+          "textEs": "Pum-pum caminaron dos piecitos gruñones sobre la hierba fresca hasta un charco azul... y miraron abajo hacia el espejo brillante del agua.",
+          "backdropScene": "RAINBOW_PUDDLES",
+          "actorKeyframe": {
+            "offsetXFraction": -0.20,
+            "offsetYFraction": 0.16,
+            "scale": 1.0,
+            "reaction": "IDLE",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 6,
+          "textEn": "GASP! Who was that funny fuzzball staring back from the puddle?! Shaggy tufts stuck straight up like spiky grass around two scowling eyes!",
+          "textEs": "¡OH! ¿Quién era esa bolita despeinada que miraba desde el agua? ¡Mechones locos apuntaban hacia arriba alrededor de dos ojitos fruncidos!",
+          "backdropScene": "RAINBOW_PUDDLES",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.14,
+            "scale": 1.04,
+            "reaction": "ALERT_WIGGLE",
+            "signVisible": true
+          },
+          "puffSignEn": "Wild hair!",
+          "puffSignEs": "¡Qué pelos!",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 7,
+          "textEn": "One tiny corner of the hidden mouth twitched behind the fur... then out burst a snorty pffft-giggle! Little Puff wiggled all over like wet jelly!",
+          "textEs": "Una puntita oculta bajo la pelusa empezó a temblar... ¡y escapó una risita pffft-ja-ja! Puff bailoteó de arriba a abajo como gelatina loca.",
+          "backdropScene": "RAINBOW_PUDDLES",
+          "actorKeyframe": {
+            "offsetXFraction": 0.10,
+            "offsetYFraction": 0.12,
+            "scale": 1.06,
+            "reaction": "CELEBRATE_HOP",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 8,
+          "textEn": "One smooth brush with both small hands. One deep morning breath in through the fluff—then a fresh, cheerful \"Reset!\" into the crisp breeze.",
+          "textEs": "Una peinada suave con las dos manitas. Un respiro hondo de mañana... ¡y un fresco —¡Empezar de nuevo!— hacia la brisa limpia!",
+          "backdropScene": "RAINBOW_PUDDLES",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.14,
+            "scale": 1.04,
+            "reaction": "COZY_REST",
+            "signVisible": true
+          },
+          "puffSignEn": "Begin again",
+          "puffSignEs": "De nuevo",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 9,
+          "textEn": "Same warm sun, same soft grass, same round Puff—yet everything sparkled right-side up! Any grumpy morning can turn around with a wiggle and a redo.",
+          "textEs": "El mismo sol tibio, la misma hierba suave, ¡y todo brillando al derecho! Hasta una mañana gruñona puede darse la vuelta con un bailoteo feliz.",
+          "backdropScene": "SUNRISE_NURSERY",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.16,
+            "scale": 1.08,
+            "reaction": "CELEBRATE_HOP",
+            "signVisible": true
+          },
+          "puffSignEn": "Right-side up!",
+          "puffSignEs": "¡Al derecho!",
+          "autoPlayDurationMs": 9000
+        }
+      ]
+    },
+    {
+      "id": "puff_moon_tide",
+      "sku": "aura_story_growing_tummy_tide_puff",
+      "goldPrice": 120,
+      "titleEn": "The Moon Rhythm Inside",
+      "titleEs": "El Ritmo Lunar Interior",
+      "subtitleEn": "Why does the golden moon keep changing shape, and how do healthy bodies follow a gentle monthly season too?",
+      "subtitleEs": "¿Por qué la luna cambia de forma cada mes, y cómo guarda el cuerpo una dulce estación interior?",
+      "ageRangeEn": "Ages 7–11 • Growing Rhythm",
+      "ageRangeEs": "Edades 7–11 • Ritmo Interior",
+      "themeTag": "Growing Rhythm",
+      "coverScene": "STARLIT_MEADOW",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "textEn": "High in the purple night sky hung a thin golden crescent moon. Little Puff sat quietly on cool grass, tucked round in soft white fur, wondering big questions.",
+          "textEs": "Alto en el cielo morado brillaba una delgada luna creciente. Puff descansaba en la hierba fresca, pensando preguntas grandes y profundas.",
+          "backdropScene": "MOON_CRADLE",
+          "actorKeyframe": {
+            "offsetXFraction": -0.20,
+            "offsetYFraction": 0.14,
+            "scale": 1.0,
+            "reaction": "IDLE",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8000
+        },
+        {
+          "pageNumber": 2,
+          "textEn": "\"Last week that golden moon looked round as a lantern!\" called Little Puff to Mama beside the mossy path. \"Why does the moon keep changing size every month?\"",
+          "textEs": "—¡La semana pasada esa luna era redonda como un farol! —dijo Puff a Mamá junto al sendero—. ¿Por qué cambia cada mes?",
+          "backdropScene": "MOON_CRADLE",
+          "actorKeyframe": {
+            "offsetXFraction": 0.14,
+            "offsetYFraction": 0.14,
+            "scale": 1.02,
+            "reaction": "ALERT_WIGGLE",
+            "signVisible": true
+          },
+          "puffSignEn": "Why changes?",
+          "puffSignEs": "¿Por qué cambia?",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 3,
+          "textEn": "Mama nestled warm fur close under sixteen quiet stars. \"Not breaking—just moving in a circle,\" explained Mama gently. \"Even bright moons shine full, then rest thin again.\"",
+          "textEs": "Mamá acercó su suave abrigo blanco bajo dieciséis estrellas. —No se rompe... gira en círculo —respondió Mamá con calma—. Hasta la luna brilla llena y luego descansa delgada.",
+          "backdropScene": "STARLIT_MEADOW",
+          "actorKeyframe": {
+            "offsetXFraction": -0.15,
+            "offsetYFraction": 0.16,
+            "scale": 1.0,
+            "reaction": "COZY_REST",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 9000
+        },
+        {
+          "pageNumber": 4,
+          "textEn": "Two bright eyes blinked slowly among the four golden fireflies. \"Mama... is that why grown-up bodies mark quiet rest days on the calendar every month too?\"",
+          "textEs": "Dos ojitos parpadearon lento entre las cuatro luciérnagas. —Mamá... ¿por eso los cuerpos grandes también marcan días tranquilos cada mes en el calendario?",
+          "backdropScene": "LANTERN_GROVE",
+          "actorKeyframe": {
+            "offsetXFraction": 0.15,
+            "offsetYFraction": 0.14,
+            "scale": 1.0,
+            "reaction": "LUTEAL_CHILL",
+            "signVisible": true
+          },
+          "puffSignEn": "Wait... us too?",
+          "puffSignEs": "¿Y el cuerpo?",
+          "autoPlayDurationMs": 9000
+        },
+        {
+          "pageNumber": 5,
+          "textEn": "\"Exactly right,\" smiled Mama softly behind shaggy white fur. \"Inside healthy growing bodies beats a gentle monthly clock—quiet building days, bright energy days, and cozy shed-and-renew days.\"",
+          "textEs": "—Exacto —sonrió Mamá tras su pelusa blanca—. Dentro de un cuerpo sano late un reloj mensual: días para crear fuerza, días brillantes y días suaves para renovarse.",
+          "backdropScene": "LANTERN_GROVE",
+          "actorKeyframe": {
+            "offsetXFraction": -0.10,
+            "offsetYFraction": 0.14,
+            "scale": 1.02,
+            "reaction": "COZY_REST",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 9500
+        },
+        {
+          "pageNumber": 6,
+          "textEn": "\"Just like soft rain filling puddles so green grass stays strong, a cozy renewing day means a body works wonderfully—never hurt, never broken, never something to hide.\"",
+          "textEs": "—Como la lluvia suave que nutre la hierba verde, esos días lentos muestran que el cuerpo trabaja de maravilla: nunca roto, nunca enfermo, ni nada que esconder.",
+          "backdropScene": "RAINBOW_PUDDLES",
+          "actorKeyframe": {
+            "offsetXFraction": -0.18,
+            "offsetYFraction": 0.14,
+            "scale": 1.0,
+            "reaction": "IDLE",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 9000
+        },
+        {
+          "pageNumber": 7,
+          "textEn": "Warm morning light spilled across fresh grass. Little Puff pressed both small hands happily over a steady heart beating beneath soft white fur.",
+          "textEs": "La luz tibia del sol bañó la hierba fresca. Puff apoyó las dos manitas felices sobre el pecho suave, sintiendo ese latido fuerte y sabio.",
+          "backdropScene": "SUNRISE_NURSERY",
+          "actorKeyframe": {
+            "offsetXFraction": 0.12,
+            "offsetYFraction": 0.14,
+            "scale": 1.04,
+            "reaction": "CELEBRATE_HOP",
+            "signVisible": true
+          },
+          "puffSignEn": "Built-in magic!",
+          "puffSignEs": "¡Sabio ritmo!",
+          "autoPlayDurationMs": 9000
+        },
+        {
+          "pageNumber": 8,
+          "textEn": "Every body dances to its own drum—some moons take twenty-eight nights, some stretch longer, and one day Little Puff's own body might learn that wise rhythm too.",
+          "textEs": "Cada cuerpo baila a su propio paso: algunas lunas duran veintiocho noches, otras tardan más, y algún día también el cuerpo de Puff conocerá ese ritmo.",
+          "backdropScene": "STARLIT_MEADOW",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.16,
+            "scale": 1.04,
+            "reaction": "LUTEAL_CHILL",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 9000
+        },
+        {
+          "pageNumber": 9,
+          "textEn": "Up above two drifting clouds, the golden crescent glowed serene and proud. Listening to a body's quiet seasons wasn't scary at all—it was knowing home from the inside out.",
+          "textEs": "Sobre dos nubes tranquilas, la luna creciente brillaba serena y fuerte. Escuchar las estaciones del cuerpo no daba miedo: era conocer el propio hogar por dentro.",
+          "backdropScene": "MOON_CRADLE",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.16,
+            "scale": 1.08,
+            "reaction": "COZY_REST",
+            "signVisible": true
+          },
+          "puffSignEn": "Wise & proud",
+          "puffSignEs": "En armonía",
+          "autoPlayDurationMs": 9000
+        }
+      ]
+    },
+    {
+      "id": "puff_quiet_bubbles",
+      "sku": "aura_story_quiet_bubbles_puff",
+      "goldPrice": 100,
+      "titleEn": "Too Many Noises at Once!",
+      "titleEs": "¡Demasiados Ruidos a la Vez!",
+      "subtitleEn": "When bright glare and loud buzzes fizz inside shaggy fur, Little Puff discovers how to turn the volume down.",
+      "subtitleEs": "Cuando tanta luz y tantos ruidos zumban dentro de la pelusa, Puff descubre cómo bajar el volumen del día.",
+      "ageRangeEn": "Ages 3–8 • Sensory Calm",
+      "ageRangeEs": "Edades 3–8 • Calma Sensorial",
+      "themeTag": "Sensory Calm",
+      "coverScene": "CLOUD_HARBOR",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "textEn": "Morning began brightly across the meadow—sunbeams glinting, breezes swishing, bells chiming, and voices chattering everywhere at once.",
+          "textEs": "La mañana empezó muy brillante en el prado: rayos intensos, viento fuerte, campanitas y mil voces charlando a la vez.",
+          "backdropScene": "SUNRISE_NURSERY",
+          "actorKeyframe": {
+            "offsetXFraction": -0.22,
+            "offsetYFraction": 0.14,
+            "scale": 1.0,
+            "reaction": "CELEBRATE_HOP",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 7500
+        },
+        {
+          "pageNumber": 2,
+          "textEn": "Buzzz-clang-ding-BUMP! Sounds piled higher and faster. Every strand of fluffy white fur began tingling like fizz inside a shaken jar!",
+          "textEs": "¡Zumb-clin-din-PUM! Los sonidos se amontonaban cada vez más rápido. ¡Cada mechón de pelusa blanca empezó a vibrar como espuma agitada!",
+          "backdropScene": "SUNRISE_NURSERY",
+          "actorKeyframe": {
+            "offsetXFraction": 0.12,
+            "offsetYFraction": 0.14,
+            "scale": 1.04,
+            "reaction": "ALERT_WIGGLE",
+            "signVisible": true
+          },
+          "puffSignEn": "So loud!",
+          "puffSignEs": "¡Mucho ruido!",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 3,
+          "textEn": "Bold rainbow stripes zoomed above green grass while puddles splashed nearby. Too bright! Two small hands covered two wide eyes to rest from the glare.",
+          "textEs": "Colores intensos brillaban sobre el prado mientras el agua salpicaba cerca. ¡Mucha luz! Dos manitas cubrieron suave dos ojitos para descansar.",
+          "backdropScene": "RAINBOW_PUDDLES",
+          "actorKeyframe": {
+            "offsetXFraction": -0.22,
+            "offsetYFraction": 0.14,
+            "scale": 1.02,
+            "reaction": "ALERT_WIGGLE",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 4,
+          "textEn": "Nothing was broken—just too many noises at one time. Thoughts bounced around inside Little Puff's shaggy coat like jumping popcorn!",
+          "textEs": "Nada andaba mal... simplemente había demasiados ruidos al mismo tiempo. ¡Las ideas de Puff rebotaban bajo el pelo blanco como palomitas!",
+          "backdropScene": "RAINBOW_PUDDLES",
+          "actorKeyframe": {
+            "offsetXFraction": 0.14,
+            "offsetYFraction": 0.14,
+            "scale": 1.0,
+            "reaction": "LUTEAL_CHILL",
+            "signVisible": true
+          },
+          "puffSignEn": "Need hush",
+          "puffSignEs": "Necesito paz",
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 5,
+          "textEn": "Step by quiet step, two little feet walked into deep forest shade between tall tree trunks. Here, four slow fireflies blinked without making a single sound.",
+          "textEs": "Pasito a pasito, dos piecitos buscaron la sombra tranquila entre los árboles altos. Allí cuatro luciérnagas brillaban sin hacer ni un ruido.",
+          "backdropScene": "LANTERN_GROVE",
+          "actorKeyframe": {
+            "offsetXFraction": -0.20,
+            "offsetYFraction": 0.14,
+            "scale": 0.98,
+            "reaction": "IDLE",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 6,
+          "textEn": "Little Puff leaned back calmly and watched three slow clouds drift across soft lavender sky. One... cool quiet air. Two... gentle pale light.",
+          "textEs": "Puff miró hacia lo alto y siguió tres nubes lentas por el cielo suave. Uno... la brisa callada. Dos... la luz tierna del cielo.",
+          "backdropScene": "CLOUD_HARBOR",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.14,
+            "scale": 1.0,
+            "reaction": "COZY_REST",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 9000
+        },
+        {
+          "pageNumber": 7,
+          "textEn": "Three... two calm hands resting still. Four... a slow shhh drifting out from under fluffy fur. Five... one steady heartbeat slowing down.",
+          "textEs": "Tres... dos manitas quietas y en paz. Cuatro... un suave chist saliendo bajo la pelusa blanca. Cinco... un corazón latiendo más despacio.",
+          "backdropScene": "CLOUD_HARBOR",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.14,
+            "scale": 1.04,
+            "reaction": "COZY_REST",
+            "signVisible": true
+          },
+          "puffSignEn": "Slow fizz",
+          "puffSignEs": "Baja el ritmo",
+          "autoPlayDurationMs": 9000
+        },
+        {
+          "pageNumber": 8,
+          "textEn": "Dusk settled cool and deep across two quiet hills under sixteen stars. That fizzy static inside shaggy white fur melted peacefully away.",
+          "textEs": "El anochecer bajó fresco sobre dos colinas calladas bajo dieciséis estrellas. Todo el cosquilleo nervioso se fue derritiendo en calma.",
+          "backdropScene": "STARLIT_MEADOW",
+          "actorKeyframe": {
+            "offsetXFraction": -0.08,
+            "offsetYFraction": 0.16,
+            "scale": 1.04,
+            "reaction": "LUTEAL_CHILL",
+            "signVisible": false
+          },
+          "autoPlayDurationMs": 8500
+        },
+        {
+          "pageNumber": 9,
+          "textEn": "Above two slow clouds curved a whisper-quiet moon. Whenever the world grew too loud or bright, Little Puff knew how to find quiet right inside.",
+          "textEs": "Sobre dos nubes calmas brillaba la luna en silencio. Cuando el mundo sonaba muy fuerte, Puff ya sabía encontrar un rincón de calma por dentro.",
+          "backdropScene": "MOON_CRADLE",
+          "actorKeyframe": {
+            "offsetXFraction": 0.0,
+            "offsetYFraction": 0.16,
+            "scale": 1.08,
+            "reaction": "COZY_REST",
+            "signVisible": true
+          },
+          "puffSignEn": "Hush & home",
+          "puffSignEs": "En silencio",
+          "autoPlayDurationMs": 9000
+        }
+      ]
+    }
+  ]
+}
